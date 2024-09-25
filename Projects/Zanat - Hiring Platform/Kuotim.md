@@ -2,7 +2,7 @@
 ---
 Pages which will be globally used by both Customers & Professionals
 
-### Sections & Functionality::
+### Sections & Functionality:
 ---
 - Homepage
 - Login
@@ -20,7 +20,7 @@ Pages which will be globally used by both Customers & Professionals
 - Contact Form
 
 
-## Search and Explore:
+## Search and Explore
 ---
 How the user will be able to use the platform to find 
 
@@ -41,7 +41,7 @@ How the user will be able to use the platform to find
 			- Explain what job / professional you need or what you want to achieve - receive a list of matching results (Job Listings & Professionals)
 
 
-## Job Listings:
+## Job Listings
 ---
 Jobs created by a professional for which they can be hired 
 
@@ -54,7 +54,7 @@ Jobs created by a professional for which they can be hired
 - Edit Job Listing
 
 
-## Customer (Specific):
+## Customer (Specific)
 ---
 What the normal user / customer will be able to do within the platform
 
