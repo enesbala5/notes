@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Projects/Zanat - Hiring Platform/Kuotim.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Projects/Zanat - Hiring Platform/Kuotim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Projects/Zanat - Hiring Platform/Kuotim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Projects/Zanat - Hiring Platform/Kuotim.md"
               }
             }
           },
@@ -157,9 +157,9 @@
   },
   "active": "d2a2813afa774e53",
   "lastOpenFiles": [
+    "Self Hosting/Immich.md",
     "Untitled.md",
     "Projects/Old & Misc/Sigal Website/TODO.md",
-    "Self Hosting/Immich.md",
     "Reflections/Ideas.md",
     "_fit/Reflections/Ideas.md",
     "Projects/Zanat - Hiring Platform/Kuotim.md",
