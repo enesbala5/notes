@@ -10,4 +10,4 @@ Duhen paguar mekatet e yt ati
 Ec me guxim
 Bej ca duhet tbesh
 
-Rritje = dhimbje
+Rritje == dhimbje
