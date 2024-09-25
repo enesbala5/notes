@@ -11,12 +11,8 @@
             "id": "1930acc4a84d6ed1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reflections/Ideas.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reflections/Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reflections/Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Reflections/Ideas.md"
-              }
+              "state": {}
             }
           },
           {
@@ -152,16 +144,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "1930acc4a84d6ed1",
+  "active": "c8156697e97e26f6",
   "lastOpenFiles": [
+    "Reflections/Ideas.md",
     "_fit/Reflections/Ideas.md",
     "_fit/Reflections",
     "_fit",
     "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
-    "Reflections/Ideas.md",
     "Projects/Laconics/Newsbomb.al/Intro.md",
     "Projects/Pazar/Pazar Demo Video.md",
     "Projects/Pazar",
