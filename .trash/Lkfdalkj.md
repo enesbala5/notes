@@ -1,0 +1,1 @@
+alsa-lib alsa-plugins cups desktop-file-utils dosbox ffmpeg font

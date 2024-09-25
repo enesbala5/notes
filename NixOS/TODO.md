@@ -1,0 +1,14 @@
+- [x] Change Wallpaper || waypaper || ~/config/wallpapers
+- [x] Fix NixOS Configuration - File System Mounting is not working properly
+- [x] Setup [Keymapper](https://github.com/houmain/keymapper)
+- [x] Prepare configuration
+- [ ] Learn About Flakes
+- [x] Home Manager
+- [x] Configure Zsh Plugins - View ~/config/zsh/zsh-plugin-init.md
+- [x] Fix Cloudflared Access
+- [ ] Framework Flake
+- [ ] Setup Default Applications || *xdg.mimeApps.defaultApplications*
+	- [ ] Fix Issue with Firefox / Zen not integrating with the File Manager
+- [ ] Setup the file manager so that it works well
+- [ ] [Hyprswitch](https://github.com/H3rmt/hyprswitch) - Alt + Tab
+- [ ] ~~[Hyprpanel](https://github.com/Jas-SinghFSU/HyprPanel) - Waybar Panel~~

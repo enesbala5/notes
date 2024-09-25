@@ -1,0 +1,25 @@
+- Land Art Website 
+	- Frontend
+- Marina Bay Website
+	- Management
+- Marina Bay Casino Website - Documentation READY
+	- Frontend
+	- Strapi Backend
+- Pazar
+	- Frontend
+	- Backend
+	- DevOps
+	- Infra
+- Sigal Website`
+	- Frontend
+- ASCK Website
+	- Frontend
+	- Backend
+- Klea Huta Academy Website
+	- Frontend
+	- Backend
+- Dating Agency
+- Sigal Management
+- Interio
+	- Documentation is Ready from HG
+		- Just upload it to Portfolio
