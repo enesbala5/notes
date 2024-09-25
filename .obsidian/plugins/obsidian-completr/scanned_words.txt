@@ -1718,6 +1718,7 @@ total
 taskeve
 totale
 tregut
+tbesh
 Update
 Use
 UI
@@ -5179,6 +5180,7 @@ diskutuar
 doja
 dua
 different
+duhet
 have
 has
 handle
@@ -6951,6 +6953,7 @@ ge
 gvuu
 gjendet
 globally
+guxim
 Recommended
 Rename
 Requests
@@ -8647,6 +8650,7 @@ Business
 Based
 Base
 Bug
+Bej
 QH
 QjzXfDmV
 Qera

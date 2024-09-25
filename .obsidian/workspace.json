@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e054e5669220e5fc",
+        "id": "8979bd1ae451889f",
         "type": "tabs",
         "children": [
           {
-            "id": "bff575fece74418f",
+            "id": "1930acc4a84d6ed1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
+                "file": "Reflections/Ideas.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.50739669799805,
-    "collapsed": true
+    "width": 275.50739669799805
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
+                "file": "Reflections/Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
+                "file": "Reflections/Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md"
+                "file": "Reflections/Ideas.md"
               }
             }
           }
@@ -148,13 +147,13 @@
       "fit:Fit Sync": false
     }
   },
-  "active": "bff575fece74418f",
+  "active": "1930acc4a84d6ed1",
   "lastOpenFiles": [
-    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
     "_fit/Reflections/Ideas.md",
-    "Reflections/Ideas.md",
     "_fit/Reflections",
     "_fit",
+    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
+    "Reflections/Ideas.md",
     "Projects/Laconics/Newsbomb.al/Intro.md",
     "Projects/Pazar/Pazar Demo Video.md",
     "Projects/Pazar",
@@ -192,7 +191,6 @@
     "Untitled.canvas",
     "Pasted image 20240907185859.png",
     "Pasted image 20240907185808.png",
-    "Invoice Shtator.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]
