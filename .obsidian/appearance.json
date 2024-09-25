@@ -1,5 +1,7 @@
 {
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "theme": "obsidian",
-  "accentColor": "#4e8adf"
+  "accentColor": "#4e8adf",
+  "showViewHeader": true,
+  "nativeMenus": false
 }

@@ -746,6 +746,7 @@ Gjergji
 Gentian
 Global
 Gjithe
+Gje
 LocalTag
 Logic
 LinkedIn
@@ -1722,6 +1723,7 @@ totale
 tregut
 tbesh
 thot
+timen
 Update
 Use
 UI
@@ -6008,6 +6010,7 @@ lidhje
 laconics
 lib
 list
+llastiku
 Display
 Degjova
 Doja
