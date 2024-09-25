@@ -1,4 +1,5 @@
 {
-  "cssTheme": "Notation 2",
-  "theme": "obsidian"
+  "cssTheme": "",
+  "theme": "obsidian",
+  "accentColor": "#4e8adf"
 }
