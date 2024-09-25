@@ -128,13 +128,21 @@
                 "file": "Reflections/Ideas.md"
               }
             }
+          },
+          {
+            "id": "cc913403afb869d8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
-    "collapsed": true
+    "width": 415.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,7 +152,8 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "fit:Fit Sync": false
+      "fit:Fit Sync": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "1930acc4a84d6ed1",
