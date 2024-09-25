@@ -590,6 +590,7 @@ Car
 Calculate
 Calculation
 Compressed
+Container
 Guide
 Generate
 Get
@@ -1516,6 +1517,7 @@ Text
 Terms
 Take
 TPL
+Trendafila
 types
 they
 the
@@ -1719,6 +1721,7 @@ taskeve
 totale
 tregut
 tbesh
+thot
 Update
 Use
 UI
@@ -3384,6 +3387,8 @@ keto
 kostoja
 kryer
 krijoj
+kuq
+ket
 block
 before
 bug
@@ -3814,6 +3819,7 @@ pasi
 pak
 pata
 paraprakisht
+parfumin
 you
 yt
 yNVragxUCZGcijQfe
@@ -4199,6 +4205,7 @@ solved
 sigurt
 shqiptar
 shkelur
+shpia
 message
 moment
 messages
@@ -4398,6 +4405,7 @@ much
 manage
 mjaftueshem
 mungon
+miat
 run
 remove
 ranges
@@ -4804,6 +4812,7 @@ Administrative
 Archive
 Approve
 Actions
+Arush
 You
 YRR
 YaV
@@ -5572,6 +5581,7 @@ normal
 ndjek
 njihemi
 ndare
+nesi
 Fix
 Filters
 Finish
@@ -7204,6 +7214,7 @@ Reject
 Reports
 Reporting
 Rritje
+Rroba
 Server
 Signature
 Setup
@@ -7368,6 +7379,7 @@ Showcase
 Sections
 Security
 Specific
+Shirt
 version
 vrl
 vlla
@@ -7552,6 +7564,7 @@ vQQ
 vene
 vlersoja
 vitet
+veshi
 Work
 Wallpaper
 Waybar
@@ -7877,6 +7890,7 @@ Hired
 How
 Hires
 Handle
+Hoodie
 Zsh
 ZipRecruiter
 Zgjedhje
@@ -8653,6 +8667,8 @@ Based
 Base
 Bug
 Bej
+Bokse
+Bluze
 QH
 QjzXfDmV
 Qera

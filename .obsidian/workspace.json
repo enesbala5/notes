@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2d79d13cfff68a51",
+        "id": "a43e29b199cf0ad3",
         "type": "tabs",
         "children": [
           {
-            "id": "6ba2d9cbccf09d34",
+            "id": "d2a2813afa774e53",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled.md"
+              }
             }
           },
           {
@@ -147,8 +155,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ba2d9cbccf09d34",
+  "active": "d2a2813afa774e53",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Projects/Old & Misc/Sigal Website/TODO.md",
     "Self Hosting/Immich.md",
     "Reflections/Ideas.md",
     "_fit/Reflections/Ideas.md",
@@ -167,7 +177,6 @@
     "Projects/Zanat - Hiring Platform",
     "NixOS/TODO.md",
     "Projects/Old & Misc",
-    "Projects/Old & Misc/Sigal Website/TODO.md",
     "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
     "Projects/Laconics",
     "Projects/Marina Bay/Website/Marina Bay - Programs.md",
@@ -176,7 +185,6 @@
     "Reflections",
     "GraphQL.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Lkfdalkj.md",
     "erin.md",
     "Pazar Query.md",
