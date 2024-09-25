@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "8979bd1ae451889f",
+        "id": "1ba418c684eb788c",
         "type": "tabs",
         "children": [
           {
-            "id": "1930acc4a84d6ed1",
+            "id": "83e097bfedf72127",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -129,12 +129,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 415.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,7 +148,7 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "c8156697e97e26f6",
+  "active": "f96f1de42f0b34af",
   "lastOpenFiles": [
     "Reflections/Ideas.md",
     "_fit/Reflections/Ideas.md",
