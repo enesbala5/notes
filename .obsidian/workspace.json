@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Pazar/Pazar Demo Video.md",
+                "file": "Projects/Zanat - Hiring Platform/Project Scope.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805,
-    "collapsed": true
+    "width": 347.50739669799805
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Pazar/Pazar Demo Video.md",
+                "file": "Projects/Zanat - Hiring Platform/Project Scope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Pazar/Pazar Demo Video.md",
+                "file": "Projects/Zanat - Hiring Platform/Project Scope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Pazar/Pazar Demo Video.md"
+                "file": "Projects/Zanat - Hiring Platform/Project Scope.md"
               }
             }
           },
@@ -158,7 +157,8 @@
   },
   "active": "d2a2813afa774e53",
   "lastOpenFiles": [
-    "Projects/Zanat - Hiring Platform/Kuotim.md",
+    "Projects/Pazar/Pazar Demo Video.md",
+    "Projects/Zanat - Hiring Platform/Project Scope.md",
     "Self Hosting/Immich.md",
     "Untitled.md",
     "Projects/Old & Misc/Sigal Website/TODO.md",
@@ -172,7 +172,6 @@
     "_fit",
     "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
     "Projects/Laconics/Newsbomb.al/Intro.md",
-    "Projects/Pazar/Pazar Demo Video.md",
     "Projects/Pazar",
     "Notat Matura.md",
     "Projects/Zanat - Hiring Platform",
