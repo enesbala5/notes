@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d5d44392270bc84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mesazh Staff.al.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Zanat - Hiring Platform/Project Scope.md",
+                "file": "Mesazh Staff.al.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Zanat - Hiring Platform/Project Scope.md",
+                "file": "Mesazh Staff.al.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Zanat - Hiring Platform/Project Scope.md"
+                "file": "Mesazh Staff.al.md"
               }
             }
           },
@@ -156,10 +169,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a486bc8f23968fd4",
+  "active": "8d5d44392270bc84",
   "lastOpenFiles": [
-    "Projects/Pazar/Pazar Demo Video.md",
     "Projects/Zanat - Hiring Platform/Project Scope.md",
+    "Mesazh Staff.al.md",
+    "Projects/Pazar/Pazar Demo Video.md",
     "Self Hosting/Immich.md",
     "Untitled.md",
     "Projects/Old & Misc/Sigal Website/TODO.md",
@@ -185,7 +199,6 @@
     "Projects/Marina Bay",
     "Reflections",
     "GraphQL.md",
-    "Untitled 1.md",
     "Lkfdalkj.md",
     "erin.md",
     "Pazar Query.md",
