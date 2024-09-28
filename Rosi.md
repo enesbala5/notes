@@ -15,4 +15,3 @@
 - Ti ket te shpia dhe te thot nesi
 	- Si llastiku
 		- Gje timen
-	- 
