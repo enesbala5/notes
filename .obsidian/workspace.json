@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f2f1e3b1774561a3",
+        "id": "47f8ed6d1e4a49cb",
         "type": "tabs",
         "children": [
           {
-            "id": "a486bc8f23968fd4",
+            "id": "320412de3eba1812",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Zanat - Hiring Platform/Project Scope.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805,
-    "collapsed": true
+    "width": 347.50739669799805
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Zanat - Hiring Platform/Project Scope.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Zanat - Hiring Platform/Project Scope.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Zanat - Hiring Platform/Project Scope.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -156,10 +155,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a486bc8f23968fd4",
+  "active": "320412de3eba1812",
   "lastOpenFiles": [
-    "Mesazh Staff.al.md",
     "Projects/Zanat - Hiring Platform/Project Scope.md",
+    "Mesazh Staff.al.md",
     "Projects/Pazar/Pazar Demo Video.md",
     "Self Hosting/Immich.md",
     "Untitled.md",

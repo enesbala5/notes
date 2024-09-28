@@ -1725,6 +1725,8 @@ tregut
 tbesh
 thot
 timen
+tmendoj
+tradhton
 Update
 Use
 UI
@@ -3591,6 +3593,7 @@ both
 between
 beje
 basis
+burrin
 preview
 programmatically
 past
@@ -4411,6 +4414,7 @@ manage
 mjaftueshem
 mungon
 miat
+matchy
 run
 remove
 ranges
@@ -5588,6 +5592,7 @@ ndjek
 njihemi
 ndare
 nesi
+nusi
 Fix
 Filters
 Finish
@@ -6972,6 +6977,7 @@ gvuu
 gjendet
 globally
 guxim
+gjermani
 Recommended
 Rename
 Requests
