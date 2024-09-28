@@ -747,6 +747,7 @@ Gentian
 Global
 Gjithe
 Gje
+Gramoz
 LocalTag
 Logic
 LinkedIn
@@ -3391,6 +3392,8 @@ kryer
 krijoj
 kuq
 ket
+kujtua
+kontakt
 block
 before
 bug
@@ -5193,6 +5196,7 @@ dua
 different
 duhet
 dhimbje
+duash
 have
 has
 handle
