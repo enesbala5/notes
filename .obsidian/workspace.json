@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff41066fbe1f505c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kontakt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self Hosting/Hetzner Setup/Authentication.md",
+                "file": "Kontakt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self Hosting/Hetzner Setup/Authentication.md",
+                "file": "Kontakt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self Hosting/Hetzner Setup/Authentication.md"
+                "file": "Kontakt.md"
               }
             }
           },
@@ -180,11 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8156697e97e26f6",
+  "active": "ff41066fbe1f505c",
   "lastOpenFiles": [
+    "Rosi.md",
+    "Kontakt.md",
     "Self Hosting/Hetzner Setup/Public SSH.md",
     "Self Hosting/Hetzner Setup/Authentication.md",
-    "Rosi.md",
     "Self Hosting/Hetzner Setup",
     "Projects/Zanat - Hiring Platform/Project Scope.md",
     "Mesazh Staff.al.md",
@@ -217,7 +230,6 @@
     "Pazar Query.md",
     "Crypto.md",
     "Adi.md",
-    "Marina Bay Video.md",
     "Pasted image 20240912180754.png",
     "Pasted image 20240912181213.png",
     "Pasted image 20240912181202.png",
