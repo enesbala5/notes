@@ -4,9 +4,11 @@ If you have a home server, which doesn't have a public IP, you can use services 
 
 There are many guides online for setting up Cloudflare Tunnels and creating a Zero Trust application to manage the SSH - which can't be exposed like other normal HTTP services in a Cloudflare Tunnel.
 
-This guide assumes that you have already created a Cloudflare 
+This guide assumes that you have already created a Cloudflare Tunnel on your home server and the Zero Trust application which is necessary in order to remotely access your server.
 
-This can be a bit tricky, especially when dealing with SSH configurations and Docker containers. In this guide, I'll walk you through the process of connecting a server exposed through Cloudflare Tunnels to your Coolify instance.
+While there are many [methods](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/) to then SSH into that server, we will be using [client-side cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-cloudflared-authentication/) in this case. This method requires the usage of a `ProxyCommand` in your `.ssh/config` file. You can find the exact configuration I use at the section [[#SSH Configuration]]
+
+Everything works great when you have full access to the `.ssh/config` however that is not always the case.especially when dealing with SSH configurations and Docker containers. In this guide, I'll walk you through the process of connecting a server exposed through Cloudflare Tunnels to your Coolify instance.
 
 ## The Challenge
 
