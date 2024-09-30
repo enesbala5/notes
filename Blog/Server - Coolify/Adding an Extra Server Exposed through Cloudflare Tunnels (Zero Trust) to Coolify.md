@@ -7,23 +7,27 @@ There are many guides online for setting up `Cloudflare Tunnels` and creating a 
 > [!NOTE] Note
 > In order to use Cloudflare Tunnels you need to own a domain, which you then manage on Cloudflare.
 
- Given that SSH can't be exposed like other normal HTTP services in a Cloudflare Tunnel, the Zero Trust Access Application is crucial to successfully exposing your home server to the internet.
+ Given that SSH can't be exposed like other normal HTTP services in a `Cloudflare Tunnel`, the `Zero Trust Access Application` is necessary to our setup.
 
-This guide assumes that you have already created a Cloudflare Tunnel on your home server and the `Zero Trust Access Application` which is necessary in order to remotely access your server.
+This guide assumes that you have already created a `Cloudflare Tunnel` on your home server and the `Zero Trust Access Application` which are necessary, if you are to remotely access your home server.
 
-While there are many [methods](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/) to then SSH into that server, we will be using [client-side cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-cloudflared-authentication/) in this case. This method requires the usage of a `ProxyCommand` in your `.ssh/config` file. You can find the exact configuration I use at the section [[#SSH Configuration]]
+While there are [many methods](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/) to then SSH into that server, we will be using [client-side cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-cloudflared-authentication/) in this case. 
 
+This method requires the usage of a `ProxyCommand` in your `.ssh/config` file. You can find the exact configuration I use at the section [[#SSH Configuration]]
 
 > [!NOTE] SSH Zero Trust
-> Please note that your `Zero Trust Access Application` must have the policy `Bypass Everyone`. Otherwise it will require you to login when you start a session, which will turn the automated process into a manual one. This change will make it impossible to visit it on the web however, which is a nice feature that the `Access Application` offers - so keep that in mind.
+> Please note that your `Zero Trust Access Application` must have the policy `Bypass Everyone`. 
+> 
+> Otherwise it will require you to login when you start a session, which will turn the automated process into a manual one. This change will make it impossible to visit it on the web however, which is a nice feature that the `Access Application` offers - so keep that in mind.
 
 
-## The Challenge
+## The Main Challenge
 
-Everything works great when you have full access to the `.ssh/config` however that is not always the case. Here is the workaround to proxy into a `cloudflared` SSH session - in order to be able to access your home server in Coolify.
+It's easy to connect to your home server, behind the `Cloudflare Zero Trust` network, when you have full access to the `.ssh/config` - however that is not always the case. 
 
+In this article we'll explore how to proxy into a `cloudflared` SSH session - in order to be able to access your home server within Coolify.
 
-Coolify runs inside a Docker container, which means it doesn't have access to your local SSH config or the `cloudflared` proxy command. This can make it difficult to establish a connection between your Coolify instance and your home server.
+Given that Coolify runs inside a Docker container, it doesn't have access to your local SSH config or the `cloudflared` `ProxyCommand`. This can make it difficult to establish a connection between your Coolify instance and your home server.
 
 ## The Solution
 
