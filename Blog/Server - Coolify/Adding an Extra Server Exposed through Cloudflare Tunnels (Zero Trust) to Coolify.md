@@ -10,6 +10,7 @@ The main challenge here is that Coolify runs inside a Docker container, which me
 
 We'll use a combination of SSH port forwarding and Docker networking to overcome this challenge. Here's a step-by-step guide to get you up and running.
 
+
 # Process Walkthrough
 
 ## Key Requirements for Cloudflare Tunnels and Coolify Setup
@@ -61,7 +62,9 @@ Now that we have port forwarding set up, we need to configure Coolify to use thi
 
 ### 3. Ensure the SSH key Coolify is using is added to your home server's `authorized_keys` file.
 
-Make sure that the public key of the key you are using in your Coolif`.ssh/authorized_keys` file.
+Make sure that the public key of the key you are using in your Coolify Server Connection is also in the `/root/.ssh/authorized_keys` file.
+
+You can do this by going to 
 
 Consider disabling password authentication on your home server for better security and to avoid some issues you might face otherwise on Coolify. You can usually do this by setting the following:
 
