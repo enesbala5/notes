@@ -70,14 +70,13 @@ Firstly you have to generate an SSH key. To create it on your local device, it's
 ssh-keygen -t ed25519
 ```
 
-Specify the key location and passphrase (recommended). Then,
+Specify the key location and passphrase (recommended). Then, you should connect to your home server, and update `/root/.ssh/authorized_keys` to include your new key - make sure to use the Public Key (.pub) key. You can copy the contents of `[SSH_KEY].pub` and append them to the  
 
 
 
-Update the .ssh/config on your Remote VPS to look something like this
+Update the .ssh/config on your Remote VPS to include an entry like the one pictured below. Make sure to use your own information for the domain and SSH Key.
 
 ```
-# Update the domain and identity file to match your personal information
 Host ssh.[YOUR DOMAIN].com
 	ProxyCommand cloudflared access ssh --hostname %h
 	User e
