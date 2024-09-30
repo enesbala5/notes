@@ -139,6 +139,6 @@ Remember that this setup will need to be re-established every time your VPS rebo
 
 ## Conclusion
 
-Adding a home server exposed through Cloudflare Tunnels to your Coolify setup can be a bit challenging, but with the right approach, it's definitely doable. This setup allows you to leverage the security benefits of Cloudflare Tunnels while still being able to manage your home server through Coolify.
+Adding a home server exposed through Cloudflare Tunnels to your Coolify setup can be a bit challenging, but it's definitely achievable. This setup allows you to leverage the security benefits of Cloudflare Tunnels while still being able to manage your home server through Coolify.
 
-Remember, if you're having trouble, don't hesitate to reach out to the Coolify community or check the official documentation.
+If you're having trouble, check the official documentation, or reach out to the Coolify community on Discord, they have great support.
