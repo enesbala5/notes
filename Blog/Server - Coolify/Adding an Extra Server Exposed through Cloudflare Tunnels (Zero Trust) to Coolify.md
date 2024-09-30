@@ -118,6 +118,27 @@ ChallengeResponseAuthentication no
 To verify that everything is working correctly, you can SSH into your Coolify container and try to connect to your home server:
 
 ```bash
+# Try to co
 docker exec -it coolify bash
-ssh host.docker.internal -p 222>)
+
+ssh host.docker.internal -p 222
 ```
+
+If this works, Coolify should be able to connect to your home server as well.
+
+## Key Takeaways
+
+1. Use SSH port forwarding to create a bridge between your VPS and home server.
+2. Configure Coolify to use `host.docker.internal` as the hostname and `222` as the port.
+3. Ensure SSH keys are properly set up on both ends.
+4. Disable password authentication for better security.
+
+## Maintaining the Connection
+
+Remember that this setup will need to be re-established every time your VPS reboots. To make this process automatic, consider creating a startup script that runs the SSH port forwarding command.
+
+## Conclusion
+
+Adding a home server exposed through Cloudflare Tunnels to your Coolify setup can be a bit challenging, but with the right approach, it's definitely doable. This setup allows you to leverage the security benefits of Cloudflare Tunnels while still being able to manage your home server through Coolify.
+
+Remember, if you're having trouble, don't hesitate to reach out to the Coolify community or check the official documentation.
