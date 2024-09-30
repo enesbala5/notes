@@ -72,8 +72,11 @@ We have to insert this line in our Remote VPS's startup script.
 ssh -L 222:localhost:22 ssh.enesbala.com
 ```
 
-I am using Debian on my system, so I initially ran
-``
+I am using Debian on my system, so I initially ran:
+\
+```bash
+sudo nano /etc/rc.local_
+```
 
 ### 1. Set Up SSH Port Forwarding
 
