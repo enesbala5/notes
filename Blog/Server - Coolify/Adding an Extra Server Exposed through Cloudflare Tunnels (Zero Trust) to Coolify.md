@@ -97,3 +97,8 @@ PasswordAuthentication no
 ChallengeResponseAuthentication no
 ```
 
+### 4. Verify the Connection
+
+To verify that everything is working correctly, you can SSH into your Coolify container and try to connect to your home server:
+
+bash
