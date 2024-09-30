@@ -9,7 +9,7 @@ There are many guides online for setting up `Cloudflare Tunnels` and creating a 
 
  Given that SSH can't be exposed like other normal HTTP services in a `Cloudflare Tunnel`, the `Zero Trust Access Application` is necessary to our setup.
 
-This guide assumes that you have already created a `Cloudflare Tunnel` on your home server and the `Zero Trust Access Application` which are necessary, if you are to remotely access your home server.
+This guide assumes that you have already created a `Cloudflare Tunnel` on your home server and the `Zero Trust Access Application` which are necessary to remotely access your home server.
 
 While there are [many methods](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/) to then SSH into that server, we will be using [client-side cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-cloudflared-authentication/) in this case. 
 
@@ -36,21 +36,6 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 
 # Process Walkthrough
 
-## Key Requirements for Cloudflare Tunnels and Coolify Setup
-
-### Hardware and Infrastructure
-
-1. A VPS (Virtual Private Server) running Coolify
-2. A home server or remote server you want to add to Coolify
-3. Stable internet connection on both ends
-
-### Software and Services
-
-1. Coolify installed and running on your Remove VPS
-2. Working Cloudflare Zero Trust Setup - with  `Bypass Everyone` policy 
-	-  You should be able to access your Home Server through SSH after having configured it with `Zero Trust Access Application` and having added 
-	- SSH server running on your home server
-
 ### Network Configuration
 
 1. Port 22 (SSH) exposed through Cloudflare Tunnel on your home/remote server
@@ -72,12 +57,13 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 We will use SSH port forwarding to create a bridge between your VPS and home server.
 #### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
-Firstly you have to generate an SSH key. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. However we want 
+Firstly you have to generate an SSH key. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. In this case, we'll use an `ed25519` key.
 
-```shellsession
+```bash
 ssh-keygen -t ed25519
 ```
 
+Then, 
 
 ```
 Host ssh.enesbala.com
