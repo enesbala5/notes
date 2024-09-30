@@ -46,10 +46,10 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 
 ### Software and Services
 
-1. Coolify installed and running on your VPS
-2. Cloudflare account with Zero Trust enabled
-3. Cloudflare Tunnel set up for your home/remote server
-4. SSH server running on your home/remote server
+1. Coolify installed and running on your Remove VPS
+2. Working Cloudflare Zero Trust Setup - with  `Bypass Everyone` policy 
+	-  You should be able to access your Home Server through SSH after having configured it with `Zero Trust Access Application` and having added 
+	- SSH server running on your home server
 
 ### Network Configuration
 
