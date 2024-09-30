@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "NixOS/TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Server - Coolify/Blog Article.md",
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Server - Coolify/Blog Article.md",
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Server - Coolify/Blog Article.md",
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Server - Coolify/Blog Article.md"
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
               }
             }
           },
@@ -242,14 +242,15 @@
   },
   "active": "28cd0538a744ffd8",
   "lastOpenFiles": [
-    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
-    "Blog/Server - Coolify/Blog Article.md",
-    "Blog/Server - Coolify/Blog.md",
+    "Untitled 1.md",
+    "NixOS/TODO.md",
     "Untitled.md",
+    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
+    "Blog/Server - Coolify/Blog.md",
     "Kontakt.md",
     "Self Hosting/Hetzner Setup/Authentication.md",
     "Self Hosting/Hetzner Setup/Public SSH.md",
-    "NixOS/TODO.md",
     "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
     "Reflections/Ideas.md",
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
@@ -277,7 +278,6 @@
     "Projects/Laconics",
     "Projects/Marina Bay/Website/Marina Bay - Programs.md",
     "GraphQL.md",
-    "Lkfdalkj.md",
     "Pasted image 20240912180754.png",
     "Pasted image 20240912181213.png",
     "Pasted image 20240912181202.png",
