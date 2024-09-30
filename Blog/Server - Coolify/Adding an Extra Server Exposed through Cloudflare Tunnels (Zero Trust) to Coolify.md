@@ -55,5 +55,19 @@ Now that we have port forwarding set up, we need to configure Coolify to use thi
 1. In Coolify, go to "Add Server"
 2. For the hostname, enter `host.docker.internal`
 3. Set the port to `222`
-4. Use the appropriate username  `root` (it's possible to use another username but it will prove to be a waste of time )
+4. Use the appropriate username  `root` 
+	1. Note: It's possible to use alternate usernames but that didn't work for me personally
 5. Make sure you've added the correct SSH key
+
+### 3. Ensure the SSH key Coolify is using is added to your home server's `authorized_keys` file.
+
+Make sure that the public key of the key you are using in your Coolif`.ssh/authorized_keys` file.
+
+Consider disabling password authentication on your home server for better security and to avoid some issues you might face otherwise on Coolify. You can usually do this by setting the following:
+
+```
+PermitRootLogin yes
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+```
+
