@@ -72,6 +72,20 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 We will use SSH port forwarding to create a bridge between your VPS and home server.
 #### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
+Firstly you have to generate an SSH key. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. However we want 
+
+```shellsession
+ssh-keygen -t ed25519
+```
+
+
+```
+Host ssh.enesbala.com
+	ProxyCommand cloudflared access ssh --hostname %h
+	User e
+	IdentityFile ~/.ssh/id_ed25519-home-server
+	IdentitiesOnly yes
+```
 
 
 ### 1. Set Up SSH Port Forwarding
