@@ -62,21 +62,17 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 2. `.ssh/config` file on your VPS configured for Cloudflare access:
 
 ## Steps:
-### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
+
+2. Configure Coolify to use `host.docker.internal` as the hostname and `222` as the port.
+3. Ensure SSH keys are properly set up on both ends.
+4. Disable password authentication for better security.
 
 
-### 5. Startup Script
-We have to insert this line in our Remote VPS's startup script.
+### SSH Port Forwarding Setup
+We will use SSH port forwarding to create a bridge between your VPS and home server.
+#### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
-```bash
-ssh -L 222:localhost:22 ssh.enesbala.com
-```
 
-I am using Debian on my system, so I initially ran:
-\
-```bash
-sudo nano /etc/rc.local_
-```
 
 ### 1. Set Up SSH Port Forwarding
 
@@ -126,12 +122,48 @@ ssh host.docker.internal -p 222
 
 If this works, Coolify should be able to connect to your home server as well.
 
-## Key Takeaways
 
-1. Use SSH port forwarding to create a bridge between your VPS and home server.
-2. Configure Coolify to use `host.docker.internal` as the hostname and `222` as the port.
-3. Ensure SSH keys are properly set up on both ends.
-4. Disable password authentication for better security.
+### 5. Startup Script
+We have to insert this line in our Remote VPS's startup script.
+
+```bash
+ssh -L 222:localhost:22 ssh.enesbala.com
+```
+
+I am using Debian on my system, so I initially ran:
+
+```bash
+sudo nano /etc/rc.local
+```
+
+And updated the file to look like this - remember to place the startup script before `exit 0`.
+
+```bash
+!/bin/sh -e
+
+# Start Script
+echo date -R >> /var/log/sys-start.log
+ssh -L 222:localhost:22 ssh.enesbala.com
+
+exit 0
+
+```
+
+Then you have to run to grant it execution permissions.
+
+```bash
+chmod +x /etc/rc.local
+```
+
+Start rc.local service
+
+```bash
+systemctl enable rc-local  
+systemctl start rc-local.service
+```
+
+Finally, you can reboot the system to test whether it is working.
+
 
 ## Maintaining the Connection
 
