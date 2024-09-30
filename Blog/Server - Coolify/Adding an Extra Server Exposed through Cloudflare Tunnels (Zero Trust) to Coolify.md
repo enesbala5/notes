@@ -70,13 +70,18 @@ Firstly you have to generate an SSH key. To create it on your local device, it's
 ssh-keygen -t ed25519
 ```
 
-Then, 
+Specify the key location and passphrase (recommended). Then,
+
+
+
+Update the .ssh/config on your Remote VPS to look something like this
 
 ```
-Host ssh.enesbala.com
+# Update the domain and identity file to match your personal information
+Host ssh.[YOUR DOMAIN].com
 	ProxyCommand cloudflared access ssh --hostname %h
 	User e
-	IdentityFile ~/.ssh/id_ed25519-home-server
+	IdentityFile ~/.ssh/[INSERT YOUR SSH KEY NAME (Not .pub)]
 	IdentitiesOnly yes
 ```
 
