@@ -54,9 +54,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1fad11c999fc3486",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8b1d5a5971c1b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blog/Server - Coolify/Blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfaf360f4b2ab989",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blog/Server - Coolify/Blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -122,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kontakt.md",
+                "file": "Blog/Server - Coolify/Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kontakt.md",
+                "file": "Blog/Server - Coolify/Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kontakt.md"
+                "file": "Blog/Server - Coolify/Blog.md"
               }
             }
           },
@@ -192,10 +228,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff41066fbe1f505c",
+  "active": "c8156697e97e26f6",
   "lastOpenFiles": [
-    "Self Hosting/Hetzner Setup/Authentication.md",
+    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
+    "Blog/Server - Coolify",
+    "Blog/Server - Coolify/Blog.md",
+    "Blog",
     "Kontakt.md",
+    "Untitled.md",
+    "Self Hosting/Hetzner Setup/Authentication.md",
     "Rosi.md",
     "Self Hosting/Hetzner Setup/Public SSH.md",
     "Self Hosting/Hetzner Setup",
@@ -222,14 +263,8 @@
     "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
     "Projects/Laconics",
     "Projects/Marina Bay/Website/Marina Bay - Programs.md",
-    "Projects/Marina Bay/Website",
-    "Projects/Marina Bay",
     "GraphQL.md",
     "Lkfdalkj.md",
-    "erin.md",
-    "Pazar Query.md",
-    "Crypto.md",
-    "Adi.md",
     "Pasted image 20240912180754.png",
     "Pasted image 20240912181213.png",
     "Pasted image 20240912181202.png",

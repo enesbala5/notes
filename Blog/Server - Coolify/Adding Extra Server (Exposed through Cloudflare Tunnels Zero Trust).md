@@ -1,0 +1,1051 @@
+Is it possible to connect a server exposed through Cloudflare Tunnels / Zero Trust? I can connect with ease through the CLI - having already configured ssh to use cloudflared in ".ssh/config" - however when I try to connect within Coolify - the server cannot be reached. I am trying to use my Home Server - which I have exposed in a separate domain (Port 22 specifically) as a Swarm worker - and right now I'm failing to connect it to my main Hetzner Coolify instance. Thanks in advance!
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 7:11 AM
+    
+    Coolify is running inside a container so does not know about the sshconfig or cf proxy cmd A quick workaround is to run ssh -L 222:localhost:22 sshconfighost Then in coolify use host.docker.internal with port 222 There is a couple of other ways but I need to try them first
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 3:17 PM
+    
+    Hey, thank you for the tip, however I am not quite understanding how I would go about this. Is there a simpler solution? Or maybe if you could assist with some more instructions - I would really appreciate it. Thank you!
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 5:33 PM
+    
+    When you say you can connect with ease Connect from where?
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 8:22 PM
+    
+    SSH to the Hetzner server - I have the .ssh/config setup like this: Host ssh.domain.com ProxyCommand cloudflared access ssh --hostname %h User e IdentityFile ~/.ssh/id_ed25519-home-server IdentitiesOnly yes --- I also made sure to remove the passphrase from the IdentityFile key just in case.
+    
+
+- I can then run "ssh ssh@domain.com" and connect with 0 struggle
+    
+
+However when I run it from Coolify - it's unreachable
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290379161571164223/image.png?ex=66fc3ebe&is=66faed3e&hm=7f20710949b959e1696d2098aaf07f806895822068a5355d7c500450e7544cf7&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290379161571164223/image.png?ex=66fc3ebe&is=66faed3e&hm=7f20710949b959e1696d2098aaf07f806895822068a5355d7c500450e7544cf7&=&format=webp&quality=lossless&width=550&height=188)
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 8:58 PM
+    
+    im confused, i thought it was your home that was behind a tunnel, or you mean both are behind seperate tunnels
+    
+
+- the way im reading it , youre trying to go from hetzner to your home, not the other way around
+    
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:05 PM
+
+Sorry I may have explained it wrong. Yes - I am trying to go from Hetzner to Home Server (adding the Home Server as an external server in the Hetzner instance)
+
+- Can you help me set that up? Thanks again for the help - really appreciate it
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:07 PM
+    
+    so regarding your home
+    
+
+- it is also using a tunnel?
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:08 PM
+    
+    Yes - I have exposed port 22 through Cloudflare Zero Trust
+    
+
+- My Hetzner server does not use cloudflare tunnels
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:08 PM
+    
+    but u said above u used cf to connect to hetzner using ssh
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:08 PM
+    
+    It has a public IP which I use to connect to my domains & coolify
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:09 PM
+    
+    so did u mean u used cf to connect to home
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:09 PM
+    
+    Oh sorry mb
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:09 PM
+    
+    I use Cloudflare to connect to my home server
+    
+
+- Zero Trust
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:09 PM
+    
+    which required the following setup
+    
+
+- cloudflared access ssh --hostname %h
+    
+
+- in my .ssh/config
+    
+
+- basically - from my Hetzner server - after setting up the .ssh/config - I can easily connect to my home server
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:10 PM
+    
+    however when I try to do the same through coolify, I get this error
+    
+
+- which makes sense - given that it probably uses it's own .ssh/config within it's docker container
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:11 PM
+    
+    yes
+    
+
+- because coolify is using ssh inside a container not from the vps
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:11 PM
+    
+    yeah
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:11 PM
+    
+    so it doesnt have your ssh config or cloudflared
+    
+
+- so the quick workaround
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:11 PM
+    
+    so is it not possible to use cloudflared as a proxy?
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:11 PM
+    
+    is in your terminal on vps
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:11 PM
+    
+    okay
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:12 PM
+    
+    ssh -L 222:localhost:22 ssh.domain.com
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:12 PM
+    
+    i'm sshd into my vps right now on hetzner so I will try this rn
+    
+
+- okay login worked
+    
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290390913268322445/image.png?ex=66fc49b0&is=66faf830&hm=a5a1914fec305864cf937826d679196162d815f0eb795ffec63d809e026573fb&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290390913268322445/image.png?ex=66fc49b0&is=66faf830&hm=a5a1914fec305864cf937826d679196162d815f0eb795ffec63d809e026573fb&=&format=webp&quality=lossless&width=550&height=164)
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:13 PM
+    
+    ok now in coolify just add server and select host.docker.internal and port 222
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:13 PM
+    
+    i'll try that rn
+    
+
+- thanks again
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:13 PM
+    
+    its not a great solution, u would need to run this every restart
+    
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:13 PM
+
+so here I will specify as the domain
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290391139144433889/image.png?ex=66fc49e5&is=66faf865&hm=7db79845eaa557ceb66ed1656998a35904fe368961204e973f98c274096c8b34&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290391139144433889/image.png?ex=66fc49e5&is=66faf865&hm=7db79845eaa557ceb66ed1656998a35904fe368961204e973f98c274096c8b34&=&format=webp&quality=lossless&width=339&height=350)
+
+- the host.docker.internal
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:13 PM
+    
+    the other way is to sym link cf and cp ssh config into coolify container
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:14 PM
+    
+    understood - i'll add it to a startup script maybe
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:14 PM
+    
+    yes host is that and change port to 222
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:14 PM
+    
+    seems like it could break easily
+    
+
+- which user btw?
+    
+
+- root
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:14 PM
+    
+    the final option is to use the cf private networking
+    
+
+- yes root
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:14 PM
+    
+    I am not using root network here
+    
+
+- user*
+    
+
+- at my home server
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:14 PM
+    
+    well whatever user you use to login
+    
+
+- with ssh
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:14 PM
+    
+    to my home server?
+    
+
+- validating rn
+    
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290391579990818888/image.png?ex=66fc4a4e&is=66faf8ce&hm=e0234adc98433503ee5645cb9dd2a49a82a96908ab8f1f4f31835363b730630a&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290391579990818888/image.png?ex=66fc4a4e&is=66faf8ce&hm=e0234adc98433503ee5645cb9dd2a49a82a96908ab8f1f4f31835363b730630a&=&format=webp&quality=lossless&width=513&height=350)
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290391637075300362/image.png?ex=66fc4a5c&is=66faf8dc&hm=cb04e42d1520ca02e853881b1f1436627e429cd2d9d518211e4fa1c7ba65edc3&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290391637075300362/image.png?ex=66fc4a5c&is=66faf8dc&hm=cb04e42d1520ca02e853881b1f1436627e429cd2d9d518211e4fa1c7ba65edc3&=&format=webp&quality=lossless)
+
+- the localhost server uses the same ip/domain
+    
+
+- I think that's causing it to break
+    
+
+- is the only option now to do private networking?
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:18 PM
+    
+    hmm you can add the same server ip
+    
+
+- oh
+    
+
+- in your terminal
+    
+
+- can u jsut quickly run
+    
+
+- ssh user@lcoalhost:222
+    
+
+- where user is what u use to log in
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:18 PM
+    
+    okay 1 second
+    
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290392721198022666/image.png?ex=66fc4b5f&is=66faf9df&hm=d0380a6d599d2afa8cb17a9dce072478fdaaac262b6f369029db3bc08e817a7c&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290392721198022666/image.png?ex=66fc4b5f&is=66faf9df&hm=d0380a6d599d2afa8cb17a9dce072478fdaaac262b6f369029db3bc08e817a7c&=&format=webp&quality=lossless&width=550&height=149)
+
+- it doesn't work with either root / e (my username on the home server)
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:20 PM
+    
+    it needs to be ran ion your vps
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:20 PM
+    
+    yes
+    
+
+- i am running it there
+    
+
+- sshd into it
+    
+
+- root@amd-server
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:20 PM
+    
+    is it still running on 222
+    
+
+- can u check netstat -ntlp
+    
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:21 PM
+
+the connection is active here
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290392992166838313/image.png?ex=66fc4b9f&is=66fafa1f&hm=9a3b842b9873699120ea3c5bb7bb0815ba4359b943557935d62bd2295d6303c4&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290392992166838313/image.png?ex=66fc4b9f&is=66fafa1f&hm=9a3b842b9873699120ea3c5bb7bb0815ba4359b943557935d62bd2295d6303c4&=&format=webp&quality=lossless&width=550&height=304)
+
+wait pls
+
+discord limit
+
+[https://notepad.pw/T9FcwUvmPGbDJbn2pioC](https://notepad.pw/T9FcwUvmPGbDJbn2pioC "https://notepad.pw/T9FcwUvmPGbDJbn2pioC")
+
+[notepad.pw](https://notepad.pw/T9FcwUvmPGbDJbn2pioC)
+
+Save your notes online for free and share them with friends!
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290393264226304000/image.png?ex=66fc4be0&is=66fafa60&hm=8c55b6f9ac1ee881aaa364c8724e30471388ebd8a6f25551b400c16eb92f4621&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290393264226304000/image.png?ex=66fc4be0&is=66fafa60&hm=8c55b6f9ac1ee881aaa364c8724e30471388ebd8a6f25551b400c16eb92f4621&=&format=webp&quality=lossless&width=550&height=262)
+
+- ssh is present at 222
+    
+
+- wait
+    
+
+- isn't it -p {PORT}
+    
+
+- yes it worked
+    
+
+- lol
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:23 PM
+    
+    ah ok
+    
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:23 PM
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290393616530804776/image.png?ex=66fc4c34&is=66fafab4&hm=4202cd571f3df2c060893d36177cf63ab04f08716ddb4909ef4795c9eac05faf&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290393616530804776/image.png?ex=66fc4c34&is=66fafab4&hm=4202cd571f3df2c060893d36177cf63ab04f08716ddb4909ef4795c9eac05faf&=&format=webp&quality=lossless&width=550&height=111)
+
+- it's asking for the password though
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:23 PM
+    
+    ok yes add key
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:23 PM
+    
+    which isn't good
+    
+
+- will try to specify identity
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:24 PM
+    
+    double check the keys match in coolify and at home
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:24 PM
+    
+    worked
+    
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290393873268473950/image.png?ex=66fc4c71&is=66fafaf1&hm=0a6d8d9f091cd2512d844d9117a93260ec46bf8c640e8530f834116ae496fcd7&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290393873268473950/image.png?ex=66fc4c71&is=66fafaf1&hm=0a6d8d9f091cd2512d844d9117a93260ec46bf8c640e8530f834116ae496fcd7&=&format=webp&quality=lossless&width=550&height=196)
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:24 PM
+    
+    ok not try again in coolify
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:24 PM
+    
+    yeah trying
+    
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290394033600073790/image.png?ex=66fc4c97&is=66fafb17&hm=13c9f2a52f43ae899d7a7da0299b57f37217ce88e5189f4076585b572a1cc675&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290394033600073790/image.png?ex=66fc4c97&is=66fafb17&hm=13c9f2a52f43ae899d7a7da0299b57f37217ce88e5189f4076585b572a1cc675&=&format=webp&quality=lossless&width=405&height=350)
+
+- Server is not reachable. Please validate your configuration and connection. Check this documentation for further help. Error: ssh: connect to host host.docker.internal port 222: Connection refused
+    
+
+- using correct key also
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:26 PM
+    
+    im thinking its an ip issue as 222 is only listening on 127.0.0.1 not the docker ip
+    
+
+- can u get the docker ip
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:26 PM
+    
+    can you remind me how to
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:26 PM
+    
+    then change original command to be dockerip:222:locahost:22
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:26 PM
+    
+    I have forgotten how
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:26 PM
+    
+    ip addr will show all
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:26 PM
+    
+    okay
+    
+
+[https://notepad.pw/T9FcwUvmPGbDJbn2pioC](https://notepad.pw/T9FcwUvmPGbDJbn2pioC "https://notepad.pw/T9FcwUvmPGbDJbn2pioC")
+
+- [notepad.pw](https://notepad.pw/T9FcwUvmPGbDJbn2pioC)
+    
+    Save your notes online for free and share them with friends!
+    
+
+- I'm guessing it's the docker0
+    
+
+- right?
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:28 PM
+    
+    yes
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:29 PM
+    
+    it's DOWN tho?
+    
+
+- or doesn't matter
+    
+
+- 6: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default link/ether 02:42:74:a9:ff:78 brd ff:ff:ff:ff:ff:ff inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0 valid_lft forever preferred_lft forever inet6 fe80::42:74ff:fea9:ff78/64 scope link valid_lft forever preferred_lft forever
+    
+
+- it's this right? - 172.17.255.255
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:30 PM
+    
+    ok before ucarry on
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:30 PM
+    
+    i'm shit at networking
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:30 PM
+    
+    can u goto terminal in coolify container
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:30 PM
+    
+    yeah 1 second
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:30 PM
+    
+    and try ssh docker.host.internal -p 222
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:30 PM
+    
+    okay sure
+    
+
+- ssh docker.host.internal -p 222 ssh: Could not resolve hostname docker.host.internal: Name or service not known
+    
+
+- I ran docker exec -it coolify bash
+    
+
+- previously
+    
+
+- root@08f583858285:/var/www/html# ip a 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 inet 127.0.0.1/8 scope host lo valid_lft forever preferred_lft forever inet6 ::1/128 scope host valid_lft forever preferred_lft forever 96: eth0@if97: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default link/ether 02:42:ac:12:00:05 brd ff:ff:ff:ff:ff:ff link-netnsid 0 inet 172.18.0.5/16 brd 172.18.255.255 scope global eth0 valid_lft forever preferred_lft forever
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:32 PM
+    
+    sorry i keep saying it wrong way around
+    its
+    host.docker.internal
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:32 PM
+
+ah okay
+
+connection refused
+
+ssh: connect to host host.docker.internal port 222: Connection refused
+
+22 works
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:33 PM
+
+yeah cos 22 is listening on 0.0.0.0
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:33 PM
+    
+    requires password though
+    
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:33 PM
+
+ok
+
+change oprigianl to be 0.0.0.0:222:localhost:22
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:33 PM
+
+sorry can you guide me how to
+
+- where should I update the mapping
+    
+
+- didn't expect this to be such a pain
+    
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:34 PM
+
+if the original termianl is still open
+
+- ctrl c
+    
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:34 PM
+
+thank you for your time
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:34 PM
+    
+    then exit
+    
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:34 PM
+
+okay
+
+- closed the connection
+    
+
+- you want me to ssh in 22
+    
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:35 PM
+
+no
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:35 PM
+    
+    root@amd-server:~# ssh -L 222:localhost:22 ssh.enesbala.com
+    
+
+- to -L 22
+    
+
+- ..
+    
+
+- or no
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:35 PM
+    
+    no
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:35 PM
+    
+    ah okay
+    
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:35 PM
+
+check its not running on 222
+
+- netstat -ntlp
+    
+
+- so itrs actually 100% closed
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:35 PM
+    
+    not running
+    
+
+- port does not appear
+    
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:36 PM
+
+ok now ssh -L 0.0.0.0:222:localhost:22 ssh.enesbala.com
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:36 PM
+    
+    okay done
+    
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290396894031253523/image.png?ex=66fc4f41&is=66fafdc1&hm=849ae4fd6e8f6ad4a5ccf3308b81a87266cc93898e1366b22109aacfc0f6eee7&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290396894031253523/image.png?ex=66fc4f41&is=66fafdc1&hm=849ae4fd6e8f6ad4a5ccf3308b81a87266cc93898e1366b22109aacfc0f6eee7&=&format=webp&quality=lossless&width=550&height=226)
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:36 PM
+    
+    ok now go back to coolify
+    
+
+- first in container
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:36 PM
+    
+    okay
+    
+
+- okay
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:36 PM
+    
+    and then ssh host.docker.internal
+    
+
+- -p 222
+    
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:37 PM
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290397071853097102/image.png?ex=66fc4f6c&is=66fafdec&hm=2d423f270c368cb1390259b3e141a29da5582b780e4f573b99d7f10ad85a688b&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290397071853097102/image.png?ex=66fc4f6c&is=66fafdec&hm=2d423f270c368cb1390259b3e141a29da5582b780e4f573b99d7f10ad85a688b&=&format=webp&quality=lossless&width=550&height=115)
+
+- progress
+    
+
+- what about the password?
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:37 PM
+    
+    ok now do it in website
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:37 PM
+    
+    should i specify the identity
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:37 PM
+    
+    u need to turn off password on your home tbh
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:37 PM
+    
+    yeah true
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:38 PM
+    
+    jsut see what happens in coolify now as logn as keys are in both
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:38 PM
+    
+    Server is not reachable. Please validate your configuration and connection. Check this documentation for further help. Error: root@host.docker.internal: Permission denied (publickey,password).
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:38 PM
+    
+    they arent in both
+    
+
+- have u added hte key to home
+    
+
+- that coolify is using
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:38 PM
+    
+    yeah I did
+    
+
+- to the approved keys
+    
+
+- or whatever it's called
+    
+
+- i can check again
+    
+
+- 1 second
+    
+
+- yeah authorized_keys
+    
+
+- only the key has to be correct right?
+    
+
+- not the username or whatever
+    
+
+- ...5Jw8typ78f6pdWF contact@enesbala.com
+    
+
+- does the "contact..." matter
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:40 PM
+    
+    no
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:40 PM
+    
+    okay that's good
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:40 PM
+    
+    juwt chedk the ssh settings
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:40 PM
+    
+    i will try in the docker container again
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:41 PM
+    
+    in your home
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:41 PM
+    
+    yeah it's the correct key
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:41 PM
+    
+    i have the key in the authorized_keys
+    
+
+- if you want I can send it to you
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:45 PM
+    
+    can yo generate a key in coolify
+    
+
+- then add that to your home ssh keys
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:45 PM
+    
+    okay will do now
+    
+
+- btw
+    
+
+- I sshd successfully from within the container
+    
+
+- I copied the private key to the container
+    
+
+- manually
+    
+
+- and ran this command ssh e@host.docker.internal -p 222 -i id_ed25519-home-server
+    
+
+- which is the same key that I have in coolify
+    
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:48 PM
+
+thats the key your selecting when adding the server?
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:48 PM
+    
+    yes
+    
+
+- hate this shit with a passion
+    
+
+i get this now
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290399997786984631/image.png?ex=66fc5225&is=66fb00a5&hm=9f0a09e3937a92c6eac25dc3ce5b7b7550742457995b9a0dabad0e122ed03b86&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290399997786984631/image.png?ex=66fc5225&is=66fb00a5&hm=9f0a09e3937a92c6eac25dc3ce5b7b7550742457995b9a0dabad0e122ed03b86&=&format=webp&quality=lossless&width=550&height=122)
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290400040401109072/image.png?ex=66fc5230&is=66fb00b0&hm=454711c202bcab7f97704e032216facd987f4fcfaf9ed912c1d22b94df09c63d&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290400040401109072/image.png?ex=66fc5230&is=66fb00b0&hm=454711c202bcab7f97704e032216facd987f4fcfaf9ed912c1d22b94df09c63d&=&format=webp&quality=lossless&width=379&height=350)
+
+- would it work for root?
+    
+
+- i'm guessing it would
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:49 PM
+    
+    u need to turn off assking for password in your home
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:49 PM
+    
+    can you help me do that
+    
+
+- or should i google it
+    
+
+- i'm editing the /etc/ssh/sshd_config
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:51 PM
+    
+    yeah
+    
+
+- PasswordAuthentication no
+    
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:52 PM
+
+yeah
+
+- e@home-server:~$ service sshd restart -bash: service: command not found
+    
+
+- im on debian
+    
+
+- how should i restart it
+    
+
+- sorry for the questions
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:53 PM
+    
+    sudo systemctl restart ssh
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:53 PM
+    
+    you;re great man
+    
+
+thanks
+
+- okay trying again now
+    
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290401174155169934/image.png?ex=66fc533e&is=66fb01be&hm=17e4b4aff12e9b18fcd89063f56e0f9f6363b5faec858c600e18eedd98306412&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290401174155169934/image.png?ex=66fc533e&is=66fb01be&hm=17e4b4aff12e9b18fcd89063f56e0f9f6363b5faec858c600e18eedd98306412&=&format=webp&quality=lossless&width=550&height=171)
+
+- aah
+    
+
+- i think its related to the root
+    
+
+- thing
+    
+
+maybe if i copy the authorized_keys
+
+- to the root/.ssh
+    
+
+- and try to login to root directly
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:54 PM
+    
+    ChallengeResponseAuthentication no
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:54 PM
+    
+    clear
+    
+
+- okay
+    
+
+- 1 sec
+    
+
+- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:54 PM
+    
+    PermitRootLogin yes
+    
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:55 PM
+    
+    I have this alos: ChallengeResponseAuthentication no
+    
+
+- wait
+    
+
+- not that
+    
+
+# Change to yes to enable challenge-response passwords (beware issues with
+
+# some PAM modules and threads)
+
+KbdInteractiveAuthentication no
+
+- this*
+    
+
+[](https://cdn.discordapp.com/attachments/1290018407961333911/1290401631413735495/image.png?ex=66fc53ab&is=66fb022b&hm=b67b1e7a72ec6cb0a6993c70d8df508f38de978c2ddccdb2495cc2e3d8fd0511&)
+
+![Image](https://media.discordapp.net/attachments/1290018407961333911/1290401631413735495/image.png?ex=66fc53ab&is=66fb022b&hm=b67b1e7a72ec6cb0a6993c70d8df508f38de978c2ddccdb2495cc2e3d8fd0511&=&format=webp&quality=lossless&width=550&height=68)
+
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:56 PM
+    
+    adding this to the bottom of the file
+    
+
+- okay restarted
+    
+
+trying again
+
+- same issue ffs
+    
+
+- trying the root thing
+    
+- ### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:57 PM
+    
+    .
+    
+
+- okay updated the authorized_keys
+    
+
+- on /root/.ssh
+    
+
+- it worked
+    
+
+- lets fucking go
+    
+
+- thank you friend
+    
+
+- you're great
+    
+
+- let me get your email or sth
+    
+
+- twitter
+    
+
+- whatever
+    
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 9:59 PM
+
+Np don't forget to make sure it reruns every reboot
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:59 PM
+
+in case any client ever needs a pro
+
+okay man
+
+thank you
+
+### enb5![](https://cdn.discordapp.com/role-icons/1273942451308072970/4d5f1fa9ae68058faa5a509a8947b64b.webp?size=20&quality=lossless)OP _—_ Today at 9:59 PM
+
+will make a startup script or sth
+
+thanks
+
+enb5 changed the post title: **[SOLVED] Adding Extra Server (Exposed through Cloudflare Tunnels / Zero Trust)** _—_ Today at 10:04 PM
+
+### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 10:05 PM
+
+Also if you modified coolify container don't forget you will might need to redo it after an update
