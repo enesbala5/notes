@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "1661df618ee3635f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blog/Server - Coolify/Blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "003a272e6799da92",
             "type": "leaf",
             "state": {
@@ -61,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,14 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Server - Coolify/Blog.md",
+                "file": "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -216,39 +228,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fad11c999fc3486",
+  "active": "cfaf360f4b2ab989",
   "lastOpenFiles": [
-    "Kontakt.md",
-    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Blog.md",
+    "Untitled.md",
+    "Kontakt.md",
+    "Self Hosting/Hetzner Setup/Authentication.md",
+    "Self Hosting/Hetzner Setup/Public SSH.md",
+    "NixOS/TODO.md",
+    "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
+    "Reflections/Ideas.md",
+    "Projects/Zanat - Hiring Platform/Kuotim.pdf",
+    "Projects/Zanat - Hiring Platform/Project Scope.md",
+    "Projects/Completed Projects.md",
+    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
+    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify",
     "Blog",
-    "Untitled.md",
-    "Self Hosting/Hetzner Setup/Authentication.md",
     "Rosi.md",
-    "Self Hosting/Hetzner Setup/Public SSH.md",
     "Self Hosting/Hetzner Setup",
-    "Projects/Zanat - Hiring Platform/Project Scope.md",
     "Mesazh Staff.al.md",
     "Projects/Pazar/Pazar Demo Video.md",
     "Self Hosting/Immich.md",
     "Projects/Old & Misc/Sigal Website/TODO.md",
-    "Reflections/Ideas.md",
     "_fit/Reflections/Ideas.md",
-    "Projects/Zanat - Hiring Platform/Kuotim.pdf",
-    "Projects/Completed Projects.md",
     "Projects/Laconics/Klea Huta Agency/Raporti Nr. 1.md",
     "Projects/Laconics/Newsbomb.al/Communications/Fjorelo.md",
     "_fit/Reflections",
     "_fit",
-    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
     "Projects/Laconics/Newsbomb.al/Intro.md",
     "Projects/Pazar",
     "Notat Matura.md",
     "Projects/Zanat - Hiring Platform",
-    "NixOS/TODO.md",
     "Projects/Old & Misc",
-    "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
     "Projects/Laconics",
     "Projects/Marina Bay/Website/Marina Bay - Programs.md",
     "GraphQL.md",

@@ -1,6 +1,6 @@
 Is it possible to connect a server exposed through Cloudflare Tunnels / Zero Trust? I can connect with ease through the CLI - having already configured ssh to use cloudflared in ".ssh/config" - however when I try to connect within Coolify - the server cannot be reached. I am trying to use my Home Server - which I have exposed in a separate domain (Port 22 specifically) as a Swarm worker - and right now I'm failing to connect it to my main Hetzner Coolify instance. Thanks in advance!
 
-- ### Darren![](https://cdn.discordapp.com/role-icons/1276147848161005649/442b22cd461a3caeccc8bec82ed0800d.webp?size=20&quality=lossless) _—_ Today at 7:11 AM
+- ### Darren![] _—_ Today at 7:11 AM
     
     Coolify is running inside a container so does not know about the sshconfig or cf proxy cmd A quick workaround is to run ssh -L 222:localhost:22 sshconfighost Then in coolify use host.docker.internal with port 222 There is a couple of other ways but I need to try them first
     
