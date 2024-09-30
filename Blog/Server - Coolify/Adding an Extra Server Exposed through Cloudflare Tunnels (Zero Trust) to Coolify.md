@@ -65,6 +65,16 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 ### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
 
+### 5. Startup Script
+We have to insert this line in our Remote VPS's startup script.
+
+```bash
+ssh -L 222:localhost:22 ssh.enesbala.com
+```
+
+I am using Debian on my system, so I initially ran
+``
+
 ### 1. Set Up SSH Port Forwarding
 
 First, we need to set up SSH port forwarding on your VPS (where Coolify is running). This will create a bridge between your VPS and your home server.
