@@ -25,8 +25,6 @@ Darren![]
 
 However when I run it from Coolify - it's unreachable
 
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290379161571164223/image.png?ex=66fc3ebe&is=66faed3e&hm=7f20710949b959e1696d2098aaf07f806895822068a5355d7c500450e7544cf7&)
-
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290379161571164223/image.png?ex=66fc3ebe&is=66faed3e&hm=7f20710949b959e1696d2098aaf07f806895822068a5355d7c500450e7544cf7&=&format=webp&quality=lossless&width=550&height=188)
 
 - ### Darren Today at 8:58 PM
@@ -155,8 +153,6 @@ Sorry I may have explained it wrong. Yes - I am trying to go from Hetzner to Hom
 - okay login worked
     
 
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290390913268322445/image.png?ex=66fc49b0&is=66faf830&hm=a5a1914fec305864cf937826d679196162d815f0eb795ffec63d809e026573fb&)
-
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290390913268322445/image.png?ex=66fc49b0&is=66faf830&hm=a5a1914fec305864cf937826d679196162d815f0eb795ffec63d809e026573fb&=&format=webp&quality=lossless&width=550&height=164)
 
 - ### Darren Today at 9:13 PM
@@ -180,8 +176,6 @@ Sorry I may have explained it wrong. Yes - I am trying to go from Hetzner to Hom
 ### enb5 _—_ Today at 9:13 PM
 
 so here I will specify as the domain
-
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290391139144433889/image.png?ex=66fc49e5&is=66faf865&hm=7db79845eaa557ceb66ed1656998a35904fe368961204e973f98c274096c8b34&)
 
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290391139144433889/image.png?ex=66fc49e5&is=66faf865&hm=7db79845eaa557ceb66ed1656998a35904fe368961204e973f98c274096c8b34&=&format=webp&quality=lossless&width=339&height=350)
 
@@ -247,11 +241,7 @@ so here I will specify as the domain
 - validating rn
     
 
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290391579990818888/image.png?ex=66fc4a4e&is=66faf8ce&hm=e0234adc98433503ee5645cb9dd2a49a82a96908ab8f1f4f31835363b730630a&)
-
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290391579990818888/image.png?ex=66fc4a4e&is=66faf8ce&hm=e0234adc98433503ee5645cb9dd2a49a82a96908ab8f1f4f31835363b730630a&=&format=webp&quality=lossless&width=513&height=350)
-
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290391637075300362/image.png?ex=66fc4a5c&is=66faf8dc&hm=cb04e42d1520ca02e853881b1f1436627e429cd2d9d518211e4fa1c7ba65edc3&)
 
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290391637075300362/image.png?ex=66fc4a5c&is=66faf8dc&hm=cb04e42d1520ca02e853881b1f1436627e429cd2d9d518211e4fa1c7ba65edc3&=&format=webp&quality=lossless)
 
@@ -287,9 +277,6 @@ so here I will specify as the domain
 - ### enb5 _—_ Today at 9:18 PM
     
     okay 1 second
-    
-
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290392721198022666/image.png?ex=66fc4b5f&is=66faf9df&hm=d0380a6d599d2afa8cb17a9dce072478fdaaac262b6f369029db3bc08e817a7c&)
 
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290392721198022666/image.png?ex=66fc4b5f&is=66faf9df&hm=d0380a6d599d2afa8cb17a9dce072478fdaaac262b6f369029db3bc08e817a7c&=&format=webp&quality=lossless&width=550&height=149)
 
@@ -327,8 +314,6 @@ so here I will specify as the domain
 
 the connection is active here
 
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290392992166838313/image.png?ex=66fc4b9f&is=66fafa1f&hm=9a3b842b9873699120ea3c5bb7bb0815ba4359b943557935d62bd2295d6303c4&)
-
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290392992166838313/image.png?ex=66fc4b9f&is=66fafa1f&hm=9a3b842b9873699120ea3c5bb7bb0815ba4359b943557935d62bd2295d6303c4&=&format=webp&quality=lossless&width=550&height=304)
 
 wait pls
@@ -341,7 +326,6 @@ discord limit
 
 Save your notes online for free and share them with friends!
 
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290393264226304000/image.png?ex=66fc4be0&is=66fafa60&hm=8c55b6f9ac1ee881aaa364c8724e30471388ebd8a6f25551b400c16eb92f4621&)
 
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290393264226304000/image.png?ex=66fc4be0&is=66fafa60&hm=8c55b6f9ac1ee881aaa364c8724e30471388ebd8a6f25551b400c16eb92f4621&=&format=webp&quality=lossless&width=550&height=262)
 
@@ -366,8 +350,6 @@ Save your notes online for free and share them with friends!
     
 
 ### enb5 _—_ Today at 9:23 PM
-
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290393616530804776/image.png?ex=66fc4c34&is=66fafab4&hm=4202cd571f3df2c060893d36177cf63ab04f08716ddb4909ef4795c9eac05faf&)
 
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290393616530804776/image.png?ex=66fc4c34&is=66fafab4&hm=4202cd571f3df2c060893d36177cf63ab04f08716ddb4909ef4795c9eac05faf&=&format=webp&quality=lossless&width=550&height=111)
 
@@ -397,7 +379,6 @@ Save your notes online for free and share them with friends!
     worked
     
 
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290393873268473950/image.png?ex=66fc4c71&is=66fafaf1&hm=0a6d8d9f091cd2512d844d9117a93260ec46bf8c640e8530f834116ae496fcd7&)
 
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290393873268473950/image.png?ex=66fc4c71&is=66fafaf1&hm=0a6d8d9f091cd2512d844d9117a93260ec46bf8c640e8530f834116ae496fcd7&=&format=webp&quality=lossless&width=550&height=196)
 
@@ -410,8 +391,6 @@ Save your notes online for free and share them with friends!
     
     yeah trying
     
-
-[](https://cdn.discordapp.com/attachments/1290018407961333911/1290394033600073790/image.png?ex=66fc4c97&is=66fafb17&hm=13c9f2a52f43ae899d7a7da0299b57f37217ce88e5189f4076585b572a1cc675&)
 
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290394033600073790/image.png?ex=66fc4c97&is=66fafb17&hm=13c9f2a52f43ae899d7a7da0299b57f37217ce88e5189f4076585b572a1cc675&=&format=webp&quality=lossless&width=405&height=350)
 
@@ -701,215 +680,6 @@ ok now ssh -L 0.0.0.0:222:localhost:22 ssh.enesbala.com
     
 
 - i can check again
-    
-
-- 1 second
-    
-
-- yeah authorized_keys
-    
-
-- only the key has to be correct right?
-    
-
-- not the username or whatever
-    
-
-- ...5Jw8typ78f6pdWF contact@enesbala.com
-    
-
-- does the "contact..." matter
-    
-
-- ### Darren Today at 9:40 PM
-    
-    no
-    
-
-- ### enb5 _—_ Today at 9:40 PM
-    
-    okay that's good
-    
-
-- ### Darren Today at 9:40 PM
-    
-    juwt chedk the ssh settings
-    
-
-- ### enb5 _—_ Today at 9:40 PM
-    
-    i will try in the docker container again
-    
-
-- ### Darren Today at 9:41 PM
-    
-    in your home
-    
-- ### enb5 _—_ Today at 9:41 PM
-    
-    yeah it's the correct key
-    
-- ### enb5 _—_ Today at 9:41 PM
-    
-    i have the key in the authorized_keys
-    
-
-- if you want I can send it to you
-    
-
-- ### Darren Today at 9:45 PM
-    
-    can yo generate a key in coolify
-    
-
-- then add that to your home ssh keys
-
-
-- ### enb5 _—_ Today at 9:45 PM
-
-okay will do now   
-
-I sshd successfully from within the container
-
-I copied the private key to the container
-manually
-and ran this command ssh e@host.docker.internal -p 222 -i id_ed25519-home-server
-which is the same key that I have in coolify
-
-
-### Darren Today at 9:48 PM
-
-thats the key your selecting when adding the server?
-
-- ### enb5 _—_ Today at 9:48 PM
-yes
-hate this shit with a passion
-i get this now
-
-
-![Image](https://media.discordapp.net/attachments/1290018407961333911/1290399997786984631/image.png?ex=66fc5225&is=66fb00a5&hm=9f0a09e3937a92c6eac25dc3ce5b7b7550742457995b9a0dabad0e122ed03b86&=&format=webp&quality=lossless&width=550&height=122)
-
-![Image](https://media.discordapp.net/attachments/1290018407961333911/1290400040401109072/image.png?ex=66fc5230&is=66fb00b0&hm=454711c202bcab7f97704e032216facd987f4fcfaf9ed912c1d22b94df09c63d&=&format=webp&quality=lossless&width=379&height=350)
-
-- would it work for root?
-    
-
-- i'm guessing it would
-    
-
-- ### Darren Today at 9:49 PM
-    
-    u need to turn off assking for password in your home
-    
-
-- ### enb5 _—_ Today at 9:49 PM
-    
-    can you help me do that
-    
-
-- or should i google it
-    
-
-- i'm editing the /etc/ssh/sshd_config
-    
-
-- ### Darren Today at 9:51 PM
-    
-    yeah
-    
-
-- PasswordAuthentication no
-    
-
-### enb5 _—_ Today at 9:52 PM
-
-yeah
-
-- e@home-server:~$ service sshd restart -bash: service: command not found
-    
-
-- im on debian
-    
-
-- how should i restart it
-    
-
-- sorry for the questions
-    
-
-- ### Darren Today at 9:53 PM
-    
-    sudo systemctl restart ssh
-    
-
-- ### enb5 _—_ Today at 9:53 PM
-    
-    you;re great man
-    
-
-thanks
-
-- okay trying again now
-    
-
-![Image](https://media.discordapp.net/attachments/1290018407961333911/1290401174155169934/image.png?ex=66fc533e&is=66fb01be&hm=17e4b4aff12e9b18fcd89063f56e0f9f6363b5faec858c600e18eedd98306412&=&format=webp&quality=lossless&width=550&height=171)
-
-- aah
-    
-
-- i think its related to the root
-    
-
-- thing
-    
-
-maybe if i copy the authorized_keys
-
-- to the root/.ssh
-    
-
-- and try to login to root directly
-    
-
-- ### Darren Today at 9:54 PM
-    
-    ChallengeResponseAuthentication no
-    
-
-- ### enb5 _—_ Today at 9:54 PM
-    
-    clear
-    
-
-- okay
-    
-
-- 1 sec
-    
-
-- ### Darren Today at 9:54 PM
-    
-    PermitRootLogin yes
-    
-
-- ### enb5 _—_ Today at 9:55 PM
-    
-    I have this alos: ChallengeResponseAuthentication no
-    
-
-- wait
-    
-
-- not that
-    
-
-# Change to yes to enable challenge-response passwords (beware issues with
-
-# some PAM modules and threads)
-
-KbdInteractiveAuthentication no
-
-- this*
     
 
 ![Image](https://media.discordapp.net/attachments/1290018407961333911/1290401631413735495/image.png?ex=66fc53ab&is=66fb022b&hm=b67b1e7a72ec6cb0a6993c70d8df508f38de978c2ddccdb2495cc2e3d8fd0511&=&format=webp&quality=lossless&width=550&height=68)
