@@ -62,11 +62,14 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 2. `.ssh/config` file on your VPS configured for Cloudflare access:
 
 ## Steps:
+### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
+
+
 ### 1. Set Up SSH Port Forwarding
 
 First, we need to set up SSH port forwarding on your VPS (where Coolify is running). This will create a bridge between your VPS and your home server.
 
-```
+```bash
 ssh -L 0.0.0.0:222:localhost:22 ssh.yourdomain.com
 ```
 
@@ -91,7 +94,7 @@ You can do this by going to
 
 Consider disabling password authentication on your home server for better security and to avoid some issues you might face otherwise on Coolify. You can usually do this by setting the following:
 
-```
+```bash
 PermitRootLogin yes
 PasswordAuthentication no
 ChallengeResponseAuthentication no
@@ -101,4 +104,7 @@ ChallengeResponseAuthentication no
 
 To verify that everything is working correctly, you can SSH into your Coolify container and try to connect to your home server:
 
-bash
+```bash
+docker exec -it coolify bash
+ssh host.docker.internal -p 222>)
+```
