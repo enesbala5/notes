@@ -1,6 +1,10 @@
 # Introduction
 
-When expanding your server infrastructure, you might find yourself wanting to add a home server exposed through Cloudflare Tunnels (Zero Trust) to your existing Coolify setup. This can be a bit tricky, especially when dealing with SSH configurations and Docker containers. In this guide, I'll walk you through the process of connecting a server exposed through Cloudflare Tunnels to your Coolify instance.
+If you have a home server, which doesn't have a public IP, you can use services like Cloudflare Zero Trust & Tunnels to expose services and SSH to the web. 
+
+Here you can find a great guide on setting up Cloudflare Zero Trust to expose your home server's SSH. 
+
+You might find yourself wanting to add a home server, exposed through Cloudflare Tunnels (Zero Trust) to your existing Coolify setup. This can be a bit tricky, especially when dealing with SSH configurations and Docker containers. In this guide, I'll walk you through the process of connecting a server exposed through Cloudflare Tunnels to your Coolify instance.
 
 ## The Challenge
 
