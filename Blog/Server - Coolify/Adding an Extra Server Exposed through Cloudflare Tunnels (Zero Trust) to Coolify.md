@@ -36,6 +36,13 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 
 # Process Walkthrough
 
+## Key Requirements
+
+1. Coolify installed and running on your Remote VPS (Virtual Private Server)
+2. A home server you want to add to Coolify
+3. Working Cloudflare Zero Trust Setup on Home Server - with  `Bypass Everyone` policy 
+	- You should be able to access your Home Server through SSH after having configured it with `Zero Trust Access Application` and having added SSH server running on your home server
+
 ### Network Configuration
 
 1. Port 22 (SSH) exposed through Cloudflare Tunnel on your home/remote server
