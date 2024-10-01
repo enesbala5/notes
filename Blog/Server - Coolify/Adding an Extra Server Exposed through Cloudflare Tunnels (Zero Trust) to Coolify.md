@@ -85,8 +85,8 @@ You can do this by following these steps,
 1. Go to Coolify Sidebar > Keys & Tokens
 2. Click the "Add" Button
 3. Copy the contents of the Private Key you generated to the `Private Key` Input Field / Text Area
-4. In the `Name` field, I  recommend you use the same name that you gave to your key optional
-  
+4. In the `Name` field, I  recommend you use the same name that you gave to your key (Optional) 
+5. Finally hit "Continue"
 
 #### 1.3 Update the .ssh/config on the Remote VPS
 
@@ -119,19 +119,20 @@ You should be able to connect to your home server, if you have configured the .s
 
 ### 2. Configure Coolify
 
-#### 2.1 Add the key to 
+#### 2.1 Create the Server Entry
 
 Now that we have port forwarding set up, we need to configure Coolify to use this new connection:
 
-1. In Coolify, go to "Add Server"
-2. For the hostname, enter `host.docker.internal`
-3. Set the port to `222`
-4. Use the appropriate username  `root` 
+1. In your Coolify instance at the Remote VPS, go to **"Add Server"**
+2. For the `IP Address/Domain Field`, use `host.docker.internal`
+3. Set the `Port` to `222`
+4. For the field `User`, use the appropriate username  `root` 
+5. Select the Private Key we created and added to Coolify before
+	-  More info here: [[#1.3 Add the Private Key to Coolify]]
 
->Note: It's possible to use alternate usernames but that didn't work for me personally
+>Note: It's possible to use alternate usernames besides root but that didn't work for me personally and created issues with the `sudoers` file
 
-
-> [!Warning] You may the issue "Hostname / Domain already in use"
+> [!Warning] You may get the issue "Hostname / Domain already in use"
 > I went ahead and ignored it, everything worked fine. If anyone has a better solution, please let me know in the comment section. 
 
 
