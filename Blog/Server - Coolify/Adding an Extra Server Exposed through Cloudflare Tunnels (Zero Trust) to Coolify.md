@@ -57,17 +57,13 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 3. Ensure SSH keys are properly set up on both ends.
 
 
-### SSH Setup & Port Forwarding
+### 1. SSH Setup
 
-We will use SSH port forwarding to create a bridge between your VPS and home server.
- 
-#### 1. Disable password authentication for better security.
+> The goal is to be able to connect to your Home Server from the Remote VPS
 
+#### Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
-#### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
-
-Firstly you have to generate an SSH key pair for authentication. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. In this case, we'll use an `ed25519` key.
-
+You have to generate an SSH key pair for authentication. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. In this case, we'll use an `ed25519` key.
 
 ```bash
 ssh-keygen -t ed25519
@@ -93,7 +89,11 @@ Host ssh.[YOUR DOMAIN].com
 
 You should now be able to connect to your home server from your Remo
 
-### 1. Set Up SSH Port Forwarding
+### 2. Set Up SSH Port Forwarding
+
+> Goal: Create a SSH proxy for the connection of VPS -> Home Server- We want to be able to use port 222 on localhost as a proxy for the main connection
+
+We will use SSH port forwarding to create a bridge between your VPS and home server.
 
 First, we need to set up SSH port forwarding on your VPS (where Coolify is running). This will create a bridge between your VPS and your home server.
 
