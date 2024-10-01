@@ -194,10 +194,10 @@ We have to insert this line in our Remote VPS's startup script.
 ssh -L 222:localhost:22 ssh.enesbala.com
 ```
 
-I am using Debian on my system, so I initially ran:
+I am using Ubuntu 24.04 on my system, so I initially ran:
 
 ```bash
-sudo nano /etc/rc.local
+sudo nano /etc/startup_script.sh
 ```
 
 And updated the file to look like this - remember to place the startup script before `exit 0`.
@@ -216,15 +216,18 @@ exit 0
 Then you have to run to grant it execution permissions.
 
 ```bash
-chmod +x /etc/rc.local
+chmod +x /etc/startup_script.sh
 ```
 
-Start `rc.local` service:
+Then I created a `@reboot cron task` by doing the following:
 
-```bash
-systemctl enable rc-local  
-systemctl start rc-local.service
-```
+- Running `crontab -e` will allow you to edit your cron.
+- Adding a line like this to it:
+    ```
+    @reboot /etc/startup_script
+    ```
+
+By doing this, the script will be executed once your computer boots up.
 
 Finally, you can reboot the system to test whether it is working.
 
