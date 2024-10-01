@@ -69,9 +69,11 @@ You have to generate an SSH key pair for authentication. To create it on your lo
 ssh-keygen -t ed25519
 ```
 
-#### 1.2 Setup `.ssh/config` on your Remote VPS (Coolify Host) 
+Specify the key location and passphrase - you will need to access these files in the following steps.
 
-Specify the key location and passphrase (recommended). Then, you should connect to your home server, and update `/root/.ssh/authorized_keys` to include your new key - make sure to use the Public Key (.pub) key.
+#### 1.2 Ensure the SSH key Coolify is using is added to your home server's `root` user's `.ssh/authorized_keys` file.
+
+We have to append the contents of the Public Key (.pub) you generated, to `/root/.ssh/authorized_keys`  - make sure to use the Public not Private Key - you can tell by the .pub extension.
 
 You can copy the contents of `[SSH_KEY].pub` and append them to the `authorized_keys` file. The file should then look something like this:
 
@@ -86,9 +88,26 @@ You can do this by following these steps,
 2. Click the "Add" Button
 3. Copy the contents of the Private Key you generated to the `Private Key` Input Field / Text Area
 4. In the `Name` field, I  recommend you use the same name that you gave to your key (Optional) 
-5. Finally hit "Continue"
+5. Finally hit "Continue"\
 
-#### 1.3 Update the .ssh/config on the Remote VPS
+
+#### 1.4. 
+
+Make sure that the public SSH Key you generated is also in the `/root/.ssh/authorized_keys` file.
+
+You can do this by following these steps:
+1. Copy the contents of the Public Key from the  
+
+Consider disabling password authentication on your home server for better security and to avoid some issues you might face otherwise on Coolify. You can usually do this by setting the following:
+
+```bash
+PermitRootLogin yes
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+```
+
+
+#### 1.5 Update the .ssh/config on the Remote VPS
 
 Finally, you should update the .ssh/config on your Remote VPS to include an entry like the one pictured below. Make sure to use your own information for the domain and SSH Key.
 
@@ -135,18 +154,6 @@ Now that we have port forwarding set up, we need to configure Coolify to use thi
 > [!Warning] You may get the issue "Hostname / Domain already in use"
 > I went ahead and ignored it, everything worked fine. If anyone has a better solution, please let me know in the comment section. 
 
-
-### 3. Ensure the SSH key Coolify is using is added to your home server's `authorized_keys` file.
-
-Make sure that the public key of the key you are using in your Coolify Server Connection is also in the `/root/.ssh/authorized_keys` file.
-
-Consider disabling password authentication on your home server for better security and to avoid some issues you might face otherwise on Coolify. You can usually do this by setting the following:
-
-```bash
-PermitRootLogin yes
-PasswordAuthentication no
-ChallengeResponseAuthentication no
-```
 
 ### 4. Verify the Connection
 
