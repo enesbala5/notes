@@ -171,7 +171,7 @@ You should now be able to connect to your home server, if you have configured th
 
 ## 3. Configure Coolify
 
-### 3.1 Create the Server Entry
+### Create the Server Entry
 
 Now that we have port forwarding set up, we need to configure Coolify to use this new connection:
 
