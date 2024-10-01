@@ -140,20 +140,24 @@ ssh
 ```
 
 
-## 2. Set Up SSH Port Forwarding
+## 2. Set Up SSH Tunnel
 
 > Goal: Create a SSH proxy for the connection of VPS -> Home Server
 > *-> We want to be able to use port 222 on localhost as a proxy for the main connection*
 
 We need to set up SSH port forwarding on your VPS (where Coolify is running). The first step is to connect to your home server from the VPS like this:
 
+Replace `ssh.[YOUR DOMAIN].com` with the hostname you use to connect to your home server through `Cloudflare Tunnels` / `Zero Trust`.
+
 ```bash
-ssh -L 0.0.0.0:222:localhost:22 ssh.yourdomain.com
+ssh -L 0.0.0.0:222:localhost:22 ssh.[YOUR DOMAIN].com
 ```
 
-Replace `ssh.yourdomain.com` with the hostname you use to connect to your home server through Cloudflare Tunnels.
+> [!warning] Warning!
+> Make sure to keep this connection active while proceeding with the next steps.
+> We will add a `Startup Script` later, which will replace the `SSH Tunnel` provided here
 
-You should be able to connect to your home server, if you have configured the .ssh/config correctly. If you home server is requiring a password to login, then I make sure that you have completed every step listed in [[#Setup `.ssh/config` on your Remote VPS (Coolify Host)]] - notably the `IdentityFile` should be set correctly at .ssh/config in your Remote VPS.
+You should now be able to connect to your home server, if you have configured the .ssh/config correctly. If you home server is requiring a password to login, then I make sure that you have completed every step listed in [[#Setup `.ssh/config` on your Remote VPS (Coolify Host)]] - notably the `IdentityFile` should be set correctly at .ssh/config in your Remote VPS.
 
 ## 3. Configure Coolify
 
@@ -170,9 +174,8 @@ Now that we have port forwarding set up, we need to configure Coolify to use thi
 
 >Note: It's possible to use alternate usernames besides root but that didn't work for me personally and created issues with the `sudoers` file
 
-> [!Warning] You may get the issue "Hostname / Domain already in use"
+> [!info] You may get the issue "Hostname / Domain already in use"
 > I went ahead and ignored it, everything worked fine. If anyone has a better solution, please let me know in the comment section. 
-
 
 ## 4. Verify the Connection
 
@@ -188,6 +191,7 @@ ssh host.docker.internal -p 222
 If this works, Coolify should be able to connect to your home server as well.
 
 ## 5. Startup Script
+
 We have to insert this line in our Remote VPS's startup script.
 
 ```bash
@@ -218,7 +222,7 @@ ExecStart=ssh -NTC -o ServerAliveInterval=60 -o ExitOnForwardFailure=yes -L 0.0.
 WantedBy=multi-user.target
 ```
 
-Enable and start the service:
+Close the initial connection you created earlier Enable and start the service:
 
 ```bash
 sudo systemctl daemon-reload
@@ -227,6 +231,8 @@ sudo systemctl start ssh-tunnel-persistent.service
 ```
 
 After this setup, the script should be executed once your computer boots up. Reboot the system to test whether it is working correctly. If things went well now your Coolify should be able to connect to the server and validate it.
+
+
 
 # Conclusion
 
