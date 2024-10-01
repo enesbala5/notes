@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d0a169327723e237",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Message Engjell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Message Engjell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Message Engjell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
+                "file": "Message Engjell.md"
               }
             }
           },
@@ -169,10 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "28cd0538a744ffd8",
+  "active": "d0a169327723e237",
   "lastOpenFiles": [
-    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+    "Message Engjell.md",
+    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "NixOS/TODO.md",
     "Kontakt.md",
     "Rosi.md",
@@ -180,7 +193,6 @@
     "Blog/Server - Coolify/Blog.md",
     "Self Hosting/Hetzner Setup/Authentication.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
     "Reflections/Ideas.md",
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
