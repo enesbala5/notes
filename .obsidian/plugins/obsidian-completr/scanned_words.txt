@@ -255,6 +255,8 @@ familiar
 field
 fine
 frostfelll
+formatit
+fokusuar
 update
 uploadedImages
 user
@@ -1014,6 +1016,7 @@ LOWER
 Linux
 Length
 LiberationSans
+Linkedin
 ID
 Images
 Image
@@ -1420,6 +1423,7 @@ info
 ignored
 introduced
 initial
+iniciativat
 To
 Then
 Tags
@@ -1884,6 +1888,9 @@ these
 tell
 tools
 their
+tejkaloje
+treg
+takim
 Update
 Use
 UI
@@ -2428,6 +2435,7 @@ our
 one
 offers
 official
+once
 EditPost
 Everytime
 Endpoint
@@ -2623,6 +2631,7 @@ Encoding
 EOF
 Ensure
 Entry
+Engjell
 when
 which
 with
@@ -3070,6 +3079,9 @@ community
 cases
 comment
 complete
+cdokend
+cron
+computer
 at
 add
 an
@@ -3298,6 +3310,8 @@ allows
 ahead
 anyone
 assistance
+aktuale
+allow
 ManageImages
 Messages
 Message
@@ -3703,6 +3717,9 @@ know
 keys
 known
 keep
+ketu
+kurdo
+kesh
 block
 before
 bug
@@ -3921,6 +3938,8 @@ below
 benefits
 besides
 build
+blej
+boots
 preview
 programmatically
 past
@@ -4188,6 +4207,13 @@ permissions
 point
 please
 prepared
+projektet
+persiper
+pakten
+produkte
+perdorimit
+produkti
+provuar
 you
 yt
 yNVragxUCZGcijQfe
@@ -4643,6 +4669,10 @@ situation
 serve
 systemd
 speeds
+shkruaj
+shese
+shpjetesia
+shkurter
 message
 moment
 messages
@@ -4870,6 +4900,12 @@ manual
 mind
 mostly
 mitigated
+merrni
+mendoja
+merrte
+marketplace
+mjaft
+merrja
 run
 remove
 ranges
@@ -5109,6 +5145,8 @@ requests
 recommend
 requiring
 restarting
+rrugen
+respekt
 Alternative
 Area
 Add
@@ -5728,6 +5766,8 @@ device
 definitely
 detailed
 distro
+dale
+doing
 have
 has
 handle
@@ -5945,6 +5985,8 @@ hRN
 helps
 hit
 helpful
+hapsire
+hapat
 no
 not
 nmhbvbnmhjkmbnjkhvbcl
@@ -6153,6 +6195,8 @@ noticed
 needed
 name
 notably
+njeri
+nder
 Fix
 Filters
 Finish
@@ -6611,6 +6655,8 @@ line
 leverage
 latency
 listed
+lejon
+lehtshmeria
 Display
 Degjova
 Doja
@@ -6853,6 +6899,7 @@ Disable
 Debian
 Discord
 Domain
+Division
 PriceFilter
 Prepare
 Parse
@@ -7279,6 +7326,8 @@ execution
 established
 explain
 extension
+edit
+executed
 query
 qe
 qofte
@@ -7474,6 +7523,7 @@ quickly
 qdisc
 qlen
 questions
+qene
 get
 generate
 generated
@@ -7916,6 +7966,7 @@ Remo
 Remember
 Requirement
 Restart
+Running
 Server
 Signature
 Setup
@@ -8103,6 +8154,7 @@ Start
 Sidebar
 Select
 Servers
+Shqiperi
 version
 vrl
 vlla
@@ -8299,6 +8351,8 @@ visit
 verify
 values
 very
+vete
+vite
 Work
 Wallpaper
 Waybar
@@ -9194,6 +9248,8 @@ zNR
 zfb
 zno
 zene
+zhvilluar
+zgjidhje
 Better
 Blue
 Backend
@@ -10142,6 +10198,7 @@ Kids
 KToT
 Key
 Keys
+Kam
 Jobs
 JJJ
 JS

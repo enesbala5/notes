@@ -206,8 +206,8 @@ And updated the file to look like this - remember to place the startup script be
 !/bin/sh -e
 
 # Start Script
-echo date -R >> /var/log/sys-start.log
-ssh -L 222:localhost:22 ssh.enesbala.com
+echo ${date -R} >> /var/log/sys-start.log
+ssh -L 222:localhost:22 ssh.enesbala.com &
 
 exit 0
 
