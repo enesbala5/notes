@@ -219,7 +219,7 @@ Then you have to run to grant it execution permissions.
 chmod +x /etc/rc.local
 ```
 
-Start rc.local service
+Start `rc.local` service:
 
 ```bash
 systemctl enable rc-local  
@@ -236,11 +236,11 @@ Remember that this setup will need to be re-established every time your VPS rebo
 
 # Conclusion
 
-Adding a home server exposed through Cloudflare Tunnels to your Coolify setup can be a bit challenging, but it's definitely achievable. This setup allows you to leverage the security benefits of Cloudflare Tunnels while still being able to connect your home server with a remote Coolify instance.
+Adding a home server exposed through `Cloudflare Tunnels` to your Coolify instance can be a bit challenging, but it's definitely achievable. This setup allows you to leverage the security benefits of Cloudflare Tunnels while still being able to connect your home server with a remote Coolify instance.
 
 > [!info] Credits
 > I want to thank **Darren** (@frostfelll on Coolify's Discord)
 > 
 > He was very helpful and introduced me to the proxy solution with -L 222. Couldn't have prepared this article without his initial assistance.
 
-If you're having trouble, check the [Coolify's Docs](https://coolify.io/docs), or reach out to the Coolify community on their Discord server, they are very helpful.
+If you face any issues, check the [Coolify's Docs](https://coolify.io/docs), or reach out to the Coolify community on their Discord server, they are very helpful.
