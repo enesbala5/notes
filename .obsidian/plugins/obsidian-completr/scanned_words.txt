@@ -1878,6 +1878,7 @@ trouble
 these
 tell
 tools
+their
 Update
 Use
 UI
@@ -2049,6 +2050,7 @@ User
 Upcoming
 UNKNOWN
 UmW
+Ubuntu
 Order
 Only
 Options
@@ -3061,6 +3063,7 @@ challenging
 community
 cases
 comment
+complete
 at
 add
 an
@@ -4629,6 +4632,7 @@ support
 similar
 situation
 serve
+systemd
 message
 moment
 messages
@@ -5094,6 +5098,7 @@ rent
 requests
 recommend
 requiring
+restarting
 Alternative
 Area
 Add
@@ -5712,6 +5717,7 @@ disabling
 device
 definitely
 detailed
+distro
 have
 has
 handle
@@ -5928,6 +5934,7 @@ highlighting
 hRN
 helps
 hit
+helpful
 no
 not
 nmhbvbnmhjkmbnjkhvbcl
@@ -7897,6 +7904,8 @@ Requirements
 Replace
 Remo
 Remember
+Requirement
+Restart
 Server
 Signature
 Setup
@@ -8083,6 +8092,7 @@ Script
 Start
 Sidebar
 Select
+Servers
 version
 vrl
 vlla
@@ -8278,6 +8288,7 @@ vOw
 visit
 verify
 values
+very
 Work
 Wallpaper
 Waybar

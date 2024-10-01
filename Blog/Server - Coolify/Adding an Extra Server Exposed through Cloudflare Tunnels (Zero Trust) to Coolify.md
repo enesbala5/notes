@@ -9,7 +9,7 @@ However, as is the case for many, your home server may not have a public IP - in
 
 There are many guides online for setting up `Cloudflare Tunnels` and creating a `Zero Trust Access Application` to expose SSH to a subdomain of your choosing - so I will not explain the steps in this article.
 
-This setup works great in most cases, and latency should not be an issue either, with Cloudflare's Technology it's mostly mitigated. In our usecase, some workarounds will be needed to make everything work, but they will all be detailed in the [[#Process Walkthrough]].
+This setup works great in most cases, and latency should not be an issue either, with Cloudflare's Technology it's mostly mitigated. In our usecase, some workarounds will be needed to make everything work (specifically Coolify), but they will all be detailed in the [[#Process Walkthrough]].
 
 Given that SSH can't be exposed like other normal HTTP services in a `Cloudflare Tunnel`, the `Zero Trust Access Application` is necessary to setup also.
 
@@ -20,7 +20,7 @@ Given that SSH can't be exposed like other normal HTTP services in a `Cloudflare
 
 This guide assumes that you have already created a `Cloudflare Tunnel` on your home server and the `Zero Trust Access Application` which are necessary to remotely access your home server.
 
-While there are [many methods](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/) to then SSH into your home server, after setting up `Zero Trust`- we will be using [client-side cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-cloudflared-authentication/) in this case. 
+While there are [many methods](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/) to then SSH into your home server, after setting up `Zero Trust`- we will be using [client-side cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-cloudflared-authentication/). 
 
 This method requires the usage of a `ProxyCommand` in your `.ssh/config` file. You can find the exact configuration I use at the section [[#SSH Configuration]]. 
 
@@ -36,7 +36,6 @@ Given that Coolify runs inside a Docker container, it doesn't have access to you
 ## The Solution
 
 We'll use a combination of SSH port forwarding and Docker networking to overcome this challenge. In this guide, I'll walk you through all the steps required to setup the connection between Coolify and your home server exposed through Cloudflare.
-
 
 # Process Walkthrough
 
