@@ -93,13 +93,29 @@ nano /etc/ssh/sshd_config
 
 And set the following settings to these values:
 
-```bash
+```
 PermitRootLogin yes
 PasswordAuthentication no
 ChallengeResponseAuthentication no
 ```
 
+Finally, restart the `SSH Service` - for Debian / Ubuntu Servers:
 
+``` bash
+/etc/init.d/ssh restart
+```
+
+OR
+
+```bash
+sudo service ssh restart  
+```
+
+If you are using **Debian/Ubuntu with systemd**, use the systemctl command:  
+
+```bash
+sudo systemctl restart ssh
+```
 
 #### 1.3 Add the Private Key to Coolify
 
