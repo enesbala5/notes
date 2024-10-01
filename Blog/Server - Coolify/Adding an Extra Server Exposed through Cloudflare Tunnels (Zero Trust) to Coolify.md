@@ -102,7 +102,7 @@ ssh -L 0.0.0.0:222:localhost:22 ssh.yourdomain.com
 
 Replace `ssh.yourdomain.com` with the hostname you use to connect to your home server through Cloudflare Tunnels.
 
-You should be able to connect to your home server, if you have configured the .ssh/config correctly. If you home server is requiring a password to login, then I [[#SSH]]
+You should be able to connect to your home server, if you have configured the .ssh/config correctly. If you home server is requiring a password to login, then I make sure that you have completed every step listed in [[#Setup `.ssh/config` on your Remote VPS (Coolify Host)]] - notably the `IdentityFile` should be set correctly at .ssh/config in your Remote VPS.
 
 ### 2. Configure Coolify
 
@@ -114,6 +114,11 @@ Now that we have port forwarding set up, we need to configure Coolify to use thi
 4. Use the appropriate username  `root` 
 	1. Note: It's possible to use alternate usernames but that didn't work for me personally
 5. Make sure you've added the correct SSH key
+
+
+> [!Warning] You may the issue "Hostname / Domain already in use"
+> I went ahead and ignored it, everything worked fine. If anyone has a better solution, please let me know in the comment section. 
+
 
 ### 3. Ensure the SSH key Coolify is using is added to your home server's `authorized_keys` file.
 
