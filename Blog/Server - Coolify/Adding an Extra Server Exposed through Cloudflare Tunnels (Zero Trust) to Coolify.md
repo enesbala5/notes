@@ -1,10 +1,10 @@
 # Introduction
 
-If you use Coolify and also own a home server, you might find yourself in a similar situation to this - you rent a Remote VPS (from Hetzner in my case), which is running a Coolify instance. You may have noticed the `Servers` feature in your Coolify instance, and thought about connecting your existing home server, so that it helps serve requests to your user. After all, what's the point of having a home server if you're not going to use it for such cases.
+If you use Coolify and also own a home server, you might find yourself in a similar situation to me - you rent a Remote VPS (eg. Hetzner), which is running a Coolify instance. You may have noticed the `Servers` feature in your Coolify instance, and thought about connecting your existing home server, so that it helps serve requests to your user. After all, what's the point of having a home server if you're not going to use it for such cases.
 
 However, as is the case for many, your home server may not have a public IP - in this case you can use services like `Cloudflare Tunnels` and `Access Applications`, part of `Cloudflare Zero Trust`, to expose services to the web and be able to access your server remotely through SSH.
 
-> [!NOTE] Note
+> [!caution] Cloudflare Tunnel Requirement
 > In order to use Cloudflare Tunnels you need to own a domain, which you then manage on Cloudflare.
 
 There are many guides online for setting up `Cloudflare Tunnels` and creating a `Zero Trust Access Application` to expose SSH to a subdomain of your choosing - so I will not explain the steps in this article.
@@ -240,10 +240,10 @@ Finally, you can reboot the system to test whether it is working.
 
 ## Maintaining the Connection
 
-Remember that this setup will need to be re-established every time your VPS reboots. To make this process automatic, consider creating a startup script that runs the SSH port forwarding command.
+Remember that this setup will need to be re-established every time your VPS reboots. Make sure that the startup script runs, by restarting your VPS.
 
 ## Conclusion
 
-Adding a home server exposed through Cloudflare Tunnels to your Coolify setup can be a bit challenging, but it's definitely achievable. This setup allows you to leverage the security benefits of Cloudflare Tunnels while still being able to manage your home server through Coolify.
+Adding a home server exposed through Cloudflare Tunnels to your Coolify setup can be a bit challenging, but it's definitely achievable. This setup allows you to leverage the security benefits of Cloudflare Tunnels while still being able to connect your home server with a remote Coolify instance.
 
-If you're having trouble, check the official documentation, or reach out to the Coolify community on Discord, they have great support.
+If you're having trouble, check the [Coolify's Docs](https://coolify.io/docs), or reach out to the Coolify community on their Discord server, they are very helpful.
