@@ -59,7 +59,7 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 
 ### 1. SSH Setup
 
-> The goal is to be able to connect to your Home Server from the Remote VPS
+The goal is to be able to connect to your Home Server from the Remote VPS, and complete all the setup necessary to have Coolify connect successfully as well.
 
 #### 1.1 Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
@@ -99,7 +99,9 @@ PasswordAuthentication no
 ChallengeResponseAuthentication no
 ```
 
-Finally, restart the `SSH Service` - for Debian / Ubuntu Servers:
+#### 1.3 Restart the `SSH Service` on your Home Server:
+
+> This is for for **Debian / Ubuntu Servers** - if you are using another Linux distro, these instructions will not work for you.
 
 ``` bash
 /etc/init.d/ssh restart
@@ -111,13 +113,14 @@ OR
 sudo service ssh restart  
 ```
 
-If you are using **Debian/Ubuntu with systemd**, use the systemctl command:  
+If you are using **systemd**, use the `systemctl` command:  
 
 ```bash
 sudo systemctl restart ssh
 ```
 
-#### 1.3 Add the Private Key to Coolify
+
+#### 1.4 Add the Private Key to Coolify
 
 You can do this by following these steps,
 1. Go to Coolify Sidebar > Keys & Tokens
@@ -139,7 +142,12 @@ Host ssh.[YOUR DOMAIN].com
 	IdentitiesOnly yes
 ```
 
-You should now be able to connect to your home server from your Remo
+You should now be able to connect to your home server from your Remote VPS. Try to do it like this:
+
+```bash
+ssh 
+```
+
 
 ### 2. Set Up SSH Port Forwarding
 
