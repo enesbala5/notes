@@ -4,28 +4,28 @@ If you use Coolify and also own a home server, you might find yourself in a simi
 
 However, as is the case for many, your home server may not have a public IP - in this case you can use services like `Cloudflare Tunnels` and `Access Applications`, part of `Cloudflare Zero Trust`, to expose services to the web and be able to access your server remotely through SSH.
 
-That setup is works great in most cases. In our case, some workarounds will be needed to make everything work, but they will all be detailed in the [[#Process Walkthrough]].
-
-There are many guides online for setting up `Cloudflare Tunnels` and creating a `Zero Trust Access Application` to expose SSH to a subdomain of your choosing.
-
 > [!NOTE] Note
 > In order to use Cloudflare Tunnels you need to own a domain, which you then manage on Cloudflare.
 
- Given that SSH can't be exposed like other normal HTTP services in a `Cloudflare Tunnel`, the `Zero Trust Access Application` is necessary to our setup.
+There are many guides online for setting up `Cloudflare Tunnels` and creating a `Zero Trust Access Application` to expose SSH to a subdomain of your choosing - so I will not explain the steps in this article.
 
-This guide assumes that you have already created a `Cloudflare Tunnel` on your home server and the `Zero Trust Access Application` which are necessary to remotely access your home server.
+This setup works great in most cases, and latency should not be an issue either, with Cloudflare's Technology it's mostly mitigated. In our usecase, some workarounds will be needed to make everything work, but they will all be detailed in the [[#Process Walkthrough]].
 
-While there are [many methods](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/) to then SSH into that server, we will be using [client-side cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-cloudflared-authentication/) in this case. 
-
-This method requires the usage of a `ProxyCommand` in your `.ssh/config` file. You can find the exact configuration I use at the section [[#SSH Configuration]]
+Given that SSH can't be exposed like other normal HTTP services in a `Cloudflare Tunnel`, the `Zero Trust Access Application` is necessary to setup also.
 
 > [!NOTE] SSH Zero Trust
 > Please note that your `Zero Trust Access Application` must have the policy `Bypass Everyone`. 
 > 
 > Otherwise it will require you to login when you start a session, which will turn the automated process into a manual one. This change will make it impossible to visit it on the web however, which is a nice feature that the `Access Application` offers - so keep that in mind.
 
+This guide assumes that you have already created a `Cloudflare Tunnel` on your home server and the `Zero Trust Access Application` which are necessary to remotely access your home server.
 
-## The Main Challenge
+While there are [many methods](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/) to then SSH into your home server, after setting up `Zero Trust`- we will be using [client-side cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-cloudflared-authentication/) in this case. 
+
+This method requires the usage of a `ProxyCommand` in your `.ssh/config` file. You can find the exact configuration I use at the section [[#SSH Configuration]]. 
+
+
+# The Main Challenge
 
 It's easy to connect to your home server, behind the `Cloudflare Zero Trust` network, when you have full access to the `.ssh/config` - however that is not always the case. 
 
@@ -46,16 +46,8 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 2. A home server you want to add to Coolify
 3. Working Cloudflare Zero Trust Setup on Home Server - with  `Bypass Everyone` policy 
 	- You should be able to access your Home Server through SSH after having configured it with `Zero Trust Access Application` and having added SSH server running on your home server
-
-### Network Configuration
-
-1. Port 22 (SSH) exposed through Cloudflare Tunnel on your home/remote server
-2. Firewall rules allowing SSH connections on both servers
-
-### SSH Configuration
-
-1. SSH key pair for authentication
-2. `.ssh/config` file on your VPS configured for Cloudflare access:
+	- Port 22 (SSH) exposed through Cloudflare Tunnel on your home/remote server
+	- Firewall rules allowing SSH connections on both servers
 
 ## Steps:
 
@@ -68,7 +60,8 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 We will use SSH port forwarding to create a bridge between your VPS and home server.
 #### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
-Firstly you have to generate an SSH key. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. In this case, we'll use an `ed25519` key.
+Firstly you have to generate an SSH key pair for authentication. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. In this case, we'll use an `ed25519` key.
+
 
 ```bash
 ssh-keygen -t ed25519
