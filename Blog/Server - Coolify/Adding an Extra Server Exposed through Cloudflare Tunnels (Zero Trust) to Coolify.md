@@ -91,17 +91,18 @@ You should now be able to connect to your home server from your Remo
 
 ### 2. Set Up SSH Port Forwarding
 
-> Goal: Create a SSH proxy for the connection of VPS -> Home Server- We want to be able to use port 222 on localhost as a proxy for the main connection
+> Goal: Create a SSH proxy for the connection of VPS -> Home Server
+> *-> We want to be able to use port 222 on localhost as a proxy for the main connection*
 
-We will use SSH port forwarding to create a bridge between your VPS and home server.
-
-First, we need to set up SSH port forwarding on your VPS (where Coolify is running). This will create a bridge between your VPS and your home server.
+We need to set up SSH port forwarding on your VPS (where Coolify is running). The first step is to connect to your home server from the VPS like this:
 
 ```bash
 ssh -L 0.0.0.0:222:localhost:22 ssh.yourdomain.com
 ```
 
 Replace `ssh.yourdomain.com` with the hostname you use to connect to your home server through Cloudflare Tunnels.
+
+You should be able to connect to your home server, if you have configured the .ssh/config correctly. If you home server is requiring a password to login, then I [[#SSH]]
 
 ### 2. Configure Coolify
 
@@ -117,8 +118,6 @@ Now that we have port forwarding set up, we need to configure Coolify to use thi
 ### 3. Ensure the SSH key Coolify is using is added to your home server's `authorized_keys` file.
 
 Make sure that the public key of the key you are using in your Coolify Server Connection is also in the `/root/.ssh/authorized_keys` file.
-
-You can do this by going to 
 
 Consider disabling password authentication on your home server for better security and to avoid some issues you might face otherwise on Coolify. You can usually do this by setting the following:
 
@@ -140,7 +139,6 @@ ssh host.docker.internal -p 222
 ```
 
 If this works, Coolify should be able to connect to your home server as well.
-
 
 ### 5. Startup Script
 We have to insert this line in our Remote VPS's startup script.
