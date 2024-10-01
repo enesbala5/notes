@@ -55,11 +55,15 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 
 2. Configure Coolify to use `host.docker.internal` as the hostname and `222` as the port.
 3. Ensure SSH keys are properly set up on both ends.
-4. Disable password authentication for better security.
 
 
-### SSH Port Forwarding Setup
+### SSH Setup & Port Forwarding
+
 We will use SSH port forwarding to create a bridge between your VPS and home server.
+ 
+#### 1. Disable password authentication for better security.
+
+
 #### 1. Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
 Firstly you have to generate an SSH key pair for authentication. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. In this case, we'll use an `ed25519` key.
