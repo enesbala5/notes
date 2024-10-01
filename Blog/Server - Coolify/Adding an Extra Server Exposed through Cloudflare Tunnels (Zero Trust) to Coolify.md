@@ -70,11 +70,15 @@ Firstly you have to generate an SSH key. To create it on your local device, it's
 ssh-keygen -t ed25519
 ```
 
-Specify the key location and passphrase (recommended). Then, you should connect to your home server, and update `/root/.ssh/authorized_keys` to include your new key - make sure to use the Public Key (.pub) key. You can copy the contents of `[SSH_KEY].pub` and append them to the  
+Specify the key location and passphrase (recommended). Then, you should connect to your home server, and update `/root/.ssh/authorized_keys` to include your new key - make sure to use the Public Key (.pub) key.
 
+You can copy the contents of `[SSH_KEY].pub` and append them to the `authorized_keys` file. The file should then look something like this:
 
+```
+sh-ed25519 AAAAC6NfaC2lFIH1NTE5AAAAIOy4xaLXOuGa4bAn/8rRF+Use/GvHWHX4pC8HPD4rkGf root@coolify
+```
 
-Update the .ssh/config on your Remote VPS to include an entry like the one pictured below. Make sure to use your own information for the domain and SSH Key.
+Finally, update the .ssh/config on your Remote VPS to include an entry like the one pictured below. Make sure to use your own information for the domain and SSH Key.
 
 ```
 Host ssh.[YOUR DOMAIN].com
@@ -84,6 +88,7 @@ Host ssh.[YOUR DOMAIN].com
 	IdentitiesOnly yes
 ```
 
+You should now be able to connect to your home server from your Remo
 
 ### 1. Set Up SSH Port Forwarding
 
