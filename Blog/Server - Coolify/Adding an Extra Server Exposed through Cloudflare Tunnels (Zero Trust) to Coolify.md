@@ -91,13 +91,13 @@ Also, you should consider disabling password authentication on your home server 
 nano /etc/ssh/sshd_config
 ```
 
-And set the folloiwing:
+And set the following settings to these values:
+
 ```bash
 PermitRootLogin yes
 PasswordAuthentication no
 ChallengeResponseAuthentication no
 ```
-
 
 
 
