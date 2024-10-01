@@ -48,7 +48,7 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 	- Firewall rules allowing SSH connections on both servers
 :
 
-## 1. SSH Setup
+## 1. Initial SSH Setup / Connection - Remote VPS -> Home Server
 
 The goal is to be able to connect to your Home Server from the Remote VPS, and complete all the setup necessary to have Coolify connect successfully as well.
 
@@ -62,7 +62,9 @@ ssh-keygen -t ed25519
 
 Specify the key location and passphrase - you will need to access these files in the following steps.
 
-### 1.2 Ensure the SSH key Coolify is using is added to your home server's `root` user's `.ssh/authorized_keys` file.
+### 1.2 Authorize Access to the Home Server
+
+> Ensure that the SSH key Coolify is using is added to your home server's **root user**'s `.ssh/authorized_keys` file.
 
 We have to append the contents of the Public Key (.pub) you generated, to `/root/.ssh/authorized_keys`  - make sure to use the Public not Private Key - you can tell by the .pub extension. The file should then look something like this:
 
@@ -81,6 +83,8 @@ Also, you should consider disabling password authentication on your home server 
 ```bash
 vim /etc/ssh/sshd_config
 ```
+
+> You can use any editor you want here, not necessarily `vim`
 
 And set the following settings to these values:
 
@@ -114,8 +118,8 @@ sudo systemctl restart ssh
 ### 1.4 Add the Private Key to Coolify
 
 You can do this by following these steps,
-1. Go to Coolify Sidebar > Keys & Tokens
-2. Click the "Add" Button
+1. Go to `Coolify Sidebar` > `Keys & Tokens`
+2. Click the **"Add"** Button
 3. Copy the contents of the Private Key you generated to the `Private Key` Input Field / Text Area
 4. In the `Name` field, I  recommend you use the same name that you gave to your key (Optional) 
 5. Finally hit "Continue"\
@@ -204,8 +208,6 @@ I am using Ubuntu 24.04 on my Remote VPS, so I will create a `systemd service` t
 sudo vim /etc/systemd/system/ssh-tunnel-persistent.service
 ```
 
-> You can use any editor you want here, not necessarily `vim`
-
 Update the file to look like this - remember to update the `[YOUR DOMAIN]` placeholder
 
 ```bash
@@ -222,7 +224,7 @@ ExecStart=ssh -NTC -o ServerAliveInterval=60 -o ExitOnForwardFailure=yes -L 0.0.
 WantedBy=multi-user.target
 ```
 
-Close the initial connection you created earlier Enable and start the service:
+Close the initial connection you created earlier at [[#2. Set Up SSH Tunnel]] - then enable and start the service by running these commands.
 
 ```bash
 sudo systemctl daemon-reload
@@ -231,7 +233,6 @@ sudo systemctl start ssh-tunnel-persistent.service
 ```
 
 After this setup, the script should be executed once your computer boots up. Reboot the system to test whether it is working correctly. If things went well now your Coolify should be able to connect to the server and validate it.
-
 
 
 # Conclusion
