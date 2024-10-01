@@ -1,8 +1,10 @@
 # Introduction
 
-If you use Coolify and also own a home server, you might find yourself in a similar situation to this - you rent a Remote VPS (from Hetzner in my case), which is running a Coolify instance. You may have noticed
+If you use Coolify and also own a home server, you might find yourself in a similar situation to this - you rent a Remote VPS (from Hetzner in my case), which is running a Coolify instance. You may have noticed the `Servers` feature in your Coolify instance, and thought about connecting your existing home server, so that it helps serve requests to your user. After all, what's the point of having a home server if you're not going to use it for such cases.
 
-If you have a home server, which doesn't have a public IP, you can use services like `Cloudflare Tunnels` and `Access Applications`, part of `Cloudflare Zero Trust`, to expose services to the web and access your server remotely through SSH.
+However, as is the case for many, your home server may not have a public IP - in this case you can use services like `Cloudflare Tunnels` and `Access Applications`, part of `Cloudflare Zero Trust`, to expose services to the web and be able to access your server remotely through SSH.
+
+That setup is works great in most cases. In our case, some workarounds will be needed to make everything work, but they will all be detailed in the [[#Process Walkthrough]].
 
 There are many guides online for setting up `Cloudflare Tunnels` and creating a `Zero Trust Access Application` to expose SSH to a subdomain of your choosing.
 
