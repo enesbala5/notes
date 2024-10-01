@@ -8,78 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d363e8b716d4b2a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rosi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2efae47ffc55600e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self Hosting/Hetzner Setup/Public SSH.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1661df618ee3635f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/Server - Coolify/Blog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "003a272e6799da92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self Hosting/Hetzner Setup/Authentication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff41066fbe1f505c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kontakt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fad11c999fc3486",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NixOS/TODO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cfaf360f4b2ab989",
             "type": "leaf",
             "state": {
@@ -103,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
+                "file": "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md"
               }
             }
           },
@@ -241,17 +168,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "28cd0538a744ffd8",
+  "active": "cfaf360f4b2ab989",
   "lastOpenFiles": [
-    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "NixOS/TODO.md",
+    "Kontakt.md",
+    "Rosi.md",
+    "Self Hosting/Hetzner Setup/Public SSH.md",
+    "Blog/Server - Coolify/Blog.md",
+    "Self Hosting/Hetzner Setup/Authentication.md",
     "Untitled 1.md",
     "Untitled.md",
-    "Blog/Server - Coolify/Blog.md",
-    "Kontakt.md",
-    "Self Hosting/Hetzner Setup/Authentication.md",
-    "Self Hosting/Hetzner Setup/Public SSH.md",
     "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
     "Reflections/Ideas.md",
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
@@ -260,7 +188,6 @@
     "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
     "Blog/Server - Coolify",
     "Blog",
-    "Rosi.md",
     "Self Hosting/Hetzner Setup",
     "Mesazh Staff.al.md",
     "Projects/Pazar/Pazar Demo Video.md",

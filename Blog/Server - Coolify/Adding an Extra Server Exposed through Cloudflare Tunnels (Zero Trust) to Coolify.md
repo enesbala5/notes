@@ -73,13 +73,28 @@ Specify the key location and passphrase - you will need to access these files in
 
 #### 1.2 Ensure the SSH key Coolify is using is added to your home server's `root` user's `.ssh/authorized_keys` file.
 
-We have to append the contents of the Public Key (.pub) you generated, to `/root/.ssh/authorized_keys`  - make sure to use the Public not Private Key - you can tell by the .pub extension.
-
-You can copy the contents of `[SSH_KEY].pub` and append them to the `authorized_keys` file. The file should then look something like this:
+We have to append the contents of the Public Key (.pub) you generated, to `/root/.ssh/authorized_keys`  - make sure to use the Public not Private Key - you can tell by the .pub extension. The file should then look something like this:
 
 ```
 sh-ed25519 AAAAC6NfaC2lFIH1NTE5AAAAIOy4xaLXOuGa4bAn/8rRF+Use/GvHWHX4pC8HPD4rkGf root@coolify
 ```
+
+Copy this key and append it to the home server's `authorized_keys` file. You can also use tools like `ssh-copy-id` - if you are familiar - otherwise copy the keys manually, as this will require a password which you may unnecessarily have to generate.
+
+```
+ssh-copy-id -i ~/.ssh/mykey root@ssh.domain.com
+```
+
+Also, you should consider disabling password authentication on your home server for better security and to avoid some issues you might otherwise face on Coolify. You can usually do this by setting the following settings at :
+
+```bash
+PermitRootLogin yes
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+```
+
+
+
 
 #### 1.3 Add the Private Key to Coolify
 
@@ -89,22 +104,6 @@ You can do this by following these steps,
 3. Copy the contents of the Private Key you generated to the `Private Key` Input Field / Text Area
 4. In the `Name` field, I  recommend you use the same name that you gave to your key (Optional) 
 5. Finally hit "Continue"\
-
-
-#### 1.4. 
-
-Make sure that the public SSH Key you generated is also in the `/root/.ssh/authorized_keys` file.
-
-You can do this by following these steps:
-1. Copy the contents of the Public Key from the  
-
-Consider disabling password authentication on your home server for better security and to avoid some issues you might face otherwise on Coolify. You can usually do this by setting the following:
-
-```bash
-PermitRootLogin yes
-PasswordAuthentication no
-ChallengeResponseAuthentication no
-```
 
 
 #### 1.5 Update the .ssh/config on the Remote VPS
