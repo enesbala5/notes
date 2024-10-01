@@ -42,11 +42,12 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 ## Key Requirements
 
 1. Coolify installed and running on your Remote VPS (Virtual Private Server)
+	- `cloudflared` should also be installed
 2. A home server you want to add to Coolify
-3. Working Cloudflare Zero Trust Setup on Home Server - with  `Bypass Everyone` policy 
-	- Port 22 (SSH) exposed through Cloudflare Tunnel on your home/remote server
-	- Firewall rules allowing SSH connections on both servers
-:
+3. Working `Cloudflare Zero Trust Access Application` providing SSH Access to Home Server - 
+	- Policy has to be  `Bypass Everyone` 
+	- Firewall rules allowing SSH connections on both servers (Port 22 should not be blocked)
+
 
 ## 1. Initial SSH Setup / Connection - Remote VPS -> Home Server
 
@@ -119,15 +120,20 @@ sudo systemctl restart ssh
 
 You can do this by following these steps,
 1. Go to `Coolify Sidebar` > `Keys & Tokens`
-2. Click the **"Add"** Button
+2. Click the `Add` Button
 3. Copy the contents of the Private Key you generated to the `Private Key` Input Field / Text Area
-4. In the `Name` field, I  recommend you use the same name that you gave to your key (Optional) 
-5. Finally hit "Continue"\
+4. In the `Name` field, I  recommend you use the same name that you gave to your key *(Optional)* 
+5. Finally hit `Continue`
 
 
 ### 1.5 Update the .ssh/config on the Remote VPS
 
 Finally, you should update the .ssh/config on your Remote VPS to include an entry like the one pictured below. Make sure to use your own information for the domain and SSH Key.
+
+
+> [!info] Make sure `cloudflared` is installed
+> Please install `cloudflared` in your Remote VPS
+
 
 ```
 Host ssh.[YOUR DOMAIN].com
