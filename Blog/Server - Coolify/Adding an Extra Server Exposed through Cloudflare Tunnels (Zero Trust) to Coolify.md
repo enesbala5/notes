@@ -61,13 +61,15 @@ We'll use a combination of SSH port forwarding and Docker networking to overcome
 
 > The goal is to be able to connect to your Home Server from the Remote VPS
 
-#### Setup `.ssh/config` on your Remote VPS (Coolify Host) 
+#### 1.1 Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
 You have to generate an SSH key pair for authentication. To create it on your local device, it's enough to run  run `ssh-keygen` in your CLI. This will create an `RSA` key by default. In this case, we'll use an `ed25519` key.
 
 ```bash
 ssh-keygen -t ed25519
 ```
+
+#### 1.2 Setup `.ssh/config` on your Remote VPS (Coolify Host) 
 
 Specify the key location and passphrase (recommended). Then, you should connect to your home server, and update `/root/.ssh/authorized_keys` to include your new key - make sure to use the Public Key (.pub) key.
 
@@ -77,7 +79,18 @@ You can copy the contents of `[SSH_KEY].pub` and append them to the `authorized_
 sh-ed25519 AAAAC6NfaC2lFIH1NTE5AAAAIOy4xaLXOuGa4bAn/8rRF+Use/GvHWHX4pC8HPD4rkGf root@coolify
 ```
 
-Finally, update the .ssh/config on your Remote VPS to include an entry like the one pictured below. Make sure to use your own information for the domain and SSH Key.
+#### 1.3 Add the Private Key to Coolify
+
+You can do this by following these steps,
+1. Go to Coolify Sidebar > Keys & Tokens
+2. Click the "Add" Button
+3. Copy the contents of the Private Key you generated to the `Private Key` Input Field / Text Area
+4. In the `Name` field, I  recommend you use the same name that you gave to your key optional
+  
+
+#### 1.3 Update the .ssh/config on the Remote VPS
+
+Finally, you should update the .ssh/config on your Remote VPS to include an entry like the one pictured below. Make sure to use your own information for the domain and SSH Key.
 
 ```
 Host ssh.[YOUR DOMAIN].com
@@ -106,14 +119,16 @@ You should be able to connect to your home server, if you have configured the .s
 
 ### 2. Configure Coolify
 
+#### 2.1 Add the key to 
+
 Now that we have port forwarding set up, we need to configure Coolify to use this new connection:
 
 1. In Coolify, go to "Add Server"
 2. For the hostname, enter `host.docker.internal`
 3. Set the port to `222`
 4. Use the appropriate username  `root` 
-	1. Note: It's possible to use alternate usernames but that didn't work for me personally
-5. Make sure you've added the correct SSH key
+
+>Note: It's possible to use alternate usernames but that didn't work for me personally
 
 
 > [!Warning] You may the issue "Hostname / Domain already in use"
