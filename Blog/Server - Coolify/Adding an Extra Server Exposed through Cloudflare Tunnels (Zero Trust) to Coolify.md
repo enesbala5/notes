@@ -85,8 +85,13 @@ Copy this key and append it to the home server's `authorized_keys` file. You can
 ssh-copy-id -i ~/.ssh/mykey root@ssh.domain.com
 ```
 
-Also, you should consider disabling password authentication on your home server for better security and to avoid some issues you might otherwise face on Coolify. You can usually do this by setting the following settings at :
+Also, you should consider disabling password authentication on your home server for better security and to avoid some issues you might otherwise face on Coolify. You can usually do this by updating the following settings through:
 
+```bash
+nano /etc/ssh/sshd_config
+```
+
+And set the folloiwing:
 ```bash
 PermitRootLogin yes
 PasswordAuthentication no
