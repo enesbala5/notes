@@ -194,17 +194,19 @@ We have to insert this line in our Remote VPS's startup script.
 ssh -NTC -o ServerAliveInterval=60 -o ExitOnForwardFailure=yes -L 0.0.0.0:222:localhost:22 root@ssh.[YOUR DOMAIN].com
 ```
 
-I am using Ubuntu 24.04 on my system, so I will create a systemd service to run the startup script.:
+I am using Ubuntu 24.04 on my Remote VPS, so I will create a `systemd service` to run the startup script.
 
 ```bash
 sudo vim /etc/systemd/system/ssh-tunnel-persistent.service
 ```
 
-And updated the file to look like this - remember to place the startup script before `exit 0`.
+> You can use any editor you want here, not necessarily `vim`
+
+Update the file to look like this - remember to update the `[YOUR DOMAIN]` placeholder
 
 ```bash
 [Unit]
-Description=Persistent SSH Tunnel to from port 9092 on this server to port 9090 on external server (for encrypted traffic)
+Description=Persistent SSH Tunnel (For Coolify - cloudflared Proxy)
 After=network.target
 
 [Service]
@@ -233,6 +235,6 @@ Adding a home server exposed through `Cloudflare Tunnels` to your Coolify instan
 > [!info] Credits
 > I want to thank **Darren** (@frostfelll) - a Community Expert from Coolify's Discord
 > 
-> He was very helpful and  SSH tunnel solution. Couldn't have prepared this article without his initial assistance.
+> He was very helpful and proposed the SSH tunnel solution to me. Couldn't have prepared this article without some of his tips.
 
 If you face any issues, check the [Coolify's Docs](https://coolify.io/docs), or reach out to the Coolify community on their Discord server, they are very helpful.

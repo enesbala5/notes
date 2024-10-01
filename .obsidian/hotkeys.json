@@ -178,5 +178,13 @@
       ],
       "key": "Enter"
     }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
   ]
 }
