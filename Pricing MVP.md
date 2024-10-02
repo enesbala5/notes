@@ -1,9 +1,18 @@
-- Note taking
-	- 
-	- Tiptap Integration
+- Notes
+	- With Tiptap Integration for handling real-time editing and collaboration
+	- Endpoints:
+		- CRUD - All Notes (Search & Filtering)
+		- CRUD - [id]
+- Collections
+	- Enable user to create and edit collections
+	- Future (NON MVP): Option to search and select notes to add them to the opened collection
+	- Endpoints:
+		- CRUD - All Collections
+		- CRUD - [id]
 - Tag and Params
 - Search and Filters
 - Zotero API Integration
+	- Time Estimate: 
 	- Parsing data to insert into TipTap
 - Landing Page interface
 - Sign In
