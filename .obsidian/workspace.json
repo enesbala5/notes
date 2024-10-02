@@ -156,9 +156,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "28cd0538a744ffd8",
+  "active": "c8156697e97e26f6",
   "lastOpenFiles": [
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
+    "Blog/Server - Coolify/Blog.md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Message Engjell.md",
     "Untitled 1.md",
@@ -167,7 +168,6 @@
     "Kontakt.md",
     "Rosi.md",
     "Self Hosting/Hetzner Setup/Public SSH.md",
-    "Blog/Server - Coolify/Blog.md",
     "Self Hosting/Hetzner Setup/Authentication.md",
     "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
     "Reflections/Ideas.md",
