@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cfaf360f4b2ab989",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "28cd0538a744ffd8",
             "type": "leaf",
             "state": {
@@ -30,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d0a169327723e237",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Message Engjell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "216b022771995e63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
               }
             }
           },
@@ -193,13 +156,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "216b022771995e63",
+  "active": "28cd0538a744ffd8",
   "lastOpenFiles": [
+    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
+    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Message Engjell.md",
     "Untitled 1.md",
-    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Untitled.md",
-    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "NixOS/TODO.md",
     "Kontakt.md",
     "Rosi.md",
