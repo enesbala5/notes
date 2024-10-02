@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3b40eade89d8b9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pricing MVP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Pricing MVP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Pricing MVP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
+                "file": "Pricing MVP.md"
               }
             }
           },
@@ -156,10 +169,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "28cd0538a744ffd8",
+  "active": "d3b40eade89d8b9b",
   "lastOpenFiles": [
-    "Analytics.md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+    "Pricing MVP.md",
+    "Analytics.md",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Blog.md",
     "Message Engjell.md",
@@ -190,7 +204,6 @@
     "_fit",
     "Projects/Laconics/Newsbomb.al/Intro.md",
     "Projects/Pazar",
-    "Notat Matura.md",
     "Projects/Zanat - Hiring Platform",
     "Projects/Old & Misc",
     "Projects/Laconics",

@@ -1,0 +1,11 @@
+- Note taking
+	- 
+	- Tiptap Integration
+- Tag and Params
+- Search and Filters
+- Zotero API Integration
+	- Parsing data to insert into TipTap
+- Landing Page interface
+- Sign In
+- Sign Up
+- 
