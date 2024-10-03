@@ -1,19 +1,24 @@
 - Notes
-	- With Tiptap Integration for handling real-time editing and collaboration - 15 Hours
+	- With Tiptap Integration for handling real-time editing and collaboration - 25 Hours
 	- Tag Functionality
-		- Complex Setup (Relational) - 10 Hours
-			- Relational connection between the po
-		- Simpler Setup
-	- Endpoints:
-		- CRUD - All Notes (Search & Filtering) - 25 Hours
-		- CRUD - [id] - 5 Hours
+		- Complex Setup (Relational) - 15 Hours
+			- Relational connection between the post and the Tag
+		- Simpler Setup - 5 Hours
+			- Post has a set of tags which we can then aggregate
+				- Somewhat slower - mostly on large datasets
+	- Endpoints & UIs for each:
+		- CRUD - All Notes (Search & Filtering) - 30 Hours
+		- CRUD - [id] - 10 Hours
 - Collections
 	- *Enable user to create and edit collections*
 	- Future (NON MVP): Option to search and select notes to add them to the opened collection - 0 Hours
-	- Endpoints:
+	- Endpoints & UIs for each:
 		- CRUD - All Collections - 10 Hours
 		- CRUD - [id] - 5 Hours
 - Search and Filters
+	- Full-Text Search - 5 Hours
+	- Dynamic Filters based on Tags - 3 Hours
+	- 
 - Zotero API Integration
 	- Time Estimate: 
 	- Parsing data to insert into TipTap

@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "73452dcf28d71f8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d3b40eade89d8b9b",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pricing MVP.md",
+                "file": "Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pricing MVP.md",
+                "file": "Untitled 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pricing MVP.md"
+                "file": "Untitled 2.md"
               }
             }
           },
@@ -168,12 +181,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "28cd0538a744ffd8",
+  "active": "73452dcf28d71f8d",
   "lastOpenFiles": [
+    "Pricing MVP.md",
+    "Untitled 2.md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Analytics.md",
     "Projects/Pazar/Pazar Demo Video.md",
-    "Pricing MVP.md",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Blog.md",
     "Message Engjell.md",
@@ -201,7 +215,6 @@
     "Projects/Laconics/Newsbomb.al/Communications/Fjorelo.md",
     "_fit/Reflections",
     "_fit",
-    "Projects/Laconics/Newsbomb.al/Intro.md",
     "Projects/Pazar",
     "Projects/Zanat - Hiring Platform",
     "Projects/Old & Misc",
