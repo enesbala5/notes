@@ -1,30 +1,30 @@
 - Notes
 	- Note UI
-		- Tiptap Integration for handling real-time editing and collaboration - 25 Hour(s)
+		- Tiptap Integration for handling real-time editing and collaboration - 40 Hour(s)
 	- Tag Functionality
-		- Complex Setup (Relational) - 15 Hour(s)
+		- Complex Setup (Relational) - 20 Hour(s)
 			- Relational connection between the post and the Tag
-		- Simpler Setup - 5 Hour(s)
+		- Simpler Setup - 15 Hour(s)
 			- Post has a set of tags which we can then aggregate
 				- Somewhat slower - mostly on large datasets
-	- Endpoints & UIs for each:
-		- CRUD - All Notes (Search & Filtering) - 30 Hour(s)
-		- CRUD - [id] - 10 Hour(s)
+	- Interfaces & Endpoints for each:
+		- CRUD - All Notes (Search & Filtering) - 50 Hour(s)
+		- CRUD - [id] - 20 Hour(s)
 - Collections
 	- *Enable user to create and edit collections*
-	- Future *(NON MVP)*: Option to search and select notes to add them to the opened collection - 0 Hours
-	- Endpoints & UIs for each:
-		- CRUD - All Collections - 10 Hour(s)
-		- CRUD - [id] - 5 Hour(s)
+	- Future **(NON MVP)**: Option to search and select notes to add them to the opened collection - 5 Hours
+	- Interfaces & Endpoints for each:
+		- CRUD - All Collections - 20 Hour(s)
+		- CRUD - [id] - 10 Hour(s)
 - Search and Filters
 	- Full-Text Search
-		- Description - 1 Hour(s)
-		- Post Content **(NON MVP)** - 5 Hour(s)
+		- Description - 3 Hour(s)
+		- Post Content **(NON MVP)** - 10 Hour(s)
 			- Comes with extra difficulty because it requires integration with Find function within the note
-	- Dynamic Filters based on Tags - 5 Hour(s) (Depends on Tag Implementation)
-	- Authors (NON MVP) - 5 Hour(s) 
+	- Dynamic Filters based on Tags - 10 Hour(s) (Depends on Tag Implementation)
+	- Authors (NON MVP) - 10 Hour(s) 
 - Zotero API Integration
-	- Interface to Upload Document / Note - ~5 Hour(s)
+	- Interface (& Endpoint) to Upload Document / Note - ~10 Hour(s)
 	-  Inserting data into TipTap - 5 Hour(s) -> 15 Hour(s)
 - Sign In Page - 5 Hour(s)
 - Sign Up Page - 5 Hour(s)
@@ -35,5 +35,7 @@
 
 - General Layout
 	- *Responsive interface which will be used across different pages*
-	- Sidebar Implementation
+	- Sidebar Implementation (Desktop & Mobile) - 10 Hour(s)
+	- Other - 5 Hour(s)
 	- Command Palette (Page navigation only) **(NON MVP)**
+
