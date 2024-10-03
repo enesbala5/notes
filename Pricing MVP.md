@@ -1,3 +1,15 @@
+- Sign In Page - 5 Hour(s)
+- Sign Up Page - 5 Hour(s)
+- Setup Account Flow **(NON MVP)** - 10 Hours 
+- Authentication
+	- W/ Existing Solution - 10 Hour(s)
+		- Secure and good 0Auth (Login with Google, etc.)
+		- More expensive long-term, but we can revamp if the project sees growth
+- General Layout
+	- *Responsive interface which will be used across different pages*
+	- Sidebar Implementation (Desktop & Mobile) - 10 Hour(s)
+	- Other - 5 Hour(s)
+	- Command Palette (Page navigation only) **(NON MVP)**
 - Notes
 	- Note UI
 		- Tiptap Integration for handling real-time editing and collaboration - 40 Hour(s)
@@ -8,7 +20,7 @@
 			- Post has a set of tags which we can then aggregate
 				- Somewhat slower - mostly on large datasets
 	- Interfaces & Endpoints for each:
-		- CRUD - All Notes (Search & Filtering) - 50 Hour(s)
+		- CRUD - All Notes (Search & Filtering) - 40 Hour(s)
 		- CRUD - [id] - 20 Hour(s)
 - Collections
 	- *Enable user to create and edit collections*
@@ -22,20 +34,7 @@
 		- Post Content **(NON MVP)** - 10 Hour(s)
 			- Comes with extra difficulty because it requires integration with Find function within the note
 	- Dynamic Filters based on Tags - 10 Hour(s) (Depends on Tag Implementation)
-	- Authors (NON MVP) - 10 Hour(s) 
+	- Authors **(NON MVP)** - 10 Hour(s) 
 - Zotero API Integration
-	- Interface (& Endpoint) to Upload Document / Note - ~10 Hour(s)
-	-  Inserting data into TipTap - 5 Hour(s) -> 15 Hour(s)
-- Sign In Page - 5 Hour(s)
-- Sign Up Page - 5 Hour(s)
-- Authentication
-	- W/ Existing Solution - 5 Hour(s)
-		- Secure and good 0Auth (Login with Google, etc.)
-		- More expensive long-term, but we can revamp if the project sees growth
-
-- General Layout
-	- *Responsive interface which will be used across different pages*
-	- Sidebar Implementation (Desktop & Mobile) - 10 Hour(s)
-	- Other - 5 Hour(s)
-	- Command Palette (Page navigation only) **(NON MVP)**
-
+	- Interface to Upload Document / Note - 10 Hour(s)
+	- Inserting data into TipTap - 5 Hour(s) -> 15 Hour(s)
