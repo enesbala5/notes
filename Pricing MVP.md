@@ -19,16 +19,21 @@
 - Search and Filters
 	- Full-Text Search
 		- Description - 1 Hour(s)
-		- Post Content *(NON MVP)* - 5 Hour(s)
+		- Post Content **(NON MVP)** - 5 Hour(s)
 			- Comes with extra difficulty because it requires integration with Find function within the note
 	- Dynamic Filters based on Tags - 5 Hour(s) (Depends on Tag Implementation)
 	- Authors (NON MVP) - 5 Hour(s) 
 - Zotero API Integration
 	- Interface to Upload Document / Note - ~5 Hour(s)
 	-  Inserting data into TipTap - 5 Hour(s) -> 15 Hour(s)
-- Sign In Page - 5 Hours
-- Sign Up Page - 5 Hours
+- Sign In Page - 5 Hour(s)
+- Sign Up Page - 5 Hour(s)
 - Authentication
-	- W/ Existing Solution
+	- W/ Existing Solution - 5 Hour(s)
 		- Secure and good 0Auth (Login with Google, etc.)
 		- More expensive long-term, but we can revamp if the project sees growth
+
+- General Layout
+	- *Responsive interface which will be used across different pages*
+	- Sidebar Implementation
+	- Command Palette (Page navigation only) **(NON MVP)**
