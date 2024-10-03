@@ -1,32 +1,34 @@
 - Notes
-	- With Tiptap Integration for handling real-time editing and collaboration - 25 Hours
+	- Note UI
+		- Tiptap Integration for handling real-time editing and collaboration - 25 Hour(s)
 	- Tag Functionality
-		- Complex Setup (Relational) - 15 Hours
+		- Complex Setup (Relational) - 15 Hour(s)
 			- Relational connection between the post and the Tag
-		- Simpler Setup - 5 Hours
+		- Simpler Setup - 5 Hour(s)
 			- Post has a set of tags which we can then aggregate
 				- Somewhat slower - mostly on large datasets
 	- Endpoints & UIs for each:
-		- CRUD - All Notes (Search & Filtering) - 30 Hours
-		- CRUD - [id] - 10 Hours
+		- CRUD - All Notes (Search & Filtering) - 30 Hour(s)
+		- CRUD - [id] - 10 Hour(s)
 - Collections
 	- *Enable user to create and edit collections*
-	- Future (NON MVP): Option to search and select notes to add them to the opened collection - 0 Hours
+	- Future *(NON MVP)*: Option to search and select notes to add them to the opened collection - 0 Hours
 	- Endpoints & UIs for each:
-		- CRUD - All Collections - 10 Hours
-		- CRUD - [id] - 5 Hours
+		- CRUD - All Collections - 10 Hour(s)
+		- CRUD - [id] - 5 Hour(s)
 - Search and Filters
-	- Full-Text Search - 5 Hours
-		- Description
-		- Post Content
-			- Comes with extra difficult because it requires integration with Find function within the note
-			- 
-	- Dynamic Filters based on Tags - 3 Hours
-	- 
+	- Full-Text Search
+		- Description - 1 Hour(s)
+		- Post Content *(NON MVP)* - 5 Hour(s)
+			- Comes with extra difficulty because it requires integration with Find function within the note
+	- Dynamic Filters based on Tags - 5 Hour(s) (Depends on Tag Implementation)
+	- Authors (NON MVP) - 5 Hour(s) 
 - Zotero API Integration
-	- Time Estimate: 
-	- Parsing data to insert into TipTap
-- Landing Page interface
-- Sign In
-- Sign Up
-- 
+	- Interface to Upload Document / Note - ~5 Hour(s)
+	-  Inserting data into TipTap - 5 Hour(s) -> 15 Hour(s)
+- Sign In Page - 5 Hours
+- Sign Up Page - 5 Hours
+- Authentication
+	- W/ Existing Solution
+		- Secure and good 0Auth (Login with Google, etc.)
+		- More expensive long-term, but we can revamp if the project sees growth
