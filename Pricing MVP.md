@@ -17,6 +17,10 @@
 		- CRUD - [id] - 5 Hours
 - Search and Filters
 	- Full-Text Search - 5 Hours
+		- Description
+		- Post Content
+			- Comes with extra difficult because it requires integration with Find function within the note
+			- 
 	- Dynamic Filters based on Tags - 3 Hours
 	- 
 - Zotero API Integration

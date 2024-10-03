@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "Pricing MVP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "Pricing MVP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 2.md"
+                "file": "Pricing MVP.md"
               }
             }
           },
@@ -181,10 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73452dcf28d71f8d",
+  "active": "28cd0538a744ffd8",
   "lastOpenFiles": [
-    "Pricing MVP.md",
     "Untitled 2.md",
+    "Pricing MVP.md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Analytics.md",
     "Projects/Pazar/Pazar Demo Video.md",
