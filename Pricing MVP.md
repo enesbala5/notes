@@ -1,15 +1,18 @@
 - Notes
-	- With Tiptap Integration for handling real-time editing and collaboration
+	- With Tiptap Integration for handling real-time editing and collaboration - 15 Hours
+	- Tag Functionality
+		- Complex Setup (Relational) - 10 Hours
+			- Relational connection between the po
+		- Simpler Setup
 	- Endpoints:
-		- CRUD - All Notes (Search & Filtering)
-		- CRUD - [id]
+		- CRUD - All Notes (Search & Filtering) - 25 Hours
+		- CRUD - [id] - 5 Hours
 - Collections
-	- Enable user to create and edit collections
-	- Future (NON MVP): Option to search and select notes to add them to the opened collection
+	- *Enable user to create and edit collections*
+	- Future (NON MVP): Option to search and select notes to add them to the opened collection - 0 Hours
 	- Endpoints:
-		- CRUD - All Collections
-		- CRUD - [id]
-- Tag and Params
+		- CRUD - All Collections - 10 Hours
+		- CRUD - [id] - 5 Hours
 - Search and Filters
 - Zotero API Integration
 	- Time Estimate: 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Pricing MVP.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Pazar/Pazar Demo Video.md",
+                "file": "Pricing MVP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Pazar/Pazar Demo Video.md",
+                "file": "Pricing MVP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Pazar/Pazar Demo Video.md"
+                "file": "Pricing MVP.md"
               }
             }
           },
@@ -169,11 +168,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3b40eade89d8b9b",
+  "active": "28cd0538a744ffd8",
   "lastOpenFiles": [
-    "Pricing MVP.md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Analytics.md",
+    "Projects/Pazar/Pazar Demo Video.md",
+    "Pricing MVP.md",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Blog.md",
     "Message Engjell.md",
@@ -194,7 +194,6 @@
     "Blog",
     "Self Hosting/Hetzner Setup",
     "Mesazh Staff.al.md",
-    "Projects/Pazar/Pazar Demo Video.md",
     "Self Hosting/Immich.md",
     "Projects/Old & Misc/Sigal Website/TODO.md",
     "_fit/Reflections/Ideas.md",
