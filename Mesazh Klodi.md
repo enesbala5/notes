@@ -5,5 +5,3 @@ Me ndihmoi shume biseda qe te orientohem, edhe besoj se do bej dhe ndonje takim 
 Kurdo te kesh hapsire, me thuaj te organizoj dhe takimin me Albanin - ja permenda qe kur folem bashke e me tha qe do kishte shume deshire te takoheshim nje dite te tre. 
 
 Shume faleminderit dhe njehere!
-
-![[Pasted image 20241004160955.png]]
