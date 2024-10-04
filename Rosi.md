@@ -7,7 +7,6 @@
 - Arush
 - Container me parfumin
 - Gje matchy
-- 
 	- Ta ket nusi ne gjermani edhe tmendoj per burrin kur tradhton
 
 ---
