@@ -257,6 +257,9 @@ fine
 frostfelll
 formatit
 fokusuar
+falenderoja
+folem
+faleminderit
 update
 uploadedImages
 user
@@ -1910,6 +1913,10 @@ treg
 takim
 things
 tips
+takuam
+tha
+takoheshim
+tre
 Update
 Use
 UI
@@ -2461,6 +2468,8 @@ official
 once
 old
 opened
+orientohem
+organizoj
 EditPost
 Everytime
 Endpoint
@@ -3347,6 +3356,7 @@ assistance
 aktuale
 allow
 aggregate
+ate
 ManageImages
 Messages
 Message
@@ -3756,6 +3766,8 @@ keep
 ketu
 kurdo
 kesh
+kalova
+kishte
 block
 before
 bug
@@ -3979,6 +3991,7 @@ boots
 blocked
 bin
 backend
+biseda
 preview
 programmatically
 past
@@ -4263,6 +4276,9 @@ prisma
 push
 pazar
 production
+pastaj
+plotesisht
+perdor
 you
 yt
 yNVragxUCZGcijQfe
@@ -4725,6 +4741,7 @@ space
 size
 search
 slower
+shkruar
 message
 moment
 messages
@@ -4961,6 +4978,9 @@ merrja
 misc
 mysql
 max
+merre
+mbahet
+mend
 run
 remove
 ranges
@@ -5419,6 +5439,7 @@ After
 Authorize
 API
 All
+Albanin
 You
 YRR
 YaV
@@ -5831,6 +5852,7 @@ doing
 deploy
 dbcc
 datasets
+deshire
 have
 has
 handle
@@ -6264,6 +6286,7 @@ njeri
 nder
 necessarily
 next
+ndihmoi
 Fix
 Filters
 Finish
@@ -6729,6 +6752,7 @@ lejon
 lehtshmeria
 later
 large
+lehte
 Display
 Degjova
 Doja
@@ -7411,6 +7435,7 @@ executed
 editor
 earlier
 each
+emrin
 query
 qe
 qofte
@@ -8245,6 +8270,8 @@ Shqiperi
 SECRET
 Simpler
 Somewhat
+Sot
+Shume
 version
 vrl
 vlla
@@ -8444,6 +8471,8 @@ very
 vete
 vite
 vXoCu
+vlersoj
+vendosa
 Work
 Wallpaper
 Waybar
@@ -10302,6 +10331,8 @@ Key
 Keys
 Kam
 KEY
+Klodi
+Kurdo
 Jobs
 JJJ
 JS
