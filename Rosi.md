@@ -1,6 +1,6 @@
-- Hoodie
 - Rroba te miat
-	- Bokse
+	- Hoodie (ka)
+	- Bokse (x)
 	- Bluze
 	- T-Shirt
 	- Qe mund ti veshi
