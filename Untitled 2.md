@@ -9,3 +9,5 @@
 			description: 'A curated exhibition showcasing contemporary art from emerging Greek artists, offering a fresh perspective on modern art in the region.',
 			image: 'https://www.greece-is.com/wp-content/uploads/2019/07/Acropolis-Museum_3K4A0380_PhotographedByGiorgosVitsaropoulos.jpg',
 		},
+
+![[Pasted image 20241006202554.png]]
