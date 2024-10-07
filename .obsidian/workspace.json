@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "482b362ef60b4c88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WIZZ Discount Club.md",
+                "file": "Untitled 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WIZZ Discount Club.md",
+                "file": "Untitled 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WIZZ Discount Club.md"
+                "file": "Untitled 3.md"
               }
             }
           },
@@ -169,10 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5311dbfa670e72c3",
+  "active": "482b362ef60b4c88",
   "lastOpenFiles": [
-    "Untitled 2.md",
     "WIZZ Discount Club.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
     "Pasted image 20241006202554.png",
     "Pasted image 20241006202552.png",
     "Pasted image 20241006202551.png",
@@ -205,7 +218,6 @@
     "Mesazh Staff.al.md",
     "Self Hosting/Immich.md",
     "Projects/Old & Misc/Sigal Website/TODO.md",
-    "_fit/Reflections/Ideas.md",
     "_fit/Reflections",
     "_fit",
     "Projects/Pazar",
