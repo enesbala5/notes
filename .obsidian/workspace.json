@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5311dbfa670e72c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WIZZ Discount Club.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "WIZZ Discount Club.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "WIZZ Discount Club.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 2.md"
+                "file": "WIZZ Discount Club.md"
               }
             }
           },
@@ -156,12 +169,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37589734fb50f4a7",
+  "active": "5311dbfa670e72c3",
   "lastOpenFiles": [
+    "Untitled 2.md",
+    "WIZZ Discount Club.md",
     "Pasted image 20241006202554.png",
     "Pasted image 20241006202552.png",
     "Pasted image 20241006202551.png",
-    "Untitled 2.md",
     "Rosi.md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Mesazh Klodi.md",
@@ -204,7 +218,6 @@
     "Pasted image 20240912180754 1.png",
     "Untitled.canvas",
     "Pasted image 20240907185859.png",
-    "Pasted image 20240907185808.png",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]
