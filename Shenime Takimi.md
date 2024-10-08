@@ -22,7 +22,7 @@ vando.bg
 	- Our Services
 - Our Clients / Experience
 - News
-- Contact
+- Contact Us
 
 ### Social
 - Instagram
