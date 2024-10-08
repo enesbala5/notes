@@ -1,5 +1,8 @@
-/tableof
-
+---
+tags:
+  - work
+  - blog
+---
 # Introduction
 
 If you use Coolify and also own a home server, you might find yourself in a situation like this - you rent a Remote VPS (eg. Hetzner), which is running a Coolify instance. You may have noticed the `Servers` feature in your Coolify instance, and thought about connecting your existing home server, so that it helps serve requests to your user and speeds up the build process, etc..
