@@ -255,7 +255,6 @@ If you face any issues, check the [Coolify's Docs](https://coolify.io/docs), or 
 - Is this a platform where I, as an individual or business, go to sell products, and the platform offers me the ability to integrate with social media (e.g., TikTok, YouTube, Instagram)?
 - Will a site builder be necessary? Does the individual have to be able to personalize their page, not in terms of colors and branding, but by adding blocks to the page (e.g., different sections)?
 - Does the platform allow connecting payment systems and shipping options that customers prefer?
-- Does the platform have to allow the individual / business to connect their own payment systems? How many integrations sh
-- Is it possible to automate shipments, tax calculation, and inventory control on the platform?
-- Can the appearance of the catalog, payment page, and customer notifications be customized without modifying the code?
-- How does the platform handle inventory, taxes, and shipments, as these are areas of concern?
+- Does the platform have to allow the individual / business to connect their own payment systems? How many integrations have to be implemented?
+- Regarding shipment, tax calculation and inventory control - are you looking to integrate with an existing solution, or build new solutions from scratch?
+- Regarding social media integrations and their dedicated sales channels - what platforms should be integrated and 
