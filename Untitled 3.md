@@ -1,4 +1,4 @@
-```
+[```
 <script lang="ts">
 	import SearchBar from '../../lib/components/SearchBar/SearchBar.svelte';
 	import ErrorMessage from '$lib/components/ItemList/ErrorMessage.svelte';
@@ -137,4 +137,65 @@
 	<Footer />
 </div>
 
+```](<%3Cscript lang="ts"%3E
+	import { hoveredOverLink, notHovering } from '$lib/state/hoverOver.js';
+	import Footer from '$lib/components/Footer.svelte';
+	import { formatDate } from '$lib/utils';
+	import * as config from '$lib/config';
+
+	export let data;
+</script>
+
+<svelte:head>
+	<title>{config.title}</title>
+</svelte:head>
+
+<div class="mt-24 font-display lg:mt-24 container-base mb-64" on:mouseenter={notHovering}>
+	<h1 class="headline">Blog</h1>
+	<div class="relative mx-auto mt-20 pb-8 text-lg lg:grid lg:grid-cols-10 lg:gap-4">
+		<div class="col-span-8 col-start-2 flex items-center justify-between" />
+
+		{#each data.posts as post}
+			<!-- <li class="post">
+				<a href={post.slug} class="title">{post.title}</a>
+				<p class="date">{formatDate(post.date)}</p>
+				<p class="description">{post.description}</p>
+			</li> -->
+			<div class="col-span-8 col-start-2 text-base">
+				<!-- <p class="opacity-70">Where I'm Located</p> -->
+				<div
+					class="group relative flex h-36 w-full items-center overflow-hidden rounded-2xl bg-neutral-200 dark:bg-darkgray lg:h-56"
+				>
+					<div class="absolute right-0 top-1/2 h-full w-2/3 -translate-y-1/2 overflow-hidden">
+						<img
+							src={post.image}
+							alt={post.title}
+							class="h-full w-full object-cover transition-all ease-in-out group-hover:scale-105"
+						/>
+					</div>
+					<div
+						class="absolute left-[33%] top-0 h-full w-full bg-gradient-to-r from-neutral-200 to-transparent dark:from-darkgray"
+					/>
+					<a
+						href={post.slug}
+						on:mouseenter={hoveredOverLink}
+						on:mouseleave={notHovering}
+						class="z-10 mx-8 flex w-1/2 flex-col"
+					>
+						<h3 class="projectH3 peer transition-all ease-in-out w-fit hover:underline duration-150 underline-offset-8">
+							{post.title}
+						</h3>
+						<p class="peer-hover:opacity-90 transition-all duration-150 ease-in-out mt-3 description">
+							{post.description}
+						</p>
+						<div class="mt-8 mb-2 w-72 h-px bg-gradient-to-r from-black to-transparent opacity-20 dark:from-white" />
+						<p class="text-sm opacity-50">{formatDate(post.date)}</p>
+					</a>
+				</div>
+			</div>
+		{/each}
+	</div>
+</div>
+
+<Footer />>)
 ```
