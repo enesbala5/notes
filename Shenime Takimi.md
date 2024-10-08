@@ -16,6 +16,8 @@ vando.bg
 
 ## Routes
 
+- Homepage
+	- Jo ESG
 - About Us
 - Our Team
 - What We Do
@@ -23,6 +25,8 @@ vando.bg
 - Our Clients / Experience
 - News
 - Contact Us
+	- Our Locations
+	- ![[Pasted image 20241008162629.png]]
 
 ### Social
 - Instagram
