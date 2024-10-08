@@ -187,21 +187,12 @@
       "key": "E"
     }
   ],
-  "file-explorer:new-file": [],
   "create-note-in-folder:Create Note (Current Folder)": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "N"
-    }
-  ],
-  "create-note-in-folder:quickSwitcher-creator": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
     }
   ]
 }

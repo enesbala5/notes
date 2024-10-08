@@ -1,4 +1,3 @@
-{
 			id: 'athens',
 			date: '2024-10-06',
 			title: 'ATHENS ART EXHIBITION',

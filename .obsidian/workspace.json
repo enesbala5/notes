@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "819adcf81948b601",
+        "id": "0f1f49e13792ee53",
         "type": "tabs",
         "children": [
           {
-            "id": "1aebed38bfe1bdd1",
+            "id": "99295eee8b6db99e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Life Management/Fun/Plane Vera 2025.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Life Management/Fun/Plane Vera 2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Life Management/Fun/Plane Vera 2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
+                "file": "Life Management/Fun/Plane Vera 2025.md"
               }
             }
           },
@@ -155,37 +155,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8156697e97e26f6",
+  "active": "99295eee8b6db99e",
   "lastOpenFiles": [
+    "Life Management/Fun/Untitled.md",
+    "Life Management/Fun/Plane Vera 2025.md",
+    "Projects/Completed Projects.md",
+    "Untitled",
+    "Projects/Person.md",
+    "NixOS/TODO.md",
+    "Shenime Takimi.md",
+    "Untitled 1.md",
     "Untitled 3.md",
+    "Untitled 2.md",
+    "Blog/Server - Coolify/Untitled 2.md",
+    "Blog/Server - Coolify/Untitled 3.md",
+    "Blog/Server - Coolify/Untitled 4.md",
+    "Blog/Server - Coolify/Untitled.md",
+    "Blog/Server - Coolify/Untitled 1.md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+    "Blog/Server - Coolify/History.md",
     "Analytics.md",
     "Untitled.canvas",
     "h.md",
-    "Untitled 2.md",
     "Projects/Old & Misc/Sigal Website/TODO.md",
-    "Untitled 1.md",
     "Untitled 4.md",
-    "Shenime Takimi.md",
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
     "Pasted image 20241008162629.png",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Blog.md",
     "Life Management/Moving to Germany.md",
-    "Life Management/Fun/Plane Vera 2025.md",
-    "NixOS/TODO.md",
     "NixOS/Resources/Grub.md",
     "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
     "Projects/Laconics/Klea Huta Agency/Raporti Nr. 1.md",
-    "Projects/Laconics/Newsbomb.al/Intro.md",
-    "Projects/Laconics/Newsbomb.al/Communications/Fjorelo.md",
-    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
-    "Projects/Pazar/Pazar Demo Video.md",
-    "Projects/Zanat - Hiring Platform/Project Scope.md",
-    "Projects/Completed Projects.md",
-    "Reflections/Ideas.md",
-    "Self Hosting/Hetzner Setup/Authentication.md",
-    "Self Hosting/Hetzner Setup/Public SSH.md",
     "Pasted image 20241006202552.png",
     "Pasted image 20241006202554.png",
     "Pasted image 20241006202551.png",
@@ -199,7 +200,6 @@
     "Projects/Pazar",
     "Projects/Zanat - Hiring Platform",
     "Projects/Old & Misc",
-    "Projects/Laconics",
     "Pasted image 20240912180754.png",
     "Pasted image 20240912181213.png",
     "Pasted image 20240912181202.png",
