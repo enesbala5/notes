@@ -76,7 +76,7 @@ sh-ed25519 AAAAC6NfaC2lFIH1NTE5AAAAIOy4xaLXOuGa4bAn/8rRF+Use/GvHWHX4pC8HPD4rkGf 
 Copy this key and append it to the home server's `authorized_keys` file. You can also use tools like `ssh-copy-id` - if you are familiar - otherwise copy the keys manually, as this will require a password which you may unnecessarily have to generate.
 
 ```
-ssh-copy-id -i ~/.ssh/mykey root@ssh.domain.com
+ssh-copy-id -i ~/.ssh/mykey root@ssh.[YOUR DOMAIN].com
 ```
 
 Also, you should consider disabling password authentication on your home server for better security and to avoid some issues you might otherwise face on Coolify. You can usually do this by updating the following settings through:
@@ -138,7 +138,7 @@ Finally, you should update the .ssh/config on your Remote VPS to include an entr
 ```
 Host ssh.[YOUR DOMAIN].com
 	ProxyCommand cloudflared access ssh --hostname %h
-	User e
+	User root
 	IdentityFile ~/.ssh/[INSERT YOUR SSH KEY NAME (Not .pub)]
 	IdentitiesOnly yes
 ```
@@ -146,9 +146,8 @@ Host ssh.[YOUR DOMAIN].com
 You should now be able to connect to your home server from your Remote VPS. Try to do it like this:
 
 ```bash
-ssh 
+ssh root@ssh.[YOUR DOMAIN].com
 ```
-
 
 ## 2. Set Up SSH Tunnel
 
