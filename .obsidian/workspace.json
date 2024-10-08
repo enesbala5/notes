@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "Mesazh Klodi.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805,
-    "collapsed": true
+    "width": 347.50739669799805
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 3.md",
+                "file": "Mesazh Klodi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 3.md",
+                "file": "Mesazh Klodi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 3.md"
+                "file": "Mesazh Klodi.md"
               }
             }
           },
@@ -181,11 +179,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "482b362ef60b4c88",
+  "active": "37589734fb50f4a7",
   "lastOpenFiles": [
+    "Message Engjell.md",
+    "Projects/Laconics/Newsbomb.al/Communications/Fjorelo.md",
+    "Projects/Laconics/Newsbomb.al/Intro.md",
+    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
+    "Untitled 2.md",
     "WIZZ Discount Club.md",
     "Untitled 3.md",
-    "Untitled 2.md",
     "Pasted image 20241006202554.png",
     "Pasted image 20241006202552.png",
     "Pasted image 20241006202551.png",
@@ -199,7 +201,6 @@
     "Pasted image 20241003133610.png",
     "Analytics.md",
     "Blog/Server - Coolify/Blog.md",
-    "Message Engjell.md",
     "Untitled 1.md",
     "Untitled.md",
     "NixOS/TODO.md",
@@ -211,13 +212,10 @@
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
     "Projects/Zanat - Hiring Platform/Project Scope.md",
     "Projects/Completed Projects.md",
-    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
     "Blog/Server - Coolify",
     "Blog",
     "Self Hosting/Hetzner Setup",
     "Mesazh Staff.al.md",
-    "Self Hosting/Immich.md",
-    "Projects/Old & Misc/Sigal Website/TODO.md",
     "_fit/Reflections",
     "_fit",
     "Projects/Pazar",
