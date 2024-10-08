@@ -26,17 +26,8 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "a4dee227389e7de2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
+              }
             }
           },
           {
@@ -168,11 +163,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a4dee227389e7de2",
+  "active": "1aebed38bfe1bdd1",
   "lastOpenFiles": [
+    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Shenime Takimi.md",
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
-    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Pasted image 20241008162629.png",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Blog.md",
