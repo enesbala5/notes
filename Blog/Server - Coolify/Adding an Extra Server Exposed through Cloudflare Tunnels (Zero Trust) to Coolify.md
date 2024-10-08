@@ -257,4 +257,4 @@ If you face any issues, check the [Coolify's Docs](https://coolify.io/docs), or 
 - Does the platform allow connecting payment systems and shipping options that customers prefer?
 - Does the platform have to allow the individual / business to connect their own payment systems? How many integrations have to be implemented?
 - Regarding shipment, tax calculation and inventory control - are you looking to integrate with an existing solution, or build new solutions from scratch?
-- Regarding social media integrations and their dedicated sales channels - what platforms should be integrated and 
+- Regarding social media and their dedicated sales channels - which platforms will have to be integrated to the platform? Should the individual / business have tutorials available, guiding them on integrating the two.  
