@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d6d5bfa5fce5eca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shenime Takimi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Shenime Takimi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "file": "Shenime Takimi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
+                "file": "Shenime Takimi.md"
               }
             }
           },
@@ -155,8 +168,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1aebed38bfe1bdd1",
+  "active": "d6d5bfa5fce5eca3",
   "lastOpenFiles": [
+    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+    "Shenime Takimi.md",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Blog.md",
     "Life Management/Moving to Germany.md",
@@ -184,8 +199,6 @@
     "Pasted image 20241006202552.png",
     "Pasted image 20241006202554.png",
     "Pricing MVP.md",
-    "Rosi.md",
-    "Untitled.md",
     "Pasted image 20241006202551.png",
     "Pasted image 20241004160955.png",
     "Pasted image 20241003133610.png",
