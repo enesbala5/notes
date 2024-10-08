@@ -139,7 +139,7 @@
 
 ```](<%3Cscript lang="ts"%3E
 	import { hoveredOverLink, notHovering } from '$lib/state/hoverOver.js';
-	import Footer from '$lib/components/Footer.svelte';
+	import Footer fro\m '$lib/components/Footer.svelte';
 	import { formatDate } from '$lib/utils';
 	import * as config from '$lib/config';
 
