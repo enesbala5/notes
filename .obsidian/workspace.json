@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6ce9a15d09d31933",
+        "id": "819adcf81948b601",
         "type": "tabs",
         "children": [
           {
-            "id": "37589734fb50f4a7",
+            "id": "1aebed38bfe1bdd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mesazh Klodi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5311dbfa670e72c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WIZZ Discount Club.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "482b362ef60b4c88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 3.md",
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mesazh Klodi.md",
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mesazh Klodi.md",
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mesazh Klodi.md"
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
               }
             }
           },
@@ -179,43 +155,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37589734fb50f4a7",
+  "active": "1aebed38bfe1bdd1",
   "lastOpenFiles": [
-    "Message Engjell.md",
-    "Projects/Laconics/Newsbomb.al/Communications/Fjorelo.md",
-    "Projects/Laconics/Newsbomb.al/Intro.md",
-    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
-    "Untitled 2.md",
-    "WIZZ Discount Club.md",
-    "Untitled 3.md",
-    "Pasted image 20241006202554.png",
-    "Pasted image 20241006202552.png",
-    "Pasted image 20241006202551.png",
-    "Rosi.md",
-    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
-    "Mesazh Klodi.md",
-    "Projects/Pazar/Pazar Demo Video.md",
-    "Pasted image 20241004160955.png",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
-    "Pricing MVP.md",
-    "Pasted image 20241003133610.png",
-    "Analytics.md",
     "Blog/Server - Coolify/Blog.md",
-    "Untitled 1.md",
-    "Untitled.md",
+    "Life Management/Moving to Germany.md",
+    "Life Management/Fun/Plane Vera 2025.md",
     "NixOS/TODO.md",
-    "Kontakt.md",
-    "Self Hosting/Hetzner Setup/Public SSH.md",
-    "Self Hosting/Hetzner Setup/Authentication.md",
+    "NixOS/Resources/Grub.md",
     "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
-    "Reflections/Ideas.md",
+    "Projects/Laconics/Klea Huta Agency/Raporti Nr. 1.md",
+    "Projects/Laconics/Newsbomb.al/Intro.md",
+    "Projects/Laconics/Newsbomb.al/Communications/Fjorelo.md",
+    "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
+    "Projects/Old & Misc/Sigal Website/TODO.md",
+    "Projects/Pazar/Pazar Demo Video.md",
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
     "Projects/Zanat - Hiring Platform/Project Scope.md",
     "Projects/Completed Projects.md",
+    "Reflections/Ideas.md",
+    "Self Hosting/Hetzner Setup/Authentication.md",
+    "Self Hosting/Hetzner Setup/Public SSH.md",
+    "Self Hosting/Immich.md",
+    "Analytics.md",
+    "Kontakt.md",
+    "Mesazh Klodi.md",
+    "Message Engjell.md",
+    "Pasted image 20241006202552.png",
+    "Pasted image 20241006202554.png",
+    "Pricing MVP.md",
+    "Rosi.md",
+    "Untitled.md",
+    "Pasted image 20241006202551.png",
+    "Pasted image 20241004160955.png",
+    "Pasted image 20241003133610.png",
     "Blog/Server - Coolify",
     "Blog",
     "Self Hosting/Hetzner Setup",
-    "Mesazh Staff.al.md",
     "_fit/Reflections",
     "_fit",
     "Projects/Pazar",
