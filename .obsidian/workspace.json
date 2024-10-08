@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805,
-    "collapsed": true
+    "width": 347.50739669799805
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -138,12 +137,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
-    "collapsed": true
+    "width": 415.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,7 +157,14 @@
   },
   "active": "1aebed38bfe1bdd1",
   "lastOpenFiles": [
+    "Analytics.md",
+    "Untitled.canvas",
+    "h.md",
+    "Untitled 2.md",
+    "Projects/Old & Misc/Sigal Website/TODO.md",
+    "Untitled 1.md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+    "Untitled 4.md",
     "Shenime Takimi.md",
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
     "Pasted image 20241008162629.png",
@@ -173,18 +179,12 @@
     "Projects/Laconics/Newsbomb.al/Intro.md",
     "Projects/Laconics/Newsbomb.al/Communications/Fjorelo.md",
     "Projects/Laconics/Newsbomb.al/Introduction - Newsbomb.al.md",
-    "Projects/Old & Misc/Sigal Website/TODO.md",
     "Projects/Pazar/Pazar Demo Video.md",
     "Projects/Zanat - Hiring Platform/Project Scope.md",
     "Projects/Completed Projects.md",
     "Reflections/Ideas.md",
     "Self Hosting/Hetzner Setup/Authentication.md",
     "Self Hosting/Hetzner Setup/Public SSH.md",
-    "Self Hosting/Immich.md",
-    "Analytics.md",
-    "Kontakt.md",
-    "Mesazh Klodi.md",
-    "Message Engjell.md",
     "Pasted image 20241006202552.png",
     "Pasted image 20241006202554.png",
     "Pasted image 20241006202551.png",
@@ -203,7 +203,6 @@
     "Pasted image 20240912181213.png",
     "Pasted image 20240912181202.png",
     "Pasted image 20240912180754 1.png",
-    "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]

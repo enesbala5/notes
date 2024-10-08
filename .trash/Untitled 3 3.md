@@ -1,4 +1,4 @@
-[```
+``
 <script lang="ts">
 	import SearchBar from '../../lib/components/SearchBar/SearchBar.svelte';
 	import ErrorMessage from '$lib/components/ItemList/ErrorMessage.svelte';
