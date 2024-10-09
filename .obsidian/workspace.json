@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0f1f49e13792ee53",
+        "id": "6e6c1c4280316cf3",
         "type": "tabs",
         "children": [
           {
-            "id": "99295eee8b6db99e",
+            "id": "87a6369fde0a7c5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Life Management/Fun/Plane Vera 2025.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life Management/Fun/Plane Vera 2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Life Management/Fun/Plane Vera 2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Life Management/Fun/Plane Vera 2025.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,10 +147,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99295eee8b6db99e",
+  "active": "87a6369fde0a7c5e",
   "lastOpenFiles": [
-    "Life Management/Fun/Untitled.md",
     "Life Management/Fun/Plane Vera 2025.md",
+    "Life Management/Fun/Untitled.md",
     "Projects/Completed Projects.md",
     "Untitled",
     "Projects/Person.md",
