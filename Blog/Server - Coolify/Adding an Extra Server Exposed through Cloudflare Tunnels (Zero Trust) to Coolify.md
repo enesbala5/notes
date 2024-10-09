@@ -80,7 +80,7 @@ sh-ed25519 AAAAC6NfaC2lFIH1NTE5AAAAIOy4xaLXOuGa4bAn/8rRF+Use/GvHWHX4pC8HPD4rkGf 
 
 Copy this key and append it to the home server's `authorized_keys` file. You can also use tools like `ssh-copy-id` - if you are familiar - otherwise copy the keys manually, as this will require a password which you may unnecessarily have to generate.
 
-```
+```bash
 ssh-copy-id -i ~/.ssh/mykey root@ssh.[YOUR DOMAIN].com
 ```
 
@@ -255,10 +255,3 @@ Adding a home server exposed through `Cloudflare Tunnels` to your Coolify instan
 > He was very helpful and proposed the SSH tunnel solution to me. Couldn't have prepared this article without some of his tips.
 
 If you face any issues, check the [Coolify's Docs](https://coolify.io/docs), or reach out to the Coolify community on their Discord server, they are very helpful.
-
-- Is this a platform where I, as an individual or business, go to sell products, and the platform offers me the ability to integrate with social media (e.g., TikTok, YouTube, Instagram)?
-- Will a site builder be necessary? Does the individual have to be able to personalize their page, not in terms of colors and branding, but by adding blocks to the page (e.g., different sections)?
-- Does the platform allow connecting payment systems and shipping options that customers prefer?
-- Does the platform have to allow the individual / business to connect their own payment systems? How many integrations have to be implemented?
-- Regarding shipment, tax calculation and inventory control - are you looking to integrate with an existing solution, or build new solutions from scratch?
-- Regarding social media and their dedicated sales channels - which platforms will have to be integrated to the platform? Should the individual / business have tutorials available, guiding them on integrating the two.  
