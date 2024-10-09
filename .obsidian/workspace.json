@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805
+    "width": 347.50739669799805,
+    "collapsed": true
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -142,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 415.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +157,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8156697e97e26f6",
+  "active": "87a6369fde0a7c5e",
   "lastOpenFiles": [
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",

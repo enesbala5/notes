@@ -85,6 +85,7 @@ ssh-copy-id -i ~/.ssh/mykey root@ssh.[YOUR DOMAIN].com
 ```
 
 Also, you should consider disabling password authentication on your home server for better security and to avoid some issues you might otherwise face on Coolify. You can usually do this by updating the following settings through:
+****
 
 ```bash
 vim /etc/ssh/sshd_config
@@ -140,7 +141,7 @@ Finally, you should update the .ssh/config on your Remote VPS to include an entr
 > Please install `cloudflared` in your Remote VPS
 
 
-```
+```bash
 Host ssh.[YOUR DOMAIN].com
 	ProxyCommand cloudflared access ssh --hostname %h
 	User root
