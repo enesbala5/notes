@@ -11,8 +11,12 @@
             "id": "87a6369fde0a7c5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md"
+              }
             }
           },
           {
@@ -147,8 +155,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "87a6369fde0a7c5e",
+  "active": "c8156697e97e26f6",
   "lastOpenFiles": [
+    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
+    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Life Management/Fun/Plane Vera 2025.md",
     "Life Management/Fun/Untitled.md",
     "Projects/Completed Projects.md",
@@ -164,7 +174,6 @@
     "Blog/Server - Coolify/Untitled 4.md",
     "Blog/Server - Coolify/Untitled.md",
     "Blog/Server - Coolify/Untitled 1.md",
-    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Blog/Server - Coolify/History.md",
     "Analytics.md",
     "Untitled.canvas",
@@ -173,7 +182,6 @@
     "Untitled 4.md",
     "Projects/Zanat - Hiring Platform/Kuotim.pdf",
     "Pasted image 20241008162629.png",
-    "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Blog/Server - Coolify/Blog.md",
     "Life Management/Moving to Germany.md",
     "NixOS/Resources/Grub.md",
