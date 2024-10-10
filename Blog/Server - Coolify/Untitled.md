@@ -6,6 +6,6 @@ If you have ever self-hosted with Coolify and own a home server, this is for you
 
 Let me know if anything in unclear - looking for feedback! 
 
-https://www.enesbala.com/blog/coolify-setup-with-home-server
+https://www.enesbala.com/blog/coolify-setup-home-server
 
 @coolify
