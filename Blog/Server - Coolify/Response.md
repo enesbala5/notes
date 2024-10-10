@@ -2,7 +2,7 @@
 
 Hello,
 
-Thank you very much for the clear and detailed answer to my 
+Thank you very much for the clear and detailed answers to my original set of questions. I tried to list out the main functionalities, in accordance with your requests, excluding the International Shipping API - which we may discuss in the future. These are all to be added to the existing system, which will of course need to be adapted to fit this particular use case. 
 
 - Site Builder
 	- Should allow the user to add and remove blocks to their page
@@ -43,3 +43,10 @@ Thank you very much for the clear and detailed answer to my
 	- Button on the listing page with which customers can ask questions directly about the products
 		- Guessing this means that Messenger should know what the product is and have that as context
 		- Alternatively the seller provides an account / phone number which will be contacted with a “Template Message” and he can then respond to this query
+
+Please do let me know if there is anything I have missed from the original requirements. 
+If not, I can proceed with estimating the duration and total cost of the project, accounting for the new additions.
+
+Thank you,
+Best,
+Enes
