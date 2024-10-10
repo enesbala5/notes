@@ -1565,6 +1565,7 @@ inventory
 integrated
 import
 img
+indicate
 To
 Then
 Tags
@@ -3394,6 +3395,8 @@ control
 channels
 components
 cover
+card
+cloud
 at
 add
 an
@@ -3642,6 +3645,7 @@ aYG
 available
 absolute
 alt
+away
 ManageImages
 Messages
 Message
@@ -4328,6 +4332,8 @@ branding
 blocks
 base
 black
+beams
+box
 preview
 programmatically
 past
@@ -5157,6 +5163,7 @@ svelte
 slug
 src
 scale
+square
 message
 moment
 messages
@@ -7312,6 +7319,7 @@ lQW
 looking
 lang
 left
+logo
 Display
 Degjova
 Doja
