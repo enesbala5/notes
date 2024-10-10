@@ -1,7 +1,22 @@
 ## New Features:
 
+- Site Builder
+	- Should allow the user to add and remove blocks to their page
+	- They should also be able to change the content, branding, colors of each element
 - Social Media Channels to integrate:
-	- Meta | Instagram | TikTok
+	- Meta (Facebook)
+	- Instagram
+	- TikTok
+- Payment
+- Shipping
+	- Shipping Options Availability & Pricing
+		- Location Based:
+			- Allow the seller to define a price for each area and if that method is available there or not
+		- Weight Based Pricing:
+			- Define weight ranges & price for each range
+		- 
+	- User should see a list of shipping options, which are based on his location (Zip Code), and each have a logo and name, which is defined by the seller
+	- 
 - Review Section
 	- Text & Image[] should also be an option
 	- Filter the content
@@ -9,6 +24,5 @@
 - Integration with Google Ads and Analytics
 - “Installing” Messenger / WhatsApp
 	- Button on the listing page with which customers can ask questions directly about the products
-	- Guessing this means that Messenger should know what the product is and have that as context
-
-- Alternatively the seller provides an account / phone number which will be contacted with the “Template” and he can then respond to this query
+		- Guessing this means that Messenger should know what the product is and have that as context
+		- Alternatively the seller provides an account / phone number which will be contacted with a “Template Message” and he can then respond to this query
