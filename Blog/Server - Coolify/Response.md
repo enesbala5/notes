@@ -1,5 +1,9 @@
 ## New Features:
 
+Hello,
+
+Thank you very much for the clear and detailed answer to my 
+
 - Site Builder
 	- Should allow the user to add and remove blocks to their page
 	- They should also be able to change the content, branding, colors of each element
@@ -26,7 +30,10 @@
 			- Define weight ranges & price for each range
 	- User should see a list of shipping options, which are based on his location (Zip Code), and each have a logo and name, which is defined by the seller
 - Quantity
-	- Each product can either be 
+	- Each product can either be:
+		- Unlimited Quantity
+		- Limited Quantity
+	- There should be a minimum threshold, after which the seller is notified
 - Review Section
 	- Text & Image[] should also be an option
 	- Filter the content
