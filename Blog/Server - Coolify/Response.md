@@ -7,16 +7,26 @@
 	- Meta (Facebook)
 	- Instagram
 	- TikTok
-- Payment
+- Finance
+	- Allow for Different Payment Systems
+		- Stripe
+		- Paypal
+		- Bank Transfer
+		- Cash on Delivery
+	- *There should always be order traceability*
+	- Taxes
+		- Allow the seller to define a list of VAT options
+			- `Type`: `VAT Amount`
+		- Each product should have a VAT option selected, which will let the user/seller see how much VAT he will be paying
 - Shipping
 	- Shipping Options Availability & Pricing
 		- Location Based:
 			- Allow the seller to define a price for each area and if that method is available there or not
 		- Weight Based Pricing:
 			- Define weight ranges & price for each range
-		- 
 	- User should see a list of shipping options, which are based on his location (Zip Code), and each have a logo and name, which is defined by the seller
-	- 
+- Quantity
+	- Each product can either be 
 - Review Section
 	- Text & Image[] should also be an option
 	- Filter the content
