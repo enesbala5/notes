@@ -1,3 +1,4 @@
+## Key Functionalities
 - Sign In Page - 5 Hour(s)
 - Sign Up Page - 5 Hour(s)
 - Setup Account Flow **(NON MVP)** - 10 Hours 

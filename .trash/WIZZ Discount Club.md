@@ -1,4 +1,4 @@
-40 EUR / year
+0 EUR / year
 
 1x 2 Way Trip -> 20 Eur Savings
 

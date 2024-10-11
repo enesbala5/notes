@@ -32,19 +32,31 @@
             }
           },
           {
-            "id": "2304da1e229eb8cd",
+            "id": "7c642e278c040ccb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Server - Coolify/Response.md",
+                "file": "Work/Personal/Lead Management/Message Engjell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "002c7facb7e14c65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kontakt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805,
-    "collapsed": true
+    "width": 347.50739669799805
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Server - Coolify/Untitled.md",
+                "file": "Kontakt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Server - Coolify/Untitled.md",
+                "file": "Kontakt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Server - Coolify/Untitled.md"
+                "file": "Kontakt.md"
               }
             }
           },
@@ -182,51 +193,51 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d73deb43692a8345",
+  "active": "c8156697e97e26f6",
   "lastOpenFiles": [
-    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
-    "Blog/Server - Coolify/Untitled.md",
+    "WIZZ Discount Club.md",
+    "V+o Consulting/Shenime Takimi - Website Developme.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "V+o Consulting",
+    "Work/Personal/Lead Management/Mesazh Klodi.md",
+    "Rosi.md",
+    "Work/Personal/Lead Management",
+    "Work/Personal/Lead Management/Message Engjell.md",
+    "Work/To Be Seen/Milton MVP - Project Breakdown.md",
+    "Pasted image 20241003133610.png",
+    "Kontakt.md",
+    "Work/Personal/Completed Projects.md",
+    "Analytics.md",
     "Blog/Server - Coolify/Response.md",
+    "Work/To Be Seen",
+    "Work/Work",
+    "Work/Personal",
+    "Blog/Server - Coolify/Untitled.md",
+    "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Life Management/Fun/Plane Vera 2025.md",
     "Life Management/Fun/Untitled.md",
-    "Projects/Completed Projects.md",
-    "Untitled",
     "Projects/Person.md",
     "NixOS/TODO.md",
-    "Shenime Takimi.md",
-    "Untitled 1.md",
     "Untitled 3.md",
     "Untitled 2.md",
     "Blog/Server - Coolify/Untitled 2.md",
     "Blog/Server - Coolify/Untitled 3.md",
     "Blog/Server - Coolify/Untitled 4.md",
     "Blog/Server - Coolify/History.md",
-    "Analytics.md",
     "Untitled.canvas",
     "h.md",
-    "Projects/Old & Misc/Sigal Website/TODO.md",
-    "Untitled 4.md",
-    "Projects/Zanat - Hiring Platform/Kuotim.pdf",
+    "Work/To Be Seen/Zanat - Hiring Platform/Kuotim.pdf",
     "Pasted image 20241008162629.png",
-    "Blog/Server - Coolify/Blog.md",
-    "Life Management/Moving to Germany.md",
-    "NixOS/Resources/Grub.md",
-    "Projects/Laconics/Klea Huta Agency/Shenime Projekt Laconics.md",
-    "Projects/Laconics/Klea Huta Agency/Raporti Nr. 1.md",
     "Pasted image 20241006202552.png",
     "Pasted image 20241006202554.png",
     "Pasted image 20241006202551.png",
     "Pasted image 20241004160955.png",
-    "Pasted image 20241003133610.png",
     "Blog/Server - Coolify",
     "Blog",
-    "Self Hosting/Hetzner Setup",
+    "Work/Personal/Self Hosting/Hetzner Setup",
     "_fit/Reflections",
-    "_fit",
-    "Projects/Pazar",
-    "Projects/Zanat - Hiring Platform",
-    "Projects/Old & Misc",
     "Pasted image 20240912180754.png",
     "Pasted image 20240912181213.png",
     "Pasted image 20240912181202.png",
