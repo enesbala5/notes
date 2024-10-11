@@ -11,7 +11,7 @@
 ## Done:
 - Marina Bay Website
 	- Management
-- Marina Bay Casino Website - Documentation READY
+- Marina Bay Casino Website
 	- Frontend
 	- Strapi Backend
 
