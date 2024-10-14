@@ -10,8 +10,10 @@ Developers are infamous for failing to sharing the work they do - and I'm no exc
 
 I believe that without proper sampling, the only person who will find value in your work, is you - I look forward to feedback and criticism, constructive or not.
 
-In that spirit, I'll start by sharing a project I finished recently - a website for MARITIM Marina Bay - a hotel located in Vlore, Albania. I have had the pleasure of working with Marina Bay for the past 2 years, helping them manage their hotel's website and developing new functionalities to better serve their clients.
+In that spirit, I'll start by sharing a project I finished recently - a website for MARITIM Marina Bay - a hotel located in Vlore, Albania. 
+I have had the pleasure of working for them for the past 2 years, helping them manage their hotel's website and developing new functionalities to better serve their clients.
 
+They launched the first casino in the South of Albania, and for this new venture, they needed a beautiful website, welcoming and educating 
 I prepared a case study to document the Marina Bay Casino website project, which is now up on my portfolio.
 
 You can check it out here: [Luxury Casino Website for MARITIM Marina Bay Casino](https://www.enesbala.com/work/marina-bay-casino).
