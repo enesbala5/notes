@@ -6,19 +6,17 @@ Link: [Luxury Casino Website for MARITIM Marina Bay](https://www.enesbala.com/wo
 
 ---
 
-Developers are infamous for failing to sharing the work they do - and I'm no exception to this rule. However, lately I've decided to put more effort to building in public and publishing my projects so others can actually understand who I am and what I do. 
+Developers are infamous for failing to sharing the work they do - and I'm no exception to this rule. However, lately I've decided to start building in public and publish my projects online. I will try my best to stay consistent to this goal.
 
-Without proper sampling, the only person who will find value in your work, is you - I look forward to feedback and criticism, constructive or not.
+I believe that without proper sampling, the only person who will find value in your work, is you - I look forward to feedback and criticism, constructive or not.
 
-In that spirit, I'll start by sharing a project I finished recently - a website for MARITIM Marina Bay - a hotel located in Vlore, Albania.
-I have had the pleasure of working with Marina Bay for the past 2 years, helping them manage their hotel's website and developing new functionalities to better serve their clients.
+In that spirit, I'll start by sharing a project I finished recently - a website for MARITIM Marina Bay - a hotel located in Vlore, Albania. I have had the pleasure of working with Marina Bay for the past 2 years, helping them manage their hotel's website and developing new functionalities to better serve their clients.
 
 I prepared a case study to document the Marina Bay Casino website project, which is now up on my portfolio.
 
-You can check it out here: [Luxury Casino Website for MARITIM Marina Bay](https://www.enesbala.com/work/marina-bay-casino).
+You can check it out here: [Luxury Casino Website for MARITIM Marina Bay Casino](https://www.enesbala.com/work/marina-bay-casino).
 
-I’ll be adding more case studies from other projects soon. Let me know what you think!
-
+I’ll be adding more case studies from other projects soon.
 
 ---
 
