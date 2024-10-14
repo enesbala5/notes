@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Personal/Marina Bay Casino.md",
+                "file": "Work/Personal/Post for Case Study - Marina Bay Casino.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805
+    "width": 347.50739669799805,
+    "collapsed": true
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Personal/Marina Bay Casino.md",
+                "file": "Work/Personal/Post for Case Study - Marina Bay Casino.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Personal/Marina Bay Casino.md",
+                "file": "Work/Personal/Post for Case Study - Marina Bay Casino.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Personal/Marina Bay Casino.md"
+                "file": "Work/Personal/Post for Case Study - Marina Bay Casino.md"
               }
             }
           },
@@ -172,7 +173,7 @@
   "active": "c559fb9a9bf1b004",
   "lastOpenFiles": [
     "Work/Personal/Completed Projects.md",
-    "Work/Personal/Marina Bay Casino.md",
+    "Work/Personal/Post for Case Study - Marina Bay Casino.md",
     "Work/Personal/Diversity Visa Applications/DV-2026 Submission.md",
     "Blog/Setting up Kanshi with Hyprland.md",
     "Work/Personal/Diversity Visa Applications",
