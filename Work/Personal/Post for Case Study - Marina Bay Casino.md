@@ -6,19 +6,21 @@ Link: [Luxury Casino Website for MARITIM Marina Bay](https://www.enesbala.com/wo
 
 ---
 
-Developers are infamous for failing to sharing the work they do - and I'm no exception to this rule. However, lately I've decided to start building in public and publish my projects online. I will try my best to stay consistent to this goal.
+Developers are infamous for failing to share the work they do - and I'm no exception to this rule. However, lately I've decided to start building in public and publish my projects online. I will try my best to stay consistent to this goal.
 
 I believe that without proper sampling, the only person who will find value in your work, is you - I look forward to feedback and criticism, constructive or not.
 
 In that spirit, I'll start by sharing a project I finished recently - a website for MARITIM Marina Bay - a hotel located in Vlore, Albania. 
 I have had the pleasure of working for them for the past 2 years, helping them manage their hotel's website and developing new functionalities to better serve their clients.
 
-They launched the first casino in the South of Albania, and for this new venture, they needed a beautiful website, welcoming and educating 
-I prepared a case study to document the Marina Bay Casino website project, which is now up on my portfolio.
+They launched the first casino in the South of Albania, and for this new venture, they needed a beautiful website to accompany it - while also reflecting the brand values of quality, luxury and excellence.
+I prepared a case study to document the steps taken and highlighting the final product, which you can find below:
 
-You can check it out here: [Luxury Casino Website for MARITIM Marina Bay Casino](https://www.enesbala.com/work/marina-bay-casino).
+[Luxury Casino Website for MARITIM Marina Bay Casino](https://www.enesbala.com/work/marina-bay-casino).
 
-I’ll be adding more case studies from other projects soon.
+I’ll be adding more case studies from other projects soon - and look forward to all feedback regarding the project and it's documentation.
+
+![[Pasted image 20241014190730.png]]
 
 ---
 
@@ -26,4 +28,5 @@ I found that returning to a project is a great way to learn more on the successe
 
 
 with Sveltekit and Strapi.
+
 
