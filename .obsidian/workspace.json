@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805,
-    "collapsed": true
+    "width": 347.50739669799805
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -170,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c559fb9a9bf1b004",
+  "active": "c8156697e97e26f6",
   "lastOpenFiles": [
     "Work/Personal/Completed Projects.md",
     "Work/Personal/Post for Case Study - Marina Bay Casino.md",
