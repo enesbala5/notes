@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50739669799805
+    "width": 347.50739669799805,
+    "collapsed": true
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -171,10 +172,10 @@
   },
   "active": "c559fb9a9bf1b004",
   "lastOpenFiles": [
-    "Pasted image 20241014190730.png",
-    "Pasted image 20241014190720.png",
     "Work/Personal/Completed Projects.md",
     "Work/Personal/Post for Case Study - Marina Bay Casino.md",
+    "Pasted image 20241014190730.png",
+    "Pasted image 20241014190720.png",
     "Work/Personal/Diversity Visa Applications/DV-2026 Submission.md",
     "Blog/Setting up Kanshi with Hyprland.md",
     "Work/Personal/Diversity Visa Applications",
@@ -217,7 +218,6 @@
     "Blog",
     "Pasted image 20240912180754.png",
     "Pasted image 20240912181213.png",
-    "Pasted image 20240912181202.png",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]
