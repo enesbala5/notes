@@ -21,7 +21,7 @@ Thank you very much for the clear and detailed answers to my original set of que
 	- Taxes
 		- Allow the seller to define a list of VAT options
 			- `Type`: `VAT Amount`
-		- Each product should have a VAT option selected, which will let the user/seller see how much VAT he will be paying
+		- Each product should have a VAT option selected, which will let the user/seller see how much VAT he will be payingAT Amount
 - Shipping
 	- Shipping Options Availability & Pricing
 		- Location Based:
