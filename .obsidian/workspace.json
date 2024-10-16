@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Personal/Completed Projects.md",
+                "file": "Work/To Be Seen/Italian Marketplace with Social Media Integration/Email Response.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tax",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Personal/Merre Documentation.md",
+                "file": "Work/To Be Seen/Italian Marketplace with Social Media Integration/Email Response.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Personal/Merre Documentation.md",
+                "file": "Work/To Be Seen/Italian Marketplace with Social Media Integration/Email Response.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Personal/Merre Documentation.md"
+                "file": "Work/To Be Seen/Italian Marketplace with Social Media Integration/Email Response.md"
               }
             }
           },
@@ -181,11 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf91ee206e9a1eb3",
+  "active": "c8156697e97e26f6",
   "lastOpenFiles": [
-    "Work/Personal/Completed Projects.md",
     "Work/Personal/Merre Documentation.md",
     "Work/Personal/Post for Case Study - Marina Bay Casino.md",
+    "Work/Personal/Completed Projects.md",
     "Pasted image 20241014190730.png",
     "Pasted image 20241014190720.png",
     "Work/Personal/Diversity Visa Applications/DV-2026 Submission.md",
