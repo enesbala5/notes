@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "bfd551264bdb7ae9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
             "id": "c559fb9a9bf1b004",
             "type": "leaf",
             "state": {
@@ -47,8 +35,7 @@
               "title": "Post for Case Study - Marina Bay Casino"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bfd551264bdb7ae9",
+  "active": "cf91ee206e9a1eb3",
   "lastOpenFiles": [
     "Work/To Be Seen/Italian Marketplace with Social Media Integration/Email Response.md",
     "Work/Personal/Merre Documentation.md",
