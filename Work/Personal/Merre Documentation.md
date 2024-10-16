@@ -1,3 +1,37 @@
+
+# Key Priorities:
+
+- Search
+- Filter
+- Settings
+- Create Post
+- Manage Post
+- Categories
+- Account
+	- Setup Account
+	- Settings
+- Mobile Responsiveness
+- Post Page
+- Recently Viewed & Liked Posts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 1. Project Overview
 
 [Pazar.al](http://Pazar.al) is an online marketplace platform designed for Albania and potentially expanding to the Balkans. It aims to provide a Craigslist-like experience tailored for the local market, facilitating buying and selling of various items and services.
