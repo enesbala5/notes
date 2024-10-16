@@ -26,7 +26,6 @@ The design focuses on simplicity and ease of use, with:
 - Clear communication of the platform's free-to-use nature
 
 ## 5. Key Functionalities
-
 Some of the crucial functionalities of the website:
 
 |Internationalization (English + Albanian)|i18n Library|
@@ -131,7 +130,7 @@ User dashboard for managing listings and account settings
 
 ### Business Integration
 
-Dedicated business pages with enhanced features
+
 
 Integration with social media platforms for broader reach
 
