@@ -38,7 +38,7 @@
 		- Dynamic Form Rendering & Validation
 		- Complex Filtering and Category-based Attribute System
 		- Over 36 Pages & 200 Components
-		- Over 40 API Endpoints 
+		- Over 40 API Endpoints 6 v
 		- 2 Separate Backend Solutions
 		- 
 
