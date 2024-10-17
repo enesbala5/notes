@@ -1,10 +1,11 @@
 # What my Potential Client might be interested in:
 - What is Merre
 - Why I decided to build it
-- Does this project mean that I am skilled at what I do
-- Am I a good UI & UX?
-- Am I capable in backend development
-
+- How this project may indicate that I am skilled?
+	- Am I a good full stack developer?
+	- Am I a good UI & UX?
+- My ability to produce quality products from scratch
+ 
 # What I want to communicate to a potential client:
 - The project is a very difficult one
 - It rivals the best solutions
