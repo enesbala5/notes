@@ -43,7 +43,7 @@
 		- Complex Database Modelling (through Prisma ORM) with >30 Database Tables and ~40 relations between the fields
 		- Docker Compose Setup for Development and Production use-cases
 			- With Docker Swarm integration & Rolling Updates on GitHub Commit through Coolify implementation
-		- 
+
 
 
 
