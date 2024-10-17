@@ -1,13 +1,4 @@
 {
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "B"
-    }
-  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -193,6 +184,23 @@
         "Mod"
       ],
       "key": "N"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
     }
   ]
 }
