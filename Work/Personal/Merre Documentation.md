@@ -40,7 +40,10 @@
 		- 36 Pages & 200 Components
 		- 40 REST API Endpoints across 2 Separate Backends
 		- > 150,000 Lines of Code
-		- Complex Database Modelling with >30 Database Tables and 40 Complex Relations tying 
+		- Complex Database Modelling (through Prisma ORM) with >30 Database Tables and ~40 relations between the fields
+		- Docker Compose Setup for Development and Production use-cases
+			- With Docker Swarm integration & Rolling Updates on GitHub Commit through Coolify implementation
+		- 
 
 
 
