@@ -37,7 +37,7 @@
 		- Image Upload
 		- Dynamic Form Rendering & Validation
 		- Complex Filtering and Category-based Attribute System
-		- Wide Range of UI-s to be developed
+		- 36 Pages & Wide Range of UI-s to be developed
 		- 2 Separate Backend Solutions
 		- 
 
