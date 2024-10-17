@@ -38,9 +38,10 @@
 		- Dynamic Form Rendering & Validation
 		- Complex Filtering and Category-based Attribute System
 		- Over 36 Pages & 200 Components
-		- Over 40 API Endpoints 6 v
+		- Over 40 REST API Endpoints
 		- 2 Separate Backend Solutions
-		- 
+		- 178,246 Lines of Code
+
 
 
 
@@ -212,3 +213,34 @@ Integration capabilities for in-app purchases
 Framework for implementing a subscription-based model
 
 Extensible API for potential third-party integrations
+
+
+---
+
+===============================================================================
+ Language            Files        Lines         Code     Comments       Blanks
+===============================================================================
+ CSS                     4          919          792           43           84
+ Dockerfile              1            9            5            0            4
+ HTML                    6           42           20           18            4
+ JavaScript              7       114696       114135          313          248
+ JSON                   22        18214        18206            0            8
+ Makefile                2           24           16            2            6
+ Markdown               11          239            0          148           91
+ Shell                   3           40           30            1            9
+ SVG                    93         1551         1541           10            0
+ Plain Text              2          238            0          235            3
+ TOML                    1           26           18            1            7
+ TSX                     3          281          268            0           13
+ TypeScript            266        19734        15894         1475         2365
+ XML                     1            7            3            2            2
+ YAML                    5         7213         6996            3          214
+-------------------------------------------------------------------------------
+ Svelte                271        15013        13540          769          704
+ |- CSS                 28         4746         4085           90          571
+ |- JavaScript         266         7813         6211          351         1251
+ |- PostCSS              1            8            7            1            0
+ (Total)                          27580        23843         1211         2526
+===============================================================================
+ Total                 698       178246       171464         3020         3762
+===============================================================================
