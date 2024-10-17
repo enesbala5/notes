@@ -1,4 +1,5 @@
 # What my Potential Client might be interested in:
+
 - What is Merre
 - Why I decided to build it
 - How this project may indicate that I am skilled?
@@ -7,26 +8,32 @@
 - My ability to produce quality products from scratch
  
 # What I want to communicate to a potential client:
-- The project is a very difficult one
-- It rivals the best solutions
-- I have done some really nice backend development and logic
-- The UX is amazing & performance also
-- I am detail oriented
 
-# Key Priorities (Functionalities to highlight):
+- The project is about the most difficult thing a full stack developer can take on
+- It rivals the best solutions on the market
+- I have done some really nice backend development and logic
+- The UX is amazing & performance is as well
+- I am detail oriented and capable of taking things from start to finish
+
+# Key Priorities:
+---
+**(Functionalities to highlight)**
 
 - Search
 - Filter
-- Settings
-- Create Post
-- Manage Post
-- Categories
+- Data Structure
+- Introduction
 - Account
 	- Setup Account
 	- Settings
+	- Recently Viewed & Liked Posts
+- Post
+	- Create Post
+	- Manage Post
+- Categories
+	- Tags related to each category
 - Mobile Responsiveness
 - Post Page
-- Recently Viewed & Liked Posts
 
 # Takeaways - Sections:
 - What is Merre?
