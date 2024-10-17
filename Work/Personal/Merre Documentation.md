@@ -37,14 +37,10 @@
 		- Image Upload
 		- Dynamic Form Rendering & Validation
 		- Complex Filtering and Category-based Attribute System
-		- Over 36 Pages & 200 Components
-		- Over 40 REST API Endpoints
-		- 2 Separate Backend Solutions
-		- 178,246 Lines of Code
-
-
-
-
+		- 36 Pages & 200 Components
+		- 40 REST API Endpoints across 2 Separate Backends
+		- > 150,000 Lines of Code
+		- Complex Database Modelling with >30 Database Tables and 40 Complex Relations tying 
 
 
 
