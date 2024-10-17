@@ -37,9 +37,11 @@
 		- Image Upload
 		- Dynamic Form Rendering & Validation
 		- Complex Filtering and Category-based Attribute System
-		- 36 Pages & Wide Range of UI-s to be developed
+		- Over 36 Pages & 200 Components
+		- Over 40 API Endpoints 
 		- 2 Separate Backend Solutions
 		- 
+
 
 
 
