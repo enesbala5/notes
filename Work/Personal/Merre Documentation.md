@@ -1,5 +1,18 @@
+# What my Potential Client might be interested in:
+- What is Merre
+- Why I decided to build it
+- Does this project mean that I am skilled at what I do
+- Am I a good UI & UX?
+- Am I capable in backend development
 
-# Key Priorities:
+# What I want to communicate to a potential client:
+- The project is a very difficult one
+- It rivals the best solutions
+- I have done some really nice backend development and logic
+- The UX is amazing & performance also
+- I am detail oriented
+
+# Key Priorities (Functionalities to highlight):
 
 - Search
 - Filter
@@ -14,9 +27,9 @@
 - Post Page
 - Recently Viewed & Liked Posts
 
-
-
-
+# Takeaways - Sections:
+- What is Merre?
+- Why 
 
 
 
