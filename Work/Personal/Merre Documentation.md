@@ -29,7 +29,17 @@
 
 # Takeaways - Sections:
 - What is Merre?
-- Why 
+- Why I decided to build it?
+- The Challenges I faced with the project
+	- State that this is widely regarded as the most complex application a full stack web developer can build
+	- List the set of development challenges that had to be dealt with:
+		- User Authentication
+		- Image Upload
+		- Dynamic Form Rendering & Validation
+		- Complex Filtering and Category-based Attribute System
+		- Wide Range of UI-s to be developed
+		- 2 Separate Backend Solutions
+		- 
 
 
 
