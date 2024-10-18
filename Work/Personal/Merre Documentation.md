@@ -1,4 +1,4 @@
-# What my Potential Client might be interested in:
+## What my Potential Client might be interested in:
 
 - What is Merre
 - Why I decided to build it
@@ -7,7 +7,7 @@
 	- Am I a good UI & UX?
 - My ability to produce quality products from scratch
  
-# What I want to communicate to a potential client:
+## What I want to communicate to a potential client:
 
 - The project is about the most difficult thing a full stack developer can take on
 - It rivals the best solutions on the market
@@ -15,9 +15,9 @@
 - The UX is amazing & performance is as well
 - I am detail oriented and capable of taking things from start to finish
 
-# Key Priorities:
+## Key Priorities:
 ---
-**(Functionalities to highlight)**
+**Functionalities to Highlight**
 
 - Search
 - Filter
