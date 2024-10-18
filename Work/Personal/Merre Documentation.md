@@ -35,23 +35,31 @@
 - Mobile Responsiveness
 - Post Page
 
-# Takeaways - Sections:
+## Takeaways - Sections:
+
 - What is Merre?
 - Why I decided to build it?
 - The Challenges I faced with the project
 	- State that this is widely regarded as the most complex application a full stack web developer can build
-	- List the set of development challenges that had to be dealt with:
-		- User Authentication
-		- Image Upload
-		- Dynamic Form Rendering & Validation
-		- Complex Filtering and Category-based Attribute System
+	- Scale
 		- 36 Pages & 200 Components
 		- 40 REST API Endpoints across 2 Separate Backends
 		- > 150,000 Lines of Code
-		- Complex Database Modelling (through Prisma ORM) with >30 Database Tables and ~40 relations between the fields
-		- Docker Compose Setup for Development and Production use-cases
-			- With Docker Swarm integration & Rolling Updates on GitHub Commit through Coolify implementation
-
+- Features
+	- Custom User Authentication
+	- Image Upload w/ Cloudinary
+	- Image Optimization
+	- Custom Emails Designed w/ React Email
+	- Email Server Integration - Send Email to Clients w/ Resend
+	- Custom Messaging Solution
+	- Complex Filtering and Category-based Attribute System @ Search
+	- Dynamic Form Rendering & Validation @ Settings
+	- Complex Database Modelling (through Prisma ORM) with over 30 Tables / Models
+		- With Visualization
+	- Docker Compose Setup for Development and Production use-cases
+		- With Docker Swarm integration & 
+		- Rolling Updates on GitHub Commit through Coolify implementation
+	- 
 
 
 
