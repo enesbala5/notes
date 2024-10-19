@@ -56,6 +56,7 @@
 		- Small Image - Post View and Text Message
 		- Small Image - Opening a new chat
 - Custom Emails Designed w/ React Email
+	- Email Server Integration - Send Email to Clients w/ Resend
 	- Video Image - Display an example
 	- Feature Grid
 		- Different type of emails that were created
@@ -65,13 +66,8 @@
 
 - Image Upload w/ Cloudinary
 - Image Optimization
-
-- Email Server Integration - Send Email to Clients w/ Resend
-- Custom Messaging Solution
 - Complex Filtering and Category-based Attribute System @ Search
 - Dynamic Form Rendering & Validation @ Settings
-- Complex Database Modelling (through Prisma ORM) with over 30 Tables / Models
-	- With Visualization
 - Docker Compose Setup for Development and Production use-cases
 	- With Docker Swarm integration & 
 	- Rolling Updates on GitHub Commit through Coolify implementation
