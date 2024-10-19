@@ -42,14 +42,18 @@
 	- 40 REST API Endpoints across 2 Separate Backends
 	- Over 150,000 Lines of Code
 - The Core Functionalities
-	- Homepage
+	- Video Image - Homepage
 	- Image Grid
 		- Small Image - Card Post
 		- Small Image - List Post x2
 	- The Search Interface
 	- Image Grid
 		- Small Image - Filter Display
-		- 
+		- Small Image - Category Highlight
+	- Video Image - Categories Page
+- Post
+	- Image Grid
+		- Small Image - Location Preview
 - User
 	- Setup Account
 	- Custom User Authentication
