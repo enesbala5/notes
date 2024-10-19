@@ -8,9 +8,9 @@ I believe that without client feedback, it is nearly impossible to create the de
 
 Regarding your proposal, my primary concern is the risk I would have to take on if I were to develop all the changes we have discussed in our previous communications. 
 
-The changes we have discussed in our previous communications, solely serve the goal of adapting the existing platform to an e-commerce solution for businesses (or other any needs your business has), instead of the current vision of the platform, which is to be a marketplace for all.
+The changes we have discussed in our previous communications, solely serve the goal of adapting the existing platform to a  e-commerce solution for businesses (a tailored solution for your business), instead of the current vision of the platform, which is to be a marketplace for all.
 
-Essentially, myself and other developers, which I would directly engage and pay in the meanwhile, would work in implementing new functionality that was explicitly requested. 
+Essentially, in the current proposal you have sent, myself and other developers, which I would directly engage and pay in the meanwhile, would be working to implement new functionality, for the course of 6 months. After this per
 
-The problem however is that, while I am excited to work on this project, the methodology of work you proposed leaves me with no assurances that the time and funds I would need to invest,    
+The problem however is that, while I am excited to work on this project, the methodology of work you have proposed leaves me with no assurances that the time and funds I would need to invest, will be rewarded, given the ever-changing landscape of requirements and market demands. This is not a risk I am willing to take.
 
