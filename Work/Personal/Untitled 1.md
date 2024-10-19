@@ -24,7 +24,7 @@ In Summary:
 * My exposure without any guarantee that I am paid in full within a given period of time is ungrounded, therefore I cannot accept - should you have any proposal for a guarantee, I would be very happy to discuss further.
 * The cost of my Investment to meet the business requirements and to complete the software as discussed (Site Builder, Tax and Shipping Solutions, etc.) would amount at ~€24.000. This is why I am selling this part for a total of €30.000, adding a 25% margin, including my own work on top of a team of three developers.
 - The Price of the current 'Merre' platform - amounts to €40.000. It can be acquired directly "as is", and includes training and other onboarding elements. 
-* The Price of the Total work (incl. development of business requirements, additional components, Site Builder and other integrations) is €70,000. 
+- The Price of the Total work (incl. development of business requirements, additional components, Site Builder and other integrations) is €70,000. 
 	* This amount should be paid in full within 6 months from the signing of the contract. 
 * In case of a phased payment model, 10% rate / year is to be applied. The total price of the updated platform, to be paid in full at the end of the first year - is no less than €77,000.
 
