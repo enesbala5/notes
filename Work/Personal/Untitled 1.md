@@ -10,4 +10,5 @@ Regarding your proposal, my primary concern is the risk I would have to take on 
 
 The changes we have discussed in detail in our previous communications, solely serve the new goal of adapting the existing platform to an e-commerce solution for businesses, instead of the current vision of a marketplace for all.
 
-Essentially, this means that I would have to take on the development cost fully for a platform which is purely for Lead 
+
+
