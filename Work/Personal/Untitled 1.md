@@ -10,5 +10,5 @@ Regarding your proposal, my primary concern is the risk I would have to take on 
 
 The changes we have discussed in detail in our previous communications, solely serve the new goal of adapting the existing platform to an e-commerce solution for businesses, instead of the current vision of a marketplace for all.
 
-
+Essentially, myself and other developers, which I would engage in the project, would have to work in implementing new functionality to the platform to fit your business needs'. While I would be happy to do this with clearly defined   
 
