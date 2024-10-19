@@ -40,7 +40,7 @@
 	- Scale of the Project
 	- Video Image:
 		- 36 Pages & 200 Components
-		- 40 REST API Endpoints across 2 Separate Backends: 
+		- 40 REST API Endpoints across 2 Separate Backends
 		- Over 150,000 Lines of Code
 - The Core Functionalities
 	- Video Image - Homepage
