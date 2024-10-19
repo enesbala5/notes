@@ -44,6 +44,8 @@
 	- 36 Pages & 200 Components
 	- 40 REST API Endpoints across 2 Separate Backends
 	- Over 150,000 Lines of Code
+- Messages
+	- Small Image - Showing 
 - Features
 	- Custom User Authentication
 	- Image Upload w/ Cloudinary
