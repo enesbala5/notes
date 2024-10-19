@@ -1,6 +1,6 @@
-Hello Giorgio,
+Hello Giuseppe,
 
-Thank you for your response. I appreciate you taking the time to explain where you stand and how you view the continuation of our work.
+Thank you for your response. I appreciate you taking the time to share your proposal with me and your thoughts on the project's continuation.
 
 I'd like to firstly state that I fully agree with you regarding the necessity of continuous communication and building long-lasting relations. 
 
@@ -16,5 +16,8 @@ The problem however is that, while I remain excited to work on this project, the
 
 Regarding the price of the platform and the requested changes, I have to unfortunately inform you that it is not possible to meet your desired price point of €50,000 unless the requirements are to change also.
 
-Otherwise, I am happy to provide you the full source-code of the "Merre" platform, and a full onboarding for the engineers who are implement to implement your business requirements'.
+Otherwise, I am happy to provide you the full source-code of the "Merre" platform, and a full onboarding for the engineers who are implement your business requirements'.
+
+Sincerely,
+Enes Bala
 
