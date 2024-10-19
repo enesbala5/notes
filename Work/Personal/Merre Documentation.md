@@ -24,7 +24,6 @@
 - Data Structure
 - Introduction
 - Account
-	
 - Post
 	- Create Post
 	- Manage Post
@@ -42,6 +41,11 @@
 	- 36 Pages & 200 Components
 	- 40 REST API Endpoints across 2 Separate Backends
 	- Over 150,000 Lines of Code
+- The Core Functionalities
+	- Homepage
+	- Image Grid
+		- Small Image - Card Post
+		- Small Image - List Post
 - User
 	- Setup Account
 	- Custom User Authentication
