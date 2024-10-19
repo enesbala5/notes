@@ -36,13 +36,15 @@
 
 - What is Merre?
 - Why I decided to build it?
-- Challenge: Scale of the Project
-	- State that this is widely regarded as the most complex application a full stack web developer can build
-	- 36 Pages & 200 Components
-	- 40 REST API Endpoints across 2 Separate Backends
-	- Over 150,000 Lines of Code
+- Video Image:
+	- Scale of the Project
+	- Video Image:
+		- 36 Pages & 200 Components
+		- 40 REST API Endpoints across 2 Separate Backends
+		- Over 150,000 Lines of Code
 - The Core Functionalities
 	- Video Image - Homepage
+	- State that this is widely regarded as the most complex application a full stack web developer can build
 	- Image Grid
 		- Small Image - Card Post
 		- Small Image - List Post x2
