@@ -14,5 +14,7 @@ Essentially, in the current proposal you have sent, myself and other developers,
 
 The problem however is that, while I remain excited to work on this project, the methodology of work you have proposed leaves me with no assurances that the time and funds I would need to invest, will amount to anything. The risk is exacerbated by the ever-changing landscape of business requirements and market demands. I am not willing to make such a risky investment.
 
-Regarding the price of the platform and the requested changes, I have to unfortunately inform you that it is not possible to meet your desired price point of €50,000 - unless the requirements are to change as well. 
-Otherwise, I am open to providing you the full source-code of the existing platform, and a full on-boarding for the engineers who implement the changes.
+Regarding the price of the platform and the requested changes, I have to unfortunately inform you that it is not possible to meet your desired price point of €50,000 unless the requirements are to change also.
+
+Otherwise, I am happy to provide you the full source-code of the "Merre" platform, and a full onboarding for the engineers who are implement to implement your business requirements'.
+
