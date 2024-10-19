@@ -44,6 +44,10 @@
 	- 36 Pages & 200 Components
 	- 40 REST API Endpoints across 2 Separate Backends
 	- Over 150,000 Lines of Code
+- User
+	- 
+	- Custom User Authentication
+	- 
 - Messages
 		- Custom-built Messaging Solution built for the platform  
 	- Image Grid
@@ -52,11 +56,13 @@
 		- Small Image - Post View and Text Message
 		- Small Image - Opening a new chat
 - Custom Emails Designed w/ React Email
-	- Display an email
+	- Video Image - Display an example
+	- Feature Grid
+		- Different type of emails that were created
 
 ### Features
 
-- Custom User Authentication
+
 - Image Upload w/ Cloudinary
 - Image Optimization
 
