@@ -6,7 +6,12 @@ I'd like to firstly state that I fully agree with you regarding the necessity of
 
 I believe that without client feedback, it is nearly impossible to create the desired end-product, so in that sense, I fully understand your stance regarding team-work and problem solving. I would like to note that, personally I don't see the language barrier as a problem, given that it can be easily solved through translation technology. 
 
-Regarding your proposal, my primary concern is the risk I would have to take on if I were to develop all the changes we spoke of, and have written down in our previous communications. 
+Regarding your proposal, my primary concern is the risk I would have to take on if I were to develop all the changes we have discussed in our previous communications. 
 
-I am not willin
+These changes are not *for* the platform itself, if it is to maintain it's current goal of serving as a marketplace for all, instead of a tailored e-commerce solution for businesses,. 
+
+Essentially, this means that I would have to take on the development cost fully, to tailor the existing platform to a 
+
+
+
 
