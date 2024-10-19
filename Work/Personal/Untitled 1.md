@@ -8,10 +8,6 @@ I believe that without client feedback, it is nearly impossible to create the de
 
 Regarding your proposal, my primary concern is the risk I would have to take on if I were to develop all the changes we have discussed in our previous communications. 
 
-These changes are not *for* the platform itself, if it is to maintain it's current goal of serving as a marketplace for all, instead of a tailored e-commerce solution for businesses,. 
+The changes we have discussed in detail in our previous communications, solely serve the new goal of adapting the existing platform to an e-commerce solution for businesses, instead of the current vision of a marketplace for all.
 
-Essentially, this means that I would have to take on the development cost fully, to tailor the existing platform to a 
-
-
-
-
+Essentially, this means that I would have to take on the development cost fully for a platform which is purely for Lead 
