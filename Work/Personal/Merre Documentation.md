@@ -58,7 +58,7 @@
 	- Docker Compose Setup for Development and Production use-cases
 		- With Docker Swarm integration & 
 		- Rolling Updates on GitHub Commit through Coolify implementation
-
+		- 
 
 
 
