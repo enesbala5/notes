@@ -21,11 +21,10 @@ Regarding the price of the platform and the requested changes, I have to unfortu
 Otherwise, I am happy to provide you the full source-code of the "Merre" platform, and a full onboarding for the engineers who will be entitled to implement your business requirements - against a price of €40,000.
 
 In Summary:
-* The Cost of my Investment to meet your requirements and to complete the software as discussed (Site Builder, Tax and Shipping Solutions, etc.) would amount at EUR 24.000. This is why I am selling this part for a total of EUR 30.000, adding a 25% margin including my own work on top of a team of three developers.
-My exposure without any guarantee that I am paid in full within a given period of time is ungrounded, therefore I cannot accept. Should you have any proposal for a guarantee, I would be very happy to discuss further. Otherwise, I am .
-- The Price of the current software - ready to be deployed as The Shop entity/unit - amounts to EUR 40.000. It can be acquired directly "as it is", incl. training and other onboarding elements. 
-
-* The Price of the Total work (incl. your required customized changes, additional components, Site Builder and Integrations) is EUR 70.000. This amount should be paid in full within 6 months from the signing of the contract. 
+* My exposure without any guarantee that I am paid in full within a given period of time is ungrounded, therefore I cannot accept - should you have any proposal for a guarantee, I would be very happy to discuss further.
+* The cost of my Investment to meet the business requirements and to complete the software as discussed (Site Builder, Tax and Shipping Solutions, etc.) would amount at ~€24.000. This is why I am selling this part for a total of €30.000, adding a 25% margin, including my own work on top of a team of three developers.
+- The Price of the current 'Merre' platform - amounts to €40.000. It can be acquired directly "as is", and includes training and other onboarding elements. 
+* The Price of the Total work (incl. development of business requirements, additional components, Site Builder and other integrations) is €70.000. This amount should be paid in full within 6 months from the signing of the contract. 
 * In case of a phased payment model, 10% interest rate per annum is applied. The total price of the final solution to be paid in full at the end of 1 year - is not less than EUR 77.000. In such case you have a "customized Shopify software" ready to be launched as a company.
 Should you be truly interested for this solution, please formulate a Proposal that I may accept.
 
