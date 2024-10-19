@@ -24,9 +24,7 @@
 - Data Structure
 - Introduction
 - Account
-	- Setup Account
-	- Settings
-	- Recently Viewed & Liked Posts
+	
 - Post
 	- Create Post
 	- Manage Post
@@ -45,9 +43,10 @@
 	- 40 REST API Endpoints across 2 Separate Backends
 	- Over 150,000 Lines of Code
 - User
-	- 
+	- Setup Account
 	- Custom User Authentication
-	- 
+	- Settings
+	- Recently Viewed & Liked Posts
 - Messages
 		- Custom-built Messaging Solution built for the platform  
 	- Image Grid
