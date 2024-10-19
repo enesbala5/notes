@@ -10,7 +10,7 @@ Regarding your proposal, my primary concern is the risk I would have to take on 
 
 The changes we have discussed in our previous communications, solely serve the goal of adapting the existing platform to an e-commerce solution for businesses - a tailored solution for Lead Mobile - instead of the current vision of the platform, which is to be a marketplace for all.
 
-Essentially, per this proposal, myself and other developers, which I would directly engage and pay, would work to implement new functionality, over the course of 6 months. 
+Essentially, for this proposal, myself and other developers, which I would directly engage and pay, would work to implement new functionality, over the course of 6 months. 
 After this period, if Lead Mobile is still in need of such a solution, then finally the investment *may* generate earnings. 
 
 The problem is that - while I remain excited to work on this project - the methodology of work which is proposed leaves me with no assurances that the time and funds I would need to invest, will amount to any financial returns. 
@@ -18,7 +18,7 @@ The risk is exacerbated by the ever-changing landscape of business requirements 
 
 Regarding the price of the platform and the requested changes, I have to unfortunately inform you that it is not possible to meet your desired price point of €50,000 unless the requirements are to change also.
 
-Otherwise, I am happy to provide you the full source-code of the "Merre" platform, and a full onboarding for the engineers who are implement your business requirements'.
+Otherwise, I am happy to provide you the full source-code of the "Merre" platform, and a full onboarding for the engineers who will be entitled to implement your business requirements - against a price of €40,000.
 
 Sincerely,
 Enes Bala
