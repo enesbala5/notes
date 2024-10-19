@@ -39,12 +39,11 @@
 
 - What is Merre?
 - Why I decided to build it?
-- The Challenges I faced with the project
+- Challenge: Scale of the Project
 	- State that this is widely regarded as the most complex application a full stack web developer can build
-	- Scale
-		- 36 Pages & 200 Components
-		- 40 REST API Endpoints across 2 Separate Backends
-		- > 150,000 Lines of Code
+	- 36 Pages & 200 Components
+	- 40 REST API Endpoints across 2 Separate Backends
+	- Over 150,000 Lines of Code
 - Features
 	- Custom User Authentication
 	- Image Upload w/ Cloudinary
@@ -59,8 +58,6 @@
 	- Docker Compose Setup for Development and Production use-cases
 		- With Docker Swarm integration & 
 		- Rolling Updates on GitHub Commit through Coolify implementation
-	- 
-
 
 
 
