@@ -45,7 +45,7 @@
 	- 40 REST API Endpoints across 2 Separate Backends
 	- Over 150,000 Lines of Code
 - Messages
-	- Custom-built Messaging Solution built for the platform  
+		- Custom-built Messaging Solution built for the platform  
 	- Image Grid
 		- Small Image - Showing Quick Actions
 		- Small Image - Showing mobile view
