@@ -26,9 +26,9 @@ In Summary:
 - The Price of the current 'Merre' platform - amounts to €40.000. It can be acquired directly "as is", and includes training and other onboarding elements. 
 * The Price of the Total work (incl. development of business requirements, additional components, Site Builder and other integrations) is €70,000. 
 	* This amount should be paid in full within 6 months from the signing of the contract. 
-* In case of a phasic payment model, 10% interest rate per annum is applied. The total price of the end-solution, to be paid in full at the end of the first year - is not less than EUR 77.000. In such case you have a "customized Shopify software" ready to be launched as a company.
+* In case of a phased payment model, 10% rate / year is to be applied. The total price of the updated platform, to be paid in full at the end of the first year - is no less than €77,000.
 
-Should you be truly interested for this solution, please formulate a Proposal that I may accept.
+If you are interested in working together on this project, please formulate a Proposal that I can accept.
 
 Sincerely,
 Enes Bala
