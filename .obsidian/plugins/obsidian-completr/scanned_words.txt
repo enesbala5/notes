@@ -3860,6 +3860,8 @@ today
 thoughts
 translator
 translating
+translation
+technology
 Update
 Use
 UI
