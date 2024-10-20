@@ -40,9 +40,9 @@
 	- Scale of the Project
 	- Video Image:
 		- 36 Pages & 200 Components
-		- 40 REST API Endpoints across 2 Separate Backends
+		- 40 REST API Endpoints built with SvelteKit and ElysiaJS (Bun)
 		- Over 150,000 Lines of Code
-(The Core Functionalities)
+*(The Core Functionalities)*
 - Video Image - Homepage
 - State that this is widely regarded as the most complex application a full stack web developer can build
 - Image Grid
@@ -123,15 +123,15 @@ The design focuses on simplicity and ease of use, with:
 ## 5. Key Functionalities
 Some of the crucial functionalities of the website:
 
-|Internationalization (English + Albanian)|i18n Library|
-|---|---|
-|Integration with Content Management System|Strapi CMS Backend|
-|Dynamic Form Inputs & Custom Validation|Custom Logic|
-|Image Compression & Speed Optimizations|Next Image & Custom Setup|
-|Email Integration for Lead Management|Custom Email & Resend Library|
-|Age Validation & Request Handling|Custom Logic|
-|User Authentication and Profiles|Custom Implementation|
-|Search and Filtering System|Custom Algorithm|
+| Internationalization (English + Albanian)  | i18n Library                  |
+| ------------------------------------------ | ----------------------------- |
+| Integration with Content Management System | Strapi CMS Backend            |
+| Dynamic Form Inputs & Custom Validation    | Custom Logic                  |
+| Image Compression & Speed Optimizations    | Next Image & Custom Setup     |
+| Email Integration for Lead Management      | Custom Email & Resend Library |
+| Age Validation & Request Handling          | Custom Logic                  |
+| User Authentication and Profiles           | Custom Implementation         |
+| Search and Filtering System                | Custom Algorithm              |
 
 ## 6. Marketing and Growth Strategy
 
