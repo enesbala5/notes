@@ -44,7 +44,7 @@
 		- Over 150,000 Lines of Code
 *(The Core Functionalities)*
 - Video Image - Homepage
-- State that this is widely regarded as the most complex application a full stack web developer can build
+- Complexity: An e-commerce marketplace is widely regarded as one of` the most complex application a full stack web developer can build
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
