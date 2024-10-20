@@ -21,8 +21,19 @@
               "icon": "lucide-file",
               "title": "Merre Documentation"
             }
+          },
+          {
+            "id": "f29e29156e1bb530",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4f43e274b576f45e",
@@ -196,8 +207,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05459e18caba79ab",
+  "active": "f29e29156e1bb530",
   "lastOpenFiles": [
+    "Work/Personal/Merre Documentation.md",
     "Work/Personal/Untitled.md",
     "Work/Personal/-.md",
     "Work/To Be Seen/Italian Marketplace with Social Media Integration/Email Response - 2.md",
@@ -206,7 +218,6 @@
     "Work/Personal/Untitled 2.md",
     "Work/Personal/Completed Projects.md",
     "Untitled",
-    "Work/Personal/Merre Documentation.md",
     "Work/Favors",
     "Work/Personal/Personal Brand/Post for Case Study - Marina Bay Casino.md",
     "Work/Personal/Personal Brand",
