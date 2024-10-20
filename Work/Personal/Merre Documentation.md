@@ -49,7 +49,9 @@
 	- Small Image - Card Post
 	- Small Image - List Post x2
 - The Post Page - Small Description
+- Video Image - 
 - Image Grid
+	- Small Image - Tag Preview
 	- Small Image - Location Preview
 - The Search Interface
 - Image Grid
