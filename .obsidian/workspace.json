@@ -21,19 +21,8 @@
               "icon": "lucide-file",
               "title": "Merre Documentation"
             }
-          },
-          {
-            "id": "f29e29156e1bb530",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4f43e274b576f45e",
@@ -207,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f29e29156e1bb530",
+  "active": "05459e18caba79ab",
   "lastOpenFiles": [
     "Work/Personal/Merre Documentation.md",
     "Work/Personal/Untitled.md",

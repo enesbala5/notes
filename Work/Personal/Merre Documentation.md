@@ -42,20 +42,20 @@
 		- 36 Pages & 200 Components
 		- 40 REST API Endpoints across 2 Separate Backends
 		- Over 150,000 Lines of Code
-- The Core Functionalities
-	- Video Image - Homepage
-	- State that this is widely regarded as the most complex application a full stack web developer can build
-	- Image Grid
-		- Small Image - Card Post
-		- Small Image - List Post x2
-	- The Search Interface
-	- Image Grid
-		- Small Image - Filter Display
-		- Small Image - Category Highlight
-	- Video Image - Categories Page
-- Post
-	- Image Grid
-		- Small Image - Location Preview
+(The Core Functionalities)
+- Video Image - Homepage
+- State that this is widely regarded as the most complex application a full stack web developer can build
+- Image Grid
+	- Small Image - Card Post
+	- Small Image - List Post x2
+- The Post Page - Small Description
+- Image Grid
+	- Small Image - Location Preview
+- The Search Interface
+- Image Grid
+	- Small Image - Filter Display
+	- Small Image - Category Highlight
+- Video Image - Categories Page
 - User
 	- Setup Account
 	- Custom User Authentication
