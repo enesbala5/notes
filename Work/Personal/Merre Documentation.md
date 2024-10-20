@@ -37,14 +37,14 @@
 - What is Merre?
 - Why I decided to build it?
 - Video Image:
-	- Scale of the Project
-	- Video Image:
+- Scale of the Project
+- Video Image:
 		- 36 Pages & 200 Components
 		- 40 REST API Endpoints built with SvelteKit and ElysiaJS (Bun)
 		- Over 150,000 Lines of Code
 *(The Core Functionalities)*
 - Video Image - Homepage
-- Complexity: An e-commerce marketplace is widely regarded as one of` the most complex application a full stack web developer can build
+- Complexity: An e-commerce marketplace is widely regarded as one of the most complex application a full stack web developer can build
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
