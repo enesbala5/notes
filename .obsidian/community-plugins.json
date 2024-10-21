@@ -7,5 +7,6 @@
   "url-into-selection",
   "obsidian-plugin-toc",
   "settings-search",
-  "shiki-highlighter"
+  "shiki-highlighter",
+  "cm-typewriter-scroll-obsidian"
 ]
