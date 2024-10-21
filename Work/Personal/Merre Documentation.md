@@ -58,6 +58,7 @@
 	- Small Image - Tag Preview
 	- Small Image - Location Preview
 - The Search Interface
+	- In a platform such as this, it's crucial to allow the user to search for products with ease, whether on mobile or desktop. As part of 
 - Image Grid
 	- Small Image - Filter Display
 	- Small Image - Category Highlight
