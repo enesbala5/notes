@@ -35,6 +35,7 @@
 ## Takeaways - Sections:
 
 - What is Merre?
+- 
 - Why build it?
 	- Feature Grid:
 		- Performance Issues with Existing Solutions
