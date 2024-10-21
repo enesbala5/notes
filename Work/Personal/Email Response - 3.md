@@ -13,14 +13,14 @@ Once the modules of the platform shall be operational according to your basic re
 
 Once I have received your ToRs on the product including:
 - Preliminary design or model to imitate in looks
-- Business flow (functionalities for the users and the detailed passages of the UI/UX according to services offered)
+- Business flow (functionalities for the users and the passages of the UI/UX according to services offered)
 - Technical details related to volumes of data and their processing from the admin point of view
 - Timeline required and preferred structure (modular or other)
 
-Once I shall receive these documents, I shall undergo again the process of quotation.
-Surely I shall evaluate which part of the existing modules of my current product may serve your vision. This may positively affect the time of delivery.
+Once I receive these documents, I shall undergo again the process of quotation.
+I will then evaluate which part of the existing modules of my current product may serve your vision. This may positively impact the time of delivery.
 
-In order to save your time I would invite you to write down the Terms of Reference (which you should already have I suppose) and we take it from there.
+In order to save your time, I would invite you to write down the Terms of Reference (which you should already have I suppose) and we take it from there.
 
 Please Consider this approach, dear Mr Giuseppe - as a from scratch quotation process (as you have asked me to provide one in your previous message).
 
