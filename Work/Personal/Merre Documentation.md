@@ -35,7 +35,11 @@
 ## Takeaways - Sections:
 
 - What is Merre?
-- Why I decided to build it?
+- Why build it?
+	- Feature Grid:
+		- Performance Issues with Existing Solutions
+		- Lack of Sufficient Filtering in Competing Platforms
+		- Offer a Joyous Experience Maximizing Ease of Use
 - Video Image:
 - Scale of the Project
 - Video Image:
