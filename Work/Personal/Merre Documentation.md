@@ -58,7 +58,8 @@
 	- Small Image - Tag Preview
 	- Small Image - Location Preview
 - The Search Interface
-	- In a platform such as this, it's crucial to allow the user to search for products with ease, whether on mobile or desktop. As part of 
+	- In a platform such as Merre, it's crucial to allow the user to search for products easily - whether on mobile or desktop - and provide the results **fast**. 
+	- Through a careful implementation of caching practices and by following best practices in SSR and incremental data loading
 - Image Grid
 	- Small Image - Filter Display
 	- Small Image - Category Highlight
