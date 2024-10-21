@@ -40,7 +40,7 @@
 		- Performance Issues with Existing Solutions
 		- Lack of Sufficient Filtering in Competing Platforms
 		- Offer a Joyous Experience Maximizing Ease of Use
-- Video Image:
+- Video Image: 
 - Scale of the Project
 - Video Image:
 		- 36 Pages & 200 Components
