@@ -202,5 +202,15 @@
       ],
       "key": "B"
     }
+  ],
+  "workspace:move-to-new-window": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
   ]
 }
