@@ -59,7 +59,7 @@
 	- Small Image - Location Preview
 - The Search Interface
 	- In a platform such as Merre, it's crucial to allow the user to search for products easily - whether on mobile or desktop - and provide the results **fast**. 
-	- Through a careful implementation of caching practices and by following best practices in SSR and incremental data loading
+	- Through a careful implementation of caching practices and by following best practices in SSR and incremental data loading with SvelteKit - it feels like the page knows what you want ahead of time.
 - Image Grid
 	- Small Image - Filter Display
 	- Small Image - Category Highlight
