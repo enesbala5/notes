@@ -7,8 +7,7 @@ In your last email you noted that Lead Mobile is in need of a "SAAS e-commerce p
 It is my understanding that you believe I am not yet fully knowledgeable about your vision for the platform. You are right.
 For that reason, I expect you to do the prep work for the procurement of the product and to draft the ToRs (Terms of Reference) of this mandate. 
 
-I do not believe it's possible to proceed unless the project requirements are written down, as the work has to be clearly defined
-As this is pure engineering, I expect to clarify things in writing. 
+I do not believe it's possible to proceed with development, unless the project requirements are clearly defined in writing, as we  
 Once the modules of the platform shall be operational according to your basic requirements, we may discuss on regular calls specific improvements likely size and colour of components or small upgrades in functionalities. (Usually a project is reviewed within the same quotation for up to 10% of its working time).
 
 Once I have received your TORs on the product including:
