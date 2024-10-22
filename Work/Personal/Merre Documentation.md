@@ -96,6 +96,8 @@
 	- Small Image - Select Filter & Year Filter
 - Video Image - List View of Posts in Search Page
 - Video Image - Currency Switcher
+- Categories
+	- In order to differentiate between products and allow users to easily filter and find what they're looking for - categories were implemented. When the User creates a Post, they can select it's category, and a list of Tags will be displayed, so the user can insert the necessary information
 - Video Image - Categories Page
 - User
 	- Setup Account
