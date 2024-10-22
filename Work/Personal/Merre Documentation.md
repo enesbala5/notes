@@ -48,8 +48,13 @@
 		- Over 150,000 Lines of Code
 *(The Core Functionalities)*
 - Video Image - Homepage
-- Complexity
-	- Building a marketplace is , I saw a great learning opportunity,  
+- 
+	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore these domains:
+		- Database Design
+			- Created Complex N
+		- DevOps:
+			- Dockerized the Platform and implemented Rolling Updates with Coolify (Zero Downtime) as well as Deploy on Github Commit
+			- Status Monitoring & Server Redundancies through Docker Swarm
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
