@@ -63,6 +63,14 @@
 		- Multiple CRUD Interfaces & Accompanying Functionalities 
 		- Authentication System Built from Scratch w/ Cookies
 		- Link Actions - Change Password (Forgot Password), Confirm Email & Phone Number 
+- Fullscreen Image - User Dashboard (Settings) Grid - Showing different panels
+- Video Image - Create Post Interface
+- Video Image - Drag and Drop Interface
+- Messages
+	- It was important to develop a powerful messaging solution, allowing users to communicate with each other - without having to rely on external solutions.
+	  I created everything from scratch
+- Video Image - Docker Files & Deployment Script
+- Video Image - Messages
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
