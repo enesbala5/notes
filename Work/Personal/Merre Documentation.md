@@ -58,7 +58,7 @@
 			- Dockerized the Platform and implemented Rolling Updates (Zero Downtime) with Coolify with Git Commit web-hooks
 			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm Setup (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article**)
 		- Email Development (Building Custom Templates) & Email Delivery System Integrations (Resend)
-		- Image Management & Custom Drag and Drop Sorting System - AWS S3 Bucket
+		- Image Upload System & Custom Drag and Drop Sorting System to simplify sorting & upload
 		- Internal Messaging Solution allowing Real-Time communication between users w/ Multiple Content Types (Post, Text, Image, etc.)
 		- Multiple CRUD Interfaces & Accompanying Functionalities 
 		- Authentication System Built from Scratch w/ Cookies
@@ -75,7 +75,11 @@
 	- Small Image - Card Post
 	- Small Image - List Post x2
 - The Post Page - Small Description
-- Video Image - 
+- Fullscreen Image - Post Page on Desktop with a small mockup of the phone design on the right
+- Feature Grid
+	- Image Resizing and Optimization
+	- Image Carousel Preview with Full Touch Support for Mobile (Drag and Resize)
+	- Fully Responsive Interface with custom Tab Solution to 
 - Image Grid
 	- Small Image - Tag Preview
 	- Small Image - Location Preview
@@ -105,10 +109,6 @@
 		- Different type of emails that were created
 
 ### Features
-
-
-- Image Upload w/ Cloudinary
-- Image Optimization
 - Complex Filtering and Category-based Attribute System @ Search
 - Dynamic Form Rendering & Validation @ Settings
 - Docker Compose Setup for Development and Production use-cases
