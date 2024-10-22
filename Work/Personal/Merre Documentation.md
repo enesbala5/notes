@@ -105,17 +105,18 @@
 	- Settings
 	- Recently Viewed & Liked Posts
 - Messages
-		- Custom-built Messaging Solution built for the platform  
-	- Image Grid
-		- Small Image - Showing Quick Actions
-		- Small Image - Showing mobile view
-		- Small Image - Post View and Text Message
-		- Small Image - Opening a new chat
-- Custom Emails Designed w/ React Email
+	- Custom-built Messaging Solution built for the platform
+- Image Grid
+	- Small Image - Showing Quick Actions
+	- Small Image - Showing mobile view
+	- Small Image - Post View and Text Message
+	- Small Image - Opening a new chat
+- 
+%% - Custom Emails Designed w/ React Email
 	- Email Server Integration - Send Email to Clients w/ Resend
 	- Video Image - Display an example
 	- Feature Grid
-		- Different type of emails that were created
+		- Different type of emails that were created %%
 
 ### Features
 - Complex Filtering and Category-based Attribute System @ Search
