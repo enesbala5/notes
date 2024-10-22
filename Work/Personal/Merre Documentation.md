@@ -51,10 +51,14 @@
 - 
 	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore these domains:
 		- Database Design
-			- Created Complex N
+			- Created Complex Many-To-Many relationships and ACID transactions to handle difficult data updates 
 		- DevOps:
-			- Dockerized the Platform and implemented Rolling Updates with Coolify (Zero Downtime) as well as Deploy on Github Commit
-			- Status Monitoring & Server Redundancies through Docker Swarm
+			- Dockerized the Platform and implemented Rolling Updates (Zero Downtime) with Coolify with Git Commit web-hooks
+			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm (Connected Hetzner VPS to Local Home Server )
+		- Email Development & Delivery System Integrations
+		- Image Management - Through AWS S3 Bucket
+		- Internal Messaging Solution allowing Real-Time communication between users & Multiple Content Types 
+		- Multiple CRUD Interfaces & Accompanying Functionalities 
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
