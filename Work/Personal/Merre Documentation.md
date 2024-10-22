@@ -51,6 +51,9 @@
 - Fullscreen Image - Homepage
 - Video Image 
 	- Top Deals Section & Category List
+- Image Grid
+	- Small Image - Card Post
+	- Small Image - List Post x2
 - Personal Involvement in the Project
 	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore:
 		- Database Design
@@ -71,7 +74,8 @@
 ---
 - Messages
 	- It was important to develop a powerful messaging solution, allowing users to communicate with each other - without having to rely on external solutions.
-	  I created everything from scratch
+	  
+	  I chose to build it from scratch, instead of opting for an existing plug-and-play solution - in order to better learn how to build systems like it in the future. I am very happy with how it turned out. 
 - Image Grid
 	- Small Image - Showing Quick Actions
 	- Small Image - Showing mobile view
@@ -79,10 +83,7 @@
 	- Small Image - Opening a new chat
 ---
 - Video Image - Docker Files & Deployment Script
-- Video Image - Messages
-- Image Grid
-	- Small Image - Card Post
-	- Small Image - List Post x2
+
 - The Post Page - Small Description
 - Fullscreen Image - Post Page on Desktop with a small mockup of the phone design on the right
 - Feature Grid
