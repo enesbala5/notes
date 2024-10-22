@@ -68,9 +68,16 @@
 - Fullscreen Image - User Dashboard (Settings) Grid - Showing different panels
 - Video Image - Create Post Interface
 - Video Image - Drag and Drop Interface
+---
 - Messages
 	- It was important to develop a powerful messaging solution, allowing users to communicate with each other - without having to rely on external solutions.
 	  I created everything from scratch
+- Image Grid
+	- Small Image - Showing Quick Actions
+	- Small Image - Showing mobile view
+	- Small Image - Post View and Text Message
+	- Small Image - Opening a new chat
+---
 - Video Image - Docker Files & Deployment Script
 - Video Image - Messages
 - Image Grid
@@ -104,13 +111,6 @@
 	- Custom User Authentication
 	- Settings
 	- Recently Viewed & Liked Posts
-- Messages
-	- Custom-built Messaging Solution built for the platform
-- Image Grid
-	- Small Image - Showing Quick Actions
-	- Small Image - Showing mobile view
-	- Small Image - Post View and Text Message
-	- Small Image - Opening a new chat
 - 
 %% - Custom Emails Designed w/ React Email
 	- Email Server Integration - Send Email to Clients w/ Resend
