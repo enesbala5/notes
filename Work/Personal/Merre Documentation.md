@@ -49,6 +49,8 @@
 *(The Core Functionalities)*
 
 - Fullscreen Image - Homepage
+- Video Image 
+	- Top Deals Section & Category List
 - Personal Involvement in the Project
 	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore:
 		- Database Design
@@ -87,9 +89,13 @@
 - The Search Interface
 	- In a platform such as Merre, it's crucial to allow the user to search for products easily - whether on mobile or desktop - and provide the results **fast**. 
 	- Through a careful implementation of caching practices and by following best practices in SSR and incremental data loading with SvelteKit - it feels like the page knows what you want ahead of time.
+- Fullscreen Image - Search Page with smaller Mockup on the Right of Mobile Design
 - Image Grid
 	- Small Image - Filter Display
 	- Small Image - Category Highlight
+	- Small Image - Select Filter & Year Filter
+- Video Image - List View of Posts in Search Page
+- Video Image - Currency Switcher
 - Video Image - Categories Page
 - User
 	- Setup Account
