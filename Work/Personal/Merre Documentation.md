@@ -48,13 +48,14 @@
 		- Over 150,000 Lines of Code
 *(The Core Functionalities)*
 - Video Image - Homepage
-- 
-	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore these domains:
+- Personal Involvement in the Project
+	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore:
 		- Database Design
-			- Created Complex Many-To-Many relationships and ACID transactions to handle difficult data updates 
-		- DevOps:
+			- Created Complex Many-To-Many relationships and ACID transactions to handle difficult data updates
+			- Utilized Prisma ORM to query the DB in a Type-safe manner & to generate complex queries involving multiple   
+		- DevOps & Linux:
 			- Dockerized the Platform and implemented Rolling Updates (Zero Downtime) with Coolify with Git Commit web-hooks
-			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm (Connected Hetzner VPS to Local Home Server )
+			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article** )
 		- Email Development & Delivery System Integrations
 		- Image Management - Through AWS S3 Bucket
 		- Internal Messaging Solution allowing Real-Time communication between users & Multiple Content Types 
