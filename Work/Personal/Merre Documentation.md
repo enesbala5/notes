@@ -77,12 +77,13 @@
 - The Post Page - Small Description
 - Fullscreen Image - Post Page on Desktop with a small mockup of the phone design on the right
 - Feature Grid
-	- Image Resizing and Optimization
-	- Image Carousel Preview with Full Touch Support for Mobile (Drag and Resize)
-	- Fully Responsive Interface with custom Tab Solution to 
+	- Image Optimization based on Container Width and Height - Only view full quality when view is set to fullscreen
+	- Image Carousel Preview with Full Touch Support for Mobile (Drag & Resize)
+	- Fully Responsive UI - Tab Solution for easy navigation and Intersection Observer implementation to make sure price is always visible
+- Video Image - Scrolled Down View of the Post Page showing Tag Preview, Category Preview
 - Image Grid
-	- Small Image - Tag Preview
-	- Small Image - Location Preview
+	- Small Image - Recently Viewed Posts
+	- Small Image - Stacked View: Location Preview Card & Price History Card  
 - The Search Interface
 	- In a platform such as Merre, it's crucial to allow the user to search for products easily - whether on mobile or desktop - and provide the results **fast**. 
 	- Through a careful implementation of caching practices and by following best practices in SSR and incremental data loading with SvelteKit - it feels like the page knows what you want ahead of time.
