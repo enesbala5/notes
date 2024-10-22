@@ -49,7 +49,7 @@
 *(The Core Functionalities)*
 - Video Image - Homepage
 - Complexity
-	- Given the complexity of building a marketplace which can scale up , I saw this a great learning opportunity, and decided to use it as 
+	- Given the complexity of building a marketplace which can scale up to millions of users, I saw this ende a great learning opportunity, and decided to use it as 
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
