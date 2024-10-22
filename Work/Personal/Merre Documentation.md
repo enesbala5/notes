@@ -40,7 +40,7 @@
 - Why build a new *Marketplace*?
 	1. Performance Issues with Existing Solutions
 	2. Lack of Sufficient Filtering in Competing Platforms
-	1. Offer a Joyous Experience Maximizing Ease of Use
+	3. Offer a Joyous Experience Maximizing Ease of Use
 - The Scale of the Project
 - Video Image:
 		- 36 Pages & 200 Components
@@ -49,7 +49,7 @@
 *(The Core Functionalities)*
 - Video Image - Homepage
 - Complexity
-	- Given the complexity of building a marketplace which can scale up to millions of users, I saw this ende a great learning opportunity, and decided to use it as 
+	- Building a marketplace is , I saw a great learning opportunity,  
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
