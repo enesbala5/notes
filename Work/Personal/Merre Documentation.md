@@ -52,14 +52,14 @@
 - Personal Involvement in the Project
 	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore:
 		- Database Design
-			- Created Complex Many-To-Many relationships and ACID transactions to handle difficult data updates
-			- Utilized Prisma ORM to query the DB in a Type-safe manner & to generate complex queries involving multiple   
+			- Created Complex Many-To-Many relationships and ACID transactions to handle updates of platform posts (products)
+			- Utilized Prisma ORM to query the DB in a type-safe manner & for generating complex queries involving multiple entities, often interlinked
 		- DevOps & Linux:
 			- Dockerized the Platform and implemented Rolling Updates (Zero Downtime) with Coolify with Git Commit web-hooks
 			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm Setup (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article**)
-		- Email Development (Building Templates) & Email Delivery System Integrations
-		- Image Management - Through AWS S3 Bucket
-		- Internal Messaging Solution allowing Real-Time communication between users & Multiple Content Types 
+		- Email Development (Building Custom Templates) & Email Delivery System Integrations (Resend)
+		- Image Management & Custom Drag and Drop Sorting System - AWS S3 Bucket
+		- Internal Messaging Solution allowing Real-Time communication between users w/ Multiple Content Types (Post, Text, Image, etc.)
 		- Multiple CRUD Interfaces & Accompanying Functionalities 
 		- Authentication System Built from Scratch w/ Cookies
 		- Link Actions - Change Password (Forgot Password), Confirm Email & Phone Number 
