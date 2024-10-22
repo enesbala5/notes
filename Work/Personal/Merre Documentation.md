@@ -55,7 +55,7 @@
 			- Utilized Prisma ORM to query the DB in a Type-safe manner & to generate complex queries involving multiple   
 		- DevOps & Linux:
 			- Dockerized the Platform and implemented Rolling Updates (Zero Downtime) with Coolify with Git Commit web-hooks
-			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article** )
+			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm Setup (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article**)
 		- Email Development & Delivery System Integrations
 		- Image Management - Through AWS S3 Bucket
 		- Internal Messaging Solution allowing Real-Time communication between users & Multiple Content Types 
