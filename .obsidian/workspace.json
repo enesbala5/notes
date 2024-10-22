@@ -208,8 +208,8 @@
         "y": 0,
         "width": 600,
         "height": 800.2338256835938,
-        "maximize": true,
-        "zoom": 0.5
+        "maximize": false,
+        "zoom": 1
       }
     ]
   },

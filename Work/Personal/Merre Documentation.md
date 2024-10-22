@@ -56,10 +56,12 @@
 		- DevOps & Linux:
 			- Dockerized the Platform and implemented Rolling Updates (Zero Downtime) with Coolify with Git Commit web-hooks
 			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm Setup (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article**)
-		- Email Development & Delivery System Integrations
+		- Email Development (Building Templates) & Email Delivery System Integrations
 		- Image Management - Through AWS S3 Bucket
 		- Internal Messaging Solution allowing Real-Time communication between users & Multiple Content Types 
 		- Multiple CRUD Interfaces & Accompanying Functionalities 
+		- Authentication System Built from Scratch w/ Cookies
+		- Link Actions - Change Password, Confirm Email, 
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
