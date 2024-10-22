@@ -41,13 +41,14 @@
 	1. Performance Issues with Existing Solutions
 	2. Lack of Sufficient Filtering in Competing Platforms
 	3. Offer a Joyous Experience Maximizing Ease of Use
-- The Scale of the Project
-- Video Image:
+- Video Image - The Scale of the Project
 		- 36 Pages & 200 Components
 		- 40 REST API Endpoints built with SvelteKit and ElysiaJS (Bun)
-		- Over 150,000 Lines of Code
+		- Over 150,000 Lines of Code		
+
 *(The Core Functionalities)*
-- Video Image - Homepage
+
+- Fullscreen Image - Homepage
 - Personal Involvement in the Project
 	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore:
 		- Database Design
@@ -61,7 +62,7 @@
 		- Internal Messaging Solution allowing Real-Time communication between users & Multiple Content Types 
 		- Multiple CRUD Interfaces & Accompanying Functionalities 
 		- Authentication System Built from Scratch w/ Cookies
-		- Link Actions - Change Password, Confirm Email, 
+		- Link Actions - Change Password (Forgot Password), Confirm Email & Phone Number 
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
