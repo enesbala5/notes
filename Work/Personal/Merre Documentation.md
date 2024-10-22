@@ -49,7 +49,7 @@
 *(The Core Functionalities)*
 - Video Image - Homepage
 - Complexity
-	- An e-commerce marketplace is widely regarded as one of the most complex application - I saw this a great learning opportunity. 
+	- Given the complexity of building a marketplace which can scale up , I saw this a great learning opportunity, and decided to use it as 
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
