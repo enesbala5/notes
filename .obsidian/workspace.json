@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Personal/Merre Documentation.md",
+                "file": "Work/Personal/CV/Merre Entry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Merre Documentation"
+              "title": "Merre Entry"
             }
           }
         ]
@@ -173,17 +173,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8156697e97e26f6",
+  "active": "c5570a27ab1bd5b4",
   "lastOpenFiles": [
-    "Untitled 1",
-    "Work/Personal/Email Response - 3.md",
+    "Work/Personal/Completed Projects.md",
+    "Work/Personal/CV/Merre Entry.md",
     "Work/Personal/Merre Documentation.md",
+    "Work/Personal/CV",
+    "Work/Personal/Email Response - 3.md",
     "Work/Personal/-.md",
     "Work/To Be Seen/Italian Marketplace with Social Media Integration/Email Response - 2.md",
     "Work/To Be Seen/Italian Marketplace with Social Media Integration/Email Response - 1.md",
     "Work/Personal/Untitled 3.md",
     "Work/Personal/Untitled 2.md",
-    "Work/Personal/Completed Projects.md",
     "Untitled",
     "Work/Favors",
     "Work/Personal/Personal Brand/Post for Case Study - Marina Bay Casino.md",
@@ -211,7 +212,6 @@
     "Analytics.md",
     "Work/To Be Seen",
     "Work/Professional",
-    "Work/Personal",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
     "Untitled.canvas",
