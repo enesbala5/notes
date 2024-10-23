@@ -40,7 +40,6 @@
 	- [Merre.al](https://marinabay.al) is an online marketplace platform designed for Albania and potentially expanding to the Balkans.  
 	- It aims to provide an optimal experience tailored to the Albanian market facilitating buying and selling of various items - with a focus on User Experience - primarily optimized for performance and ease of use.
 - Fullscreen Image - iPhone Mockups
-- Video Image - Top Deals Section & Category List - GATI
 - Why build a new Marketplace?
 	1. Performance Issues with Existing Solutions
 	2. Lack of Sufficient Filtering in Competing Platforms
@@ -57,7 +56,7 @@
 - Image Grid
 	- Small Image - Card Post - GATI
 	- Small Image - List Post x2
-- Fullscreen Image - iPhone Mockups
+- Video Image - Top Deals Section & Category List - GATI
 - Personal Involvement in the Project
 	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore:
 		- Database Design
