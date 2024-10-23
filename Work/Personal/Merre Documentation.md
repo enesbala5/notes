@@ -53,7 +53,7 @@
 - Video Image
 	- Top Deals Section & Category List - GATI
 - Image Grid
-	- Small Image - Card Post
+	- Small Image - Card Post - GATI
 	- Small Image - List Post x2
 - Personal Involvement in the Project
 	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore:
