@@ -17,7 +17,7 @@
 
 ## Key Priorities:
 ---
-**Functionalities to Highlight**
+**Functionalities to Highlight:**
 
 - Search
 - Filter
