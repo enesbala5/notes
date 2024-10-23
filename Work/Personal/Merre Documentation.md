@@ -121,10 +121,7 @@
 
 ### Features
 - Complex Filtering and Category-based Attribute System @ Search
-- Dynamic Form Rendering & Validation @ Settings
-- Docker Compose Setup for Development and Production use-cases
-	- With Docker Swarm integration & 
-	- Rolling Updates on GitHub Commit through Coolify implementation
+- Dynamic Form Rendering & Validation @ Setting
 
 
 
