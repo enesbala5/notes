@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5026054382324,
-    "collapsed": true
+    "width": 295.5026054382324
   },
   "right": {
     "id": "1a46e31a673084b1",
@@ -174,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5570a27ab1bd5b4",
+  "active": "c8156697e97e26f6",
   "lastOpenFiles": [
+    "Untitled 1",
     "Work/Personal/Email Response - 3.md",
     "Work/Personal/Merre Documentation.md",
     "Work/Personal/-.md",
@@ -214,7 +214,6 @@
     "Work/Personal",
     "Blog/Server - Coolify/Adding an Extra Server Exposed through Cloudflare Tunnels (Zero Trust) to Coolify.md",
     "Blog/Server - Coolify/Adding Extra Server (Exposed through Cloudflare Tunnels Zero Trust).md",
-    "Life Management/Fun/Plane Vera 2025.md",
     "Untitled.canvas",
     "Pasted image 20241008162629.png",
     "Pasted image 20241006202552.png",
