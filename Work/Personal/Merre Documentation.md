@@ -59,12 +59,8 @@
 - Video Image - Top Deals Section & Category List - GATI
 - Personal Involvement in the Project
 	- I saw this project as a great learning opportunity, allowing me to experiment with many technologies which I otherwise rarely utilize. I had the chance to thoroughly explore:
-		- Database Design
-			- Created Complex Many-To-Many relationships and ACID transactions to handle updates of platform posts (products)
-			- Utilized Prisma ORM to query the DB in a type-safe manner & for generating complex queries involving multiple entities, often interlinked
-		- DevOps & Linux:
-			- Dockerized the Platform and implemented Rolling Updates (Zero Downtime) with Coolify with Git Commit web-hooks
-			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm Setup (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article**)
+
+		
 		- Email Development (Building Custom Templates) & Email Delivery System Integrations (Resend)
 		- Image Upload System & Custom Drag and Drop Sorting System to simplify sorting & upload
 		- Internal Messaging Solution allowing Real-Time communication between users w/ Multiple Content Types (Post, Text, Image, etc.)
@@ -74,6 +70,7 @@
 - Fullscreen Image - User Dashboard (Settings) Grid - Showing different panels
 - Video Image - Create Post Interface
 - Video Image - Drag and Drop Interface
+---
 ---
 - Messages
 	- It was important to develop a powerful messaging solution, allowing users to communicate with each other - without having to rely on external solutions.
@@ -85,9 +82,17 @@
 	- Small Image - Post View and Text Message
 	- Small Image - Opening a new chat
 ---
+- DevOps & Linux:
+			- Dockerized the Platform and implemented Rolling Updates (Zero Downtime) with Coolify with Git Commit web-hooks
+			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm Setup (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article**)
 - Video Image - Docker Files & Deployment Script
-
+---
 - The Post Page - Small Description
+---
+- Database Design
+	- Created Complex Many-To-Many relationships and ACID transactions to handle updates of platform posts (products)
+	- Utilized Prisma ORM to query the DB in a type-safe manner & for generating complex queries involving multiple entities, often interlinked
+---
 - Fullscreen Image - Post Page on Desktop with a small mockup of the phone design on the right
 - Feature Grid
 	- Image Optimization based on Container Width and Height - Only view full quality when view is set to fullscreen
