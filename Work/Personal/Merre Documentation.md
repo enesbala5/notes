@@ -87,8 +87,6 @@
 			- Database Backups, Service Status Monitoring & Server Redundancies through Docker Swarm Setup (Connected Hetzner VPS to Local Home Server for optimal performance - View **Blog Article**)
 - Video Image - Docker Files & Deployment Script
 ---
-- The Post Page - Small Description
----
 - Database Design
 	- Created Complex Many-To-Many relationships and ACID transactions to handle updates of platform posts (products)
 	- Utilized Prisma ORM to query the DB in a type-safe manner & for generating complex queries involving multiple entities, often interlinked
