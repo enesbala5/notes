@@ -41,16 +41,17 @@
 	1. Performance Issues with Existing Solutions
 	2. Lack of Sufficient Filtering in Competing Platforms
 	3. Offer a Joyous Experience Maximizing Ease of Use
-- Video Image - The Scale of the Project
-		- 36 Pages & 200 Components
-		- 40 REST API Endpoints built with SvelteKit and ElysiaJS (Bun)
-		- Over 150,000 Lines of Code		
+	-  The Scale of the Project
+		- Feature Grid:
+			- 36 Pages & 200 Components
+			- 40 REST API Endpoints built with SvelteKit and ElysiaJS (Bun)
+			- Over 150,000 Lines of Code		
 
 *(The Core Functionalities)*
 
 - Fullscreen Image - Homepage
-- Video Image 
-	- Top Deals Section & Category List
+- Video Image
+	- Top Deals Section & Category List - GATI
 - Image Grid
 	- Small Image - Card Post
 	- Small Image - List Post x2
